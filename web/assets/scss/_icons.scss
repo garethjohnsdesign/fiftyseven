@@ -1,0 +1,44 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+
+.icon-twitter {
+  width: 0.9285714285714285em;
+}
+
+.icon-facebook {
+  width: 0.5881428571428571em;
+}
+
+.icon-instagram {
+  width: 0.8571428571428571em;
+}
+
+.icon-brighton-comedy-garden {
+  width: 1.3466796875em;
+  font-size: 5rem;
+}
+
+.icon-bristol-comedy-garden {
+  width: 1.337890625em;
+  font-size: 5rem;
+}
+
+.icon-greenwich-comedy-festival {
+  width: 1.859375em;
+  font-size: 5rem;
+}

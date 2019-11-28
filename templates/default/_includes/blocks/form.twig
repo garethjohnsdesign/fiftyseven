@@ -1,0 +1,63 @@
+{% macro errorList(errors) %}
+    {% if errors %}
+        <ul class="errors">
+            {% for error in errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endmacro %}
+
+{% from _self import errorList %}
+
+<form method="post" action="" accept-charset="UTF-8" data-abide novalidate>
+  
+  <div class="grid-x grid-padding-y" data-abide-error class="alert callout" style="display: none;">
+    <div class="small-12 cell">
+      <p><i class="fi-alert"></i> There are some errors in your form.</p>
+    </div>
+  </div>
+  
+  {{ getCsrfInput() }}
+  <input type="hidden" name="action" value="contact-form/send">
+  {{ redirectInput('/thanks') }}
+
+  <input id="honeypot" name="honeypot" type="text">
+  
+  <div class="grid-x">
+  
+  <div class="small-12 cell">
+    <label>Name
+      <input id="fromName" type="text" name="fromName" value="{% if message is defined %}{{ message.fromName }}{% endif %}" required>
+        <span class="form-error">Yo, you had better fill this out, it's required.</span>
+    </label>
+  </div>
+  
+  <div class="small-12 cell">
+    <label>Email
+      <input id="fromEmail" type="email" name="fromEmail" value="{% if message is defined %}{{ message.fromEmail }}{% endif %}" required>
+        <span class="form-error">Yo, you had better fill this out, it's required.</span>
+    </label>
+  </div>
+  
+  <div class="small-12 cell">
+    <label>Subject
+      <input id="subject" type="text" name="subject" value="{% if message is defined %}{{ message.subject }}{% endif %}" required>
+        <span class="form-error">Yo, you had better fill this out, it's required.</span>
+    </label>
+  </div>
+  
+  <div class="small-12 cell">
+    <label>Message
+       <textarea rows="10" cols="40" id="message" name="message" required>{% if message is defined %}{{ message.message }}{% endif %}</textarea>
+        <span class="form-error">Yo, you had better fill this out, it's required.</span>
+    </label>
+  </div>
+
+
+  <input type="submit" class="button text-uppercase large" value="Send">
+  
+  </div>
+</form>
+
+<small>By providing your details, you agree that your data will be treated in accordance with our <a href="/privacy-policy" target="_blank">Privacy Policy</a></small>

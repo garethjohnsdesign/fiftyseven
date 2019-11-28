@@ -1,0 +1,56 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google" content="notranslate" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no">
+<meta name="generator" content="Craft CMS, http://craftcms.com" />
+
+<title>{% if title is defined %}{{ title }} — {{ seoTitle }}{% else %}{{ seoTitle }}{% endif %}</title>
+
+<meta name="description" content="{% if seoDescription is defined %}{{ seoDescription }}{% else %}{{ globalSeoDescription|raw }}{% endif %}">
+
+<!-- Facebook Opengraph -->
+<meta property="og:type" content="{% if seoType is defined %}{{ seoType }}{% else %}website{% endif %}">
+<meta property="og:url" content="{% if seoUrl is defined %}{{ seoUrl }}{% else %}{{ siteUrl }}{% endif %}">
+<meta property="og:title" content="{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}">
+<meta property="og:image" content="{% if seoImage is defined %}{{ seoImage }}{% else %}{{ globalSeoImage }}{% endif %}">
+<meta property="og:description" content="{% if seoDescription is defined %}{{ seoDescription }}{% else %}{{ globalSeoDescription|raw }}{% endif %}">
+<meta property="og:site_name" content="{{ siteName }}">
+<meta property="og:locale" content="en_GB">
+<!-- Next tags are optional but recommended -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="{% if seoUrl is defined %}{{ seoUrl }}{% else %}{{ siteUrl }}{% endif %}">
+<meta name="twitter:title" content="{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}">
+<meta name="twitter:description" content="{% if seoDescription is defined %}{{ seoDescription }}{% else %}{{ globalSeoDescription|raw }}{% endif %}">
+<meta name="twitter:image" content="{% if seoImage is defined %}{{ seoImage }}{% else %}{{ globalSeoImage }}{% endif %}">
+
+<!-- Prefetch -->
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicons/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#272a67">
+<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#272a67">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#272a67">
+
+<link rel="home" href="{{ siteUrl }}" />
+<link rel="stylesheet" type="text/css" href="/assets/css/app.{{staticAssetsVersion}}.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132731244-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{seo.seoAnalytics}}');
+</script>

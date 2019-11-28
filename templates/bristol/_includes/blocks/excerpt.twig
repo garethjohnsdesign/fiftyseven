@@ -1,0 +1,18 @@
+<div class="small-12 medium-12 cell text-center">
+  <a href="{{ work.url }}">
+    {% set image = work.featuredImage.one() %}
+    <div class="margin-bottom-1 image" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+      <div class="content grid-y align-center">
+        <div class="shrink cell padding-1">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="text-lowercase">
+    <div>{{ work.client }} — {{ work.project }}</div>
+    <div>{{ work.subject }}</div>
+    </div>
+
+  </a>
+</div>

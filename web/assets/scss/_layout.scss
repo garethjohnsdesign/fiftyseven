@@ -1,0 +1,433 @@
+//  Table of Contents:
+//
+//   1. Mixins
+//   2. Global
+//   3. Animations
+//   4. Color
+//   5. Typography
+//   6. Layout
+
+
+// 1. Mixins
+// ---------
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+// 2. Global
+// ---------
+
+a {
+  transition: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+a:focus {
+color: $white;
+}
+
+body {
+  cursor: default;
+  font-kerning: normal ;
+  margin: 0
+}
+
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  background: $primary-color;
+  color: $black;
+}
+
+:focus {
+  outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+text-transform: lowercase;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+text-transform: lowercase;
+}
+
+// 3. Animations
+// -------------
+
+.swup-transition-fade-up {
+  transition: 0.5s;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html.is-animating .swup-transition-fade-up {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.swup-transition-fade {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-fade {
+  opacity: 0;
+}
+
+.swup-transition-color {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-color {
+  opacity: 0;
+}
+
+// 4. Color
+// --------
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+.primary-background-colour {
+  background-color: get-color(primary);
+  color: $white;
+  @include links($white, $secondary-color)
+}
+
+
+.secondary-background-colour {
+  background-color: get-color(secondary);
+  color: $white;
+  @include links($white, $secondary-color)
+}
+
+.black {
+  color: $black;
+  @include links($black, $primary-color)
+}
+
+.white {
+  color: $white;
+  @include links($white, $primary-color);
+}
+
+// 5. Typography
+// -------------
+
+.underline {
+  padding-bottom: 2px;
+  border-bottom: 3px solid;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+p a {
+  border-bottom: 1px solid $black;
+}
+
+.sans-light {
+  font-family: $sans-light;
+}
+
+.sans-bold {
+  font-family: $sans-bold;
+}
+
+// 6. Layout
+// ---------
+
+.image--portrait {
+  @include aspect-ratio (4, 6);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--square {
+  @include aspect-ratio (4, 4);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--default {
+  @include aspect-ratio (5, 4);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--landscape {
+  @include aspect-ratio (7, 5);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--panorama {
+  @include aspect-ratio (16, 9);
+  background-size: cover; 
+  background-position: 50%;
+ .content {
+  background-color: rgba($black, 0.075);
+  }
+}
+
+.swiper-button-prev-test,
+.swiper-button-next-test {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.swiper-button-prev-test {
+  left: 0rem;
+  right: auto;
+}
+.swiper-button-next-test {
+  right: 0rem;
+  left: auto;
+}
+
+.swiper-slide .white:hover {
+  color: $primary-color;
+}
+
+.acts {
+ .content:hover {
+  background-color: rgba($secondary-color, 0.95);
+ }
+}
+
+// 6. Navigation
+// -------------
+
+.navigation {
+  @include padding(0.45, 0.45, 0, 0.45);
+  border-bottom: 1px solid $secondary-color;
+	z-index: 20;
+  @include breakpoint(medium) {
+  @include padding(1, 1.5, 1, 1.5);
+  }
+  @include breakpoint(xxlarge) {
+  @include padding(1.5, 2, 1, 2);
+  }
+  @include links ($secondary-color, $primary-color)
+  a {
+    font-family: $sans-bold;
+  }
+}
+
+.navigation__banner {
+  @include padding(0.45, 0.45, 0.45, 0.45);
+}
+
+.navigation__container {
+z-index: 20;
+}
+
+.hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+}
+
+// 9. Home
+// -------
+
+.home .navigation {
+  @include links ($secondary-color, $primary-color);
+  border-bottom: 1px solid $secondary-color;
+  @include breakpoint(xxlarge) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid $white;
+  @include links ($white, $primary-color);
+  }
+}
+
+.home .is-dropdown-submenu {
+// background-color: transparent;
+  z-index: 14;
+  @include links ($secondary-color, $primary-color);
+/*
+  @include breakpoint(xxlarge) {
+background-color: transparent;
+  }
+*/
+}
+
+.is-dropdown-submenu {
+  z-index: 14;
+}
+
+.off-canvas .menu .active > a {
+  background: transparent;
+  color: $black;
+}
+
+.swiper-wrapper-image {
+/*
+  background: url(/assets/img/octopus-and-lobster.png);
+  background-repeat:no-repeat;
+  background-position:left top;
+  background-size: 20%;
+*/
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 12;
+}
+
+.page__header {
+  @include padding(0.5, 1, 0.5, 1);
+  @include breakpoint(large) {
+  @include padding(2, 2, 2, 2);
+  }
+  @include breakpoint(xxlarge) {
+  @include padding(3, 3, 3, 3);
+  }
+}
+
+.vendor__description {
+  @include padding(1, 1, 1, 1);
+  @include breakpoint(large) {
+  @include padding(2, 2, 2, 2);
+  }
+  @include breakpoint(xxlarge) {
+  @include padding(3, 3, 3, 3);
+  }
+}
+
+.tabs-title > a:hover {
+color: $secondary-color;
+}
+
+// 9. Illustrations
+// ----------------
+
+.home__content {
+  background: url(/assets/img/illustrations/plant-04.png), url(/assets/img/illustrations/ring-02.png);
+  background-repeat:no-repeat;
+  background-position:left bottom, right bottom;
+  @include breakpoint(small) {
+  background-size: 50%, 50%;
+  }
+  @include breakpoint(medium) {
+  background-size: 30%, 25%;
+  }
+}
+
+.about__content {
+  background: url(/assets/img/illustrations/ring.png), url(/assets/img/illustrations/plant-04.png), url(/assets/img/illustrations/plant-04.png);
+  background-repeat:no-repeat;
+  background-position:left top, left bottom, right bottom;
+  @include breakpoint(small) {
+  background-size: 30%, 20%, 50%;
+  }
+  @include breakpoint(medium) {
+  background-size: 30%, 30%, 30%;
+  }
+}
+
+.location__content {
+  background: url(/assets/img/illustrations/plant-01.png), url(/assets/img/illustrations/plant-02.png);
+  background-repeat:no-repeat;
+  background-position:left bottom, right top;
+  @include breakpoint(small) {
+  background-size: 0%, 0%;
+  }
+  @include breakpoint(medium) {
+  background-size: 40%, 25%;
+  }
+}
+
+.food-and-drink__content {
+  background: url(/assets/img/illustrations/anchor.png), url(/assets/img/illustrations/plant-04.png);
+  background-repeat:no-repeat;
+  background-position:left top, left bottom;
+  @include breakpoint(small) {
+  background-size: 30%, 0%;
+  }
+  @include breakpoint(medium) {
+  background-size: 30%, 30%;
+  }
+}
+
+.info__content {
+  background: url(/assets/img/illustrations/plant-03.png), url(/assets/img/illustrations/ring.png);
+  background-repeat:no-repeat;
+  background-position:left top, right top;
+  @include breakpoint(small) {
+  background-size: 50%, 30%;
+  }
+  @include breakpoint(medium) {
+  background-size: 50%, 40%;
+  }
+}
+
+.tickets__content {
+  background:  url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/leaves.png), url(/assets/img/illustrations/snake-02.png);
+  background-repeat:no-repeat;
+  background-position:left top, left bottom, right bottom;
+  @include breakpoint(small) {
+  background-size: 0%, 30%, 00%;
+  }
+  @include breakpoint(medium) {
+  background-size: 100%, 30%, 30%;
+  }
+}
+
+.event__content {
+  background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/leaf-01.png), url(/assets/img/illustrations/leaf-02.png);
+  background-repeat:no-repeat;
+  background-position:left top, left bottom, right bottom;
+  @include breakpoint(small) {
+  background-size: 90%, 0%, 0%;
+  }
+  @include breakpoint(medium) {
+  background-size: 90%, 30%, 30%;
+  }
+}

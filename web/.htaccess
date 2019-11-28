@@ -1,0 +1,172 @@
+# MIME TYPES
+<IfModule mod_mime.c>
+	
+	# DEFAULTS
+	DefaultLanguage en
+	AddLanguage en-US .html .css .js
+	AddCharset utf-8 .html .css .js .xml .json .rss .atom
+	
+	# JAVASCRIPT
+	AddType application/javascript js jsonp
+	AddType application/json json
+	
+	# FONTS
+	AddType font/opentype otf
+	AddType application/font-woff woff
+	AddType application/font-woff2 woff2
+	AddType application/x-font-woff woff
+	AddType application/vnd.ms-fontobject eot
+	AddType application/x-font-ttf ttc ttf
+	AddType image/svg+xml svg svgz
+	AddEncoding gzip svgz
+	
+	# AUDIO
+	AddType audio/mp4 m4a f4a f4b
+	AddType audio/ogg oga ogg
+	
+	# VIDEO
+	AddType video/mp4 mp4 m4v f4v f4p
+	AddType video/ogg ogv
+	AddType video/webm webm
+	AddType video/x-flv flv
+	
+	# OTHERS
+	AddType application/octet-stream safariextz
+	AddType application/x-chrome-extension crx
+	AddType application/x-opera-extension oex
+	AddType application/x-shockwave-flash swf
+	AddType application/x-web-app-manifest+json webapp
+	AddType application/x-xpinstall xpi
+	AddType application/xml atom rdf rss xml
+	AddType application/vnd.openxmlformats .docx .pptx .xlsx .xltx . xltm .dotx .potx .ppsx
+	AddType text/cache-manifest appcache manifest
+	AddType text/vtt vtt
+	AddType text/x-component htc
+	AddType text/x-vcard vcf
+	AddType image/webp webp
+	AddType image/x-icon ico
+	
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Images
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # Video
+    ExpiresByType video/mp4 "access plus 1 year"
+    ExpiresByType video/mpeg "access plus 1 year"
+
+    # CSS, JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # Fonts
+
+    ExpiresByType application/font-woff "access plus 1 month" 
+    ExpiresByType application/font-woff2 "access plus 1 month"
+    ExpiresByType application/font-sfnt "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+
+    # Others
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>
+
+
+  ## COMPRESSION ##
+  <ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file .(html?|txt|css|js|php|pl|svg)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_exclude mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+  </ifModule>
+
+# Example to cache images and CSS files
+# adjust and extend to your needs
+<ifModule mod_headers.c>
+  #  images expire after 1 month
+  <filesMatch ".(gif|png|jpg|jpeg|ico|pdf|svg|js)$">
+    Header set Cache-Control "max-age=2592000"
+  </filesMatch>
+  # CSS expires after 1 day
+  <filesMatch ".(css)$">
+    Header set Cache-Control "max-age=2592000"
+  </filesMatch>
+</ifModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Ignore the version strings in static assets
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule (^(.*?\/)*?)([a-z\.\-]+)(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1$3$5 [L]
+
+  # Set SERVER_ENV=production if HTTP_HOST matches my production URL
+#   RewriteCond %{HTTP_HOST} ^(www\.)?oldbluelast\.beer$ [NC]
+#   RewriteRule .* - [E=SERVER_ENV:production]
+
+  # Force www. if SERVER_ENV is production
+#   RewriteCond %{ENV:SERVER_ENV} ^production$
+#   RewriteCond %{HTTP_HOST} !^www [NC]
+#   RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Force https if SERVER_ENV is production
+#   RewriteCond %{ENV:SERVER_ENV} ^production$
+#   RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+#   RewriteCond %{HTTPS} off
+#   RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,N]
+
+  # Set SERVER_ENV=local if HTTP_HOST matches my local URL
+#   RewriteCond %{HTTP_HOST} ^www-local\.oldbluelast\.test$ [NC]
+#   RewriteRule .* - [E=SERVER_ENV:local]
+
+	# Send would-be 404 requests to Craft
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/(favicon\.ico|apple-touch-icon.*\.png)$ [NC]
+  RewriteRule (.+) index.php?p=$1 [QSA,L]
+
+</IfModule>

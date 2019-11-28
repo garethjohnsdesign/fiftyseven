@@ -1,0 +1,14 @@
+{% extends "default/_layouts/base" %}
+
+{% block body %}
+
+<div class="cell auto" id="main" data-aos="fade-in" data-aos-delay="100">
+  <main class="grid-x align-middle" style="min-height: 100%">
+    <div class="cell">
+    {% block main %}
+    {% endblock %}
+    </div>
+  </main>
+</div>
+
+{% endblock %}

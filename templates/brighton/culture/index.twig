@@ -1,0 +1,13 @@
+{% set bodyClass = 'culture' %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+  <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-3">
+  {% for image in entry.images %} 
+    <div class="cell">
+    <div class="margin-bottom-1 image" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}"></div>
+    </div>
+  {% endfor %}
+  </div>
+{% endblock %}
