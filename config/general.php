@@ -83,7 +83,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://fiftyseven.test',
+            'default' => 'https://fiftyseven-prod.frb.io',
             'brighton' => 'https://brightoncomedygarden.co.uk',
             'bristol' => 'https://bristolcomedygarden.co.uk',
             'greenwich' => 'https://greenwhichcomedyfestival.co.uk',
