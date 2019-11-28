@@ -1,7 +1,7 @@
-app: 813-studio
-ssh_url: 813-studio@deploy.eu2.frbit.com
+app: fiftyseven-prod
+ssh_url: fiftyseven-prod@deploy.eu2.frbit.com
 ssh_path: null
-git_remote: 813-studio/master
+git_remote: fiftyseven-prod/master
 before:
     code/up:
         - 'echo  "Script example: " $(git rev-parse HEAD)'

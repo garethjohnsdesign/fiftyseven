@@ -9,6 +9,17 @@
 return [
     // Global settings
     '*' => [
+
+        // Base site URL
+        'siteUrl' => [
+            'default' => 'https://fiftyseven.test',
+            'brighton' => 'https://brightoncomedygarden.test',
+            'bristol' => 'https://bristolcomedygarden.test',
+            'greenwich' => 'https://greenwhichcomedyfestival.test',
+        ],
+
+
+
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 0,
 
@@ -41,8 +52,6 @@ return [
         'securityKey' => getenv('SECURITY_KEY'),
         
         'enableTemplateCaching' => false,
-        
-        'siteUrl'             => getenv('SITE_URL') ?: '@web',
 
         // Set the environmental variables
         'staticAssetsVersion' => 8,
@@ -72,6 +81,14 @@ return [
 
     // Production environment settings
     'production' => [
+
+        'siteUrl' => [
+            'default' => 'https://fiftyseven.test',
+            'brighton' => 'https://brightoncomedygarden.co.uk',
+            'bristol' => 'https://bristolcomedygarden.co.uk',
+            'greenwich' => 'https://greenwhichcomedyfestival.co.uk',
+        ],
+
         'devMode' => false,
         'enableTemplateCaching' => true,
         'allowUpdates' => false,
