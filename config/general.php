@@ -10,14 +10,6 @@ return [
     // Global settings
     '*' => [
 
-        // Base site URL
-        'siteUrl' => [
-            'default' => 'https://fiftyseven.test',
-            'brighton' => 'https://brightoncomedygarden.test',
-            'bristol' => 'https://bristolcomedygarden.test',
-            'greenwich' => 'https://greenwhichcomedyfestival.test',
-        ],
-
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 0,
 
@@ -79,6 +71,13 @@ return [
 
     // Production environment settings
     'production' => [
+
+        'siteUrl' => [
+            'default' => 'https://brightoncomedygarden.co.uk',
+            'brighton' => 'https://brightoncomedygarden.co.uk',
+            'bristol' => 'https://brightoncomedygarden.co.uk',
+            'greenwich' => 'https://brightoncomedygarden.co.uk',
+        ],
 
         'devMode' => false,
         'enableTemplateCaching' => true,
