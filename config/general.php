@@ -80,13 +80,6 @@ return [
     // Production environment settings
     'production' => [
 
-        'siteUrl' => [
-            'default' => 'https://fiftyseven-prod.frb.io',
-            'brighton' => 'https://brightoncomedygarden.co.uk',
-            'bristol' => 'https://bristolcomedygarden.co.uk',
-            'greenwich' => 'https://greenwhichcomedyfestival.co.uk',
-        ],
-
         'devMode' => false,
         'enableTemplateCaching' => true,
         'allowUpdates' => false,
