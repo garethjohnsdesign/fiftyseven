@@ -144,25 +144,6 @@
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule (^(.*?\/)*?)([a-z\.\-]+)(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1$3$5 [L]
 
-  # Set SERVER_ENV=production if HTTP_HOST matches my production URL
-#   RewriteCond %{HTTP_HOST} ^(www\.)?oldbluelast\.beer$ [NC]
-#   RewriteRule .* - [E=SERVER_ENV:production]
-
-  # Force www. if SERVER_ENV is production
-#   RewriteCond %{ENV:SERVER_ENV} ^production$
-#   RewriteCond %{HTTP_HOST} !^www [NC]
-#   RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-  # Force https if SERVER_ENV is production
-#   RewriteCond %{ENV:SERVER_ENV} ^production$
-#   RewriteCond %{HTTP:X-Forwarded-Proto} !=https
-#   RewriteCond %{HTTPS} off
-#   RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,N]
-
-  # Set SERVER_ENV=local if HTTP_HOST matches my local URL
-#   RewriteCond %{HTTP_HOST} ^www-local\.oldbluelast\.test$ [NC]
-#   RewriteRule .* - [E=SERVER_ENV:local]
-
 	# Send would-be 404 requests to Craft
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d

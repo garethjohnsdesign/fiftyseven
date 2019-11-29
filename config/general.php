@@ -81,10 +81,10 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'http://fiftyseven-prod.frb.io',
-            'brighton' => 'htts://brightoncomedygarden.co.uk',
-            'bristol' => 'htts://bristolcomedygarden.co.uk',
-            'greenwich' => 'htts://greenwhichcomedyfestival.co.uk',
+            'default' => 'https://fiftyseven-prod.frb.io',
+            'brighton' => 'https://brightoncomedygarden.co.uk',
+            'bristol' => 'https://bristolcomedygarden.co.uk',
+            'greenwich' => 'https://greenwhichcomedyfestival.co.uk',
         ],
 
         'devMode' => false,
