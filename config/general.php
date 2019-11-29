@@ -12,13 +12,11 @@ return [
 
         // Base site URL
         'siteUrl' => [
-            'default' => 'https://fiftyseven.test',
-            'brighton' => 'https://brightoncomedygarden.test',
-            'bristol' => 'https://bristolcomedygarden.test',
-            'greenwich' => 'https://greenwhichcomedyfestival.test',
+            'default' => 'https://fiftyseven-prod.frb.io',
+            'brighton' => 'https://brightoncomedygarden.co.uk',
+            'bristol' => 'https://bristolcomedygarden.co.uk',
+            'greenwich' => 'https://greenwhichcomedyfestival.co.uk',
         ],
-
-
 
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 0,
