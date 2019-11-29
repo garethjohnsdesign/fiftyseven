@@ -50,6 +50,12 @@ return [
 
     // Development environment settings
     'dev' => [
+       'siteUrl' => [
+          'default' => 'https://fiftyseven.test',
+          'brighton' => 'https://brightoncomedygarden.test',
+          'bristol' => 'https://bristolcomedygarden.test',
+          'greenwich' => 'https://greenwichcomedyfestival.test',
+        ],
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
@@ -76,7 +82,7 @@ return [
             'default' => 'https://fiftyseven-prod.frb.io',
             'brighton' => 'https://www.brightoncomedygarden.co.uk',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
-            'greenwich' => 'https://www.greenwhichcomedyfestival.co.uk',
+            'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 
         'devMode' => false,
