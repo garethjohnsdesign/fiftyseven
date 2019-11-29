@@ -6,7 +6,7 @@ return [
 
       'transformer' => 'imgix',
 
-      'imagerUrl' => 'http://storage.googleapis.com/813-studio/',
+      'imagerUrl' => 'http://storage.googleapis.com/fifty-seven-festivals/',
 
       // Enables Imgix integration
       'imgixEnabled' => true,
@@ -14,7 +14,7 @@ return [
 
       'imgixConfig' => [
           'default' => [
-              'domains' => ['813-studio-beta.imgix.net'],
+              'domains' => ['fifty-seven-festivals.imgix.net'],
               'useHttps' => true,
               'signKey' => '',
               'sourceIsWebProxy' => false,
@@ -50,7 +50,7 @@ return [
       'storageConfig' => [
           'gcs' => [
               'keyFile' => '/key/old-blue-last-beer-238617-a12b9b142c4a.json',
-              'bucket' => '813-studio',
+              'bucket' => 'fifty-seven-festivals',
               'folder' => '',
           ]
             
