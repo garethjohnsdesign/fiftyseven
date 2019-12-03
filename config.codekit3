@@ -721,6 +721,14 @@
 		"oAP": "/templates/default/error.twig",
 		"oF": 0
 		},
+	"/templates/default/holding/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/holding/index.twig",
+		"oF": 0
+		},
 	"/templates/default/index.twig": {
 		"cB": 0,
 		"ft": 8192,
