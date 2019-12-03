@@ -1,8 +1,16 @@
 <!-- Header -->
-<header class="grid-x grid-padding-x grid-padding-y align-center align-middle" id="maintest">
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" id="maintest">
 
   <div class="shrink cell">
-  <a href="/"><h1>{{ currentSite.name }}</h1></a>
+  <a data-toggle="navigation">Menu</a>
+  </div>
+
+  <div class="shrink cell">
+  <a href="/"><svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg></a>
+  </div>
+
+  <div class="shrink cell">
+  <a href="/tickets/">Tickets</a>
   </div>
 
 </header>

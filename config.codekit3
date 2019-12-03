@@ -721,6 +721,14 @@
 		"oAP": "/templates/default/error.twig",
 		"oF": 0
 		},
+	"/templates/default/food-and-drink/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/food-and-drink/index.twig",
+		"oF": 0
+		},
 	"/templates/default/holding/index.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -767,6 +775,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/page/index.twig",
+		"oF": 0
+		},
+	"/templates/default/shows/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/shows/index.twig",
 		"oF": 0
 		},
 	"/vendor": {
