@@ -713,14 +713,6 @@
 		"oAP": "/templates/default/contact/index.twig",
 		"oF": 0
 		},
-	"/templates/default/culture/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/culture/index.twig",
-		"oF": 0
-		},
 	"/templates/default/error.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -737,6 +729,22 @@
 		"oAP": "/templates/default/index.twig",
 		"oF": 0
 		},
+	"/templates/default/info/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/info/index.twig",
+		"oF": 0
+		},
+	"/templates/default/location/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/location/index.twig",
+		"oF": 0
+		},
 	"/templates/default/offline.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -751,30 +759,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/page/index.twig",
-		"oF": 0
-		},
-	"/templates/default/subscribe/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/subscribe/index.twig",
-		"oF": 0
-		},
-	"/templates/default/work/entry.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/work/entry.twig",
-		"oF": 0
-		},
-	"/templates/default/work/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/work/index.twig",
 		"oF": 0
 		},
 	"/vendor": {
