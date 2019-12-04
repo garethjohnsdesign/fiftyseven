@@ -1008,6 +1008,22 @@
 		"oAP": "/web/assets/fonts/light-pro.woff2",
 		"oF": 0
 		},
+	"/web/assets/fonts/marrsans-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/marrsans-regular.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/marrsans-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/marrsans-regular.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/regular-pro.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1030,6 +1046,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/web/assets/fonts/regular-pro.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/true-north.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/true-north.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/true-north.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/true-north.woff2",
 		"oF": 0
 		},
 	"/web/assets/icons/symbol-defs.svg": {

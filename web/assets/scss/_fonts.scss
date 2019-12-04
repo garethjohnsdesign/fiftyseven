@@ -26,6 +26,15 @@
 }
 
 @font-face {
+  font-family: 'True North';
+  src: 
+  url('../fonts/true-north.woff2') format('woff2'), 
+  url('../fonts/true-north.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Marr Sans';
   src: 
   url('../fonts/marrsans-regular.woff2') format('woff2'), 
