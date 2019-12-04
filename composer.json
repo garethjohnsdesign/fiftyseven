@@ -30,7 +30,9 @@
     "aelvan/imager": "v2.3.0",
     "fortrabbit/craft-copy": "1.0.0-RC8",
     "ether/tags": "1.0.5",
-    "verbb/field-manager": "2.1.1"
+    "verbb/field-manager": "2.1.1",
+    "carlcs/craft-deleteentryversions": "2.0.0",
+    "ether/simplemap": "3.7.5"
   },
   "autoload": {
     "psr-4": {

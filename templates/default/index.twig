@@ -3,15 +3,78 @@
 {% extends "default/_layouts/site" %}
 
 {% block main %}
-      
+
+<!-- Headliners - Desktop -->
+<div class="swiper-container show-for-large">
+
+  <div class="swiper-wrapper">
+    {% for block in entry.heroActs.order('RAND()').all() %}
+    {% set act = block.act.one() %}
+    <div class="swiper-slide small-12 cell text-center">
+      {% set image = act.image.one() %}
+      <div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+        
+        <div class="grid-y height-100 align-center content">
+          <div class="shrink cell text-center">
+          <a href="" class="white">
+            <h1 class="sans-display">{{act.title}}</h3>
+            <h4>{{block.quote|markdown}}</h4>
+          </a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="swiper-button-prev-test flex-container align-middle primary-color margin-left-1"></div>
+  <div class="swiper-button-next-test flex-container align-middle align-right primary-color margin-right-1"></div>
+
+
+</div>
+<!-- End Headliners - Desktop -->
+
 <!-- Copy -->
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
+  <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
       {{entry.copy}}
     </div>
   </div>
 </div>
 <!-- End Copy -->
+
+<!-- Acts -->
+<div class="grid-container">
+
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+{% for block in entry.featuredActs.order('RAND()').all() %}
+{% set act = block.act.one() %}
+{% set show = block.show.one() %}
+  <div class="small-12 medium-6 large-4 cell text-center">
+    <a href="{{ show.url }}">
+      {% set image = act.image.one() %}
+      <div class="margin-bottom-1 image--square" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+        <div class="content grid-y align-center">
+          <div class="shrink cell padding-1 h2 sans-display white">
+          {{act.title}}
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
+<div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
+  <div class="small-12 medium-10 large-9 cell text-center">
+    <svg class="icon icon-view"><use xlink:href="/assets/icons/symbol-defs.svg#icon-view"></use></svg>
+    <h3 class="text-low">View All</h3>
+  </div>
+</div>
+
+</div>
+<!-- End Acts -->
 
 {% endblock %}

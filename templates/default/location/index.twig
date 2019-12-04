@@ -1,8 +1,21 @@
-{% set bodyClass = 'about' %}
+{% set bodyClass = 'location' %}
 
 {% extends "_layouts/site" %}
 
 {% block main %}
+
+<!-- Image -->
+{% set image = entry.image.one() %}
+<div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+  
+  <div class="grid-y height-100 align-center content">
+    <div class="shrink cell text-center">
+      <h1 class="sans-display white">{{entry.title}}</h3>
+    </div>
+  </div>
+
+</div>
+<!-- Image -->
 
 <!-- Copy -->
 <div class="grid-container">
@@ -13,24 +26,6 @@
   </div>
 </div>
 <!-- End Copy -->
-
-<!-- Clients -->
-<div class="grid-container padding-vertical-3">
-  <div class="grid-x small-up-1 medium-up-3 align-center align-middle">
-
-{% set clients = entry.clients.all() %}
-{% if clients|length %}
-        {% for client in clients %}
-        <div class="cell text-center padding-3">
-          <img src="{{ client.url }}" alt="Kiwi standing on oval">
-        </div>
-        {% endfor %}
-{% endif %}
-
-
-  </div>
-</div>
-<!-- End Clients -->
 
 
 {% endblock %}

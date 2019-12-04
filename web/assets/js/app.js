@@ -23,112 +23,6 @@ Foundation.Interchange.SPECIAL_QUERIES['xxlarge-retina'] = 'only screen and (min
 $(document).foundation();
 
 
-// 3. Loading
-// ----------
-
-
-
-$(document).ready(function() {
-  if (!Cookies.get('loading')) {
-
-
-$(function() {
-
-
-$(".loader").removeClass("hide");
-
-var singleNumber = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
-
-var tenPlus = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
-
-var tens = ['twenty', 'thirty', 'forty', 'fifty'];
-
-function num2word(str) {
-    str = str.toString().replace(/[\, ]/g, '');
-
-    if (str != parseFloat(str)) {
-        return 'not a number';
-    }
-
-    var strLength = str.indexOf('.');
-    if (strLength == -1) {
-        strLength = str.length;
-    }
-
-    var n = str.split('');
-    var result = '';
-    var skip = 0;
-    for (var i = 0; i < strLength; i++) {
-
-        if ((strLength - i) % 3 == 2) {
-            if (n[i] == '1') {
-                result += tenPlus[Number(n[i + 1])] + ' ';
-                i++;
-                skip = 1;
-            } else if (n[i] != 0) {
-                result += tens[n[i] - 2] + ' ';
-                skip = 1;
-            }
-        } else if (n[i] != 0) {
-            result += singleNumber[n[i]] + ' ';
-        }
-    }
-
-    return result.replace(/\s+/g, ' ');
-}
-
-/* 
-Selectors 
-*/
-var hour = document.getElementsByClassName('hour'),
-    min = document.getElementsByClassName('min'),
-    sec = document.getElementsByClassName('sec');
-//     ampm = document.getElementsByClassName('ampm');
-
-var firstTime = true;
-
-/*
-Updated the clock 
-*/
-function updateClock(d) {
-  var hours = ((d.getHours() + 11) % 12 + 1),
-      minutes = d.getMinutes(),
-      seconds = d.getSeconds();
-//       period = (d.getHours() < 12) ? "am" : "pm";
-  
-  console.log(hours);
-   
-  hour[0].innerHTML = num2word(hours);
-  min[0].innerHTML = num2word(minutes) + '&';
-  sec[0].innerHTML = num2word(seconds) + 'seconds';
-//   ampm[0].innerHTML = period;
-  
-}
-
-/*
-Run updateClock every second 
-*/
-setInterval(function() {
-  var d = new Date();
-  updateClock(d);
-}, 1000);
-
-
-    $(".loader").addClass("loading");
-
-    setTimeout(function(){
-     $(".loader").addClass("loaded");
-     Cookies.set('loading', 'true');
-    }, 5000); 
-
-});
-
-  }
-});
-
-
-
-
 // 4. Animate on Scroll
 // --------------------
 
@@ -150,17 +44,19 @@ window.addEventListener('load', AOS.refresh);
 
 $(document).ready(function () {
 
-    var firstSlide = Math.floor(Math.random() * 5);
     //initialize swiper when document ready
     var mySwiper = new Swiper ('.swiper-container', {
 
       direction: 'horizontal',
       slidesPerView: 'auto',
       centeredSlides: true,
-      initialSlide: firstSlide,
       loop: true,
       preventClicks: true,
       slideToClickedSlide: false,
+
+  autoplay: {
+    delay: 5000,
+  },
 
   keyboard: {
     enabled: true,

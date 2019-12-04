@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b69af6d7a6e2e37842ef1450f1cb192",
+    "content-hash": "348e79fc4b5d2d5eab7c1e451309d1f6",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -186,6 +186,52 @@
                 "sdk"
             ],
             "time": "2019-10-28T21:23:42+00:00"
+        },
+        {
+            "name": "carlcs/craft-deleteentryversions",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carlcs/craft-deleteentryversions/zipball/c67582ba825e6aface4a499228c2ca7a569d1c86",
+                "reference": "c67582ba825e6aface4a499228c2ca7a569d1c86",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Delete Entry Versions",
+                "handle": "delete-entry-versions",
+                "changelogUrl": "https://github.com/carlcs/craft-deleteentryversions/raw/v2/CHANGELOG.md",
+                "downloadUrl": "https://github.com/carlcs/craft-deleteentryversions/archive/v2.zip"
+            },
+            "autoload": {
+                "psr-4": {
+                    "carlcs\\deleteentryversions\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "carlcs",
+                    "homepage": "https://github.com/carlcs"
+                }
+            ],
+            "description": "Delete Entry Versions plugin for Craft CMS",
+            "keywords": [
+                "craftcms",
+                "utilities"
+            ],
+            "support": {
+                "issues": "https://github.com/carlcs/craft-deleteentryversions/issues?state=open",
+                "source": "https://github.com/carlcs/craft-deleteentryversions",
+                "docs": "https://github.com/carlcs/craft-deleteentryversions",
+                "rss": "https://github.com/carlcs/craft-deleteentryversions/commits/v2.atom"
+            },
+            "time": "2017-11-23T13:01:35+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -1194,6 +1240,50 @@
             "time": "2019-11-07T09:16:31+00:00"
         },
         {
+            "name": "ether/simplemap",
+            "version": "3.7.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethercreative/simplemap/zipball/fd465858719c55d9e2ed7c3442c19b82bff3d1db",
+                "reference": "fd465858719c55d9e2ed7c3442c19b82bff3d1db",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.2.1",
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "ext-zlib": "*",
+                "geoip2/geoip2": "~2.0",
+                "guzzlehttp/guzzle": "^6.3.3",
+                "mapkit/jwt": "^1.1.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "simplemap",
+                "name": "Maps",
+                "developer": "Ether Creative",
+                "developerUrl": "https://ethercreative.co.uk",
+                "class": "ether\\simplemap\\SimpleMap",
+                "schemaVersion": "3.4.2"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ether\\simplemap\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "A beautifully simple Map field type for Craft CMS 3",
+            "support": {
+                "email": "help@ethercreative.co.uk",
+                "docs": "https://docs.ethercreative.co.uk/maps",
+                "source": "https://github.com/ethercreative/simplemap",
+                "issues": "https://github.com/ethercreative/simplemap/issues"
+            },
+            "time": "2019-12-04T11:51:39+00:00"
+        },
+        {
             "name": "ether/tags",
             "version": "1.0.5",
             "dist": {
@@ -1420,6 +1510,47 @@
                 "issues": "https://github.com/fortrabbit/craft-deploy-tools/issues"
             },
             "time": "2019-11-15T12:07:37+00:00"
+        },
+        {
+            "name": "geoip2/geoip2",
+            "version": "v2.9.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/GeoIP2-php/zipball/a807fbf65212eef5d8d2db1a1b31082b53633d77",
+                "reference": "a807fbf65212eef5d8d2db1a1b31082b53633d77",
+                "shasum": ""
+            },
+            "require": {
+                "maxmind-db/reader": "~1.0",
+                "maxmind/web-service-common": "~0.5",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GeoIp2\\": "src"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory J. Oschwald",
+                    "email": "goschwald@maxmind.com",
+                    "homepage": "http://www.maxmind.com/"
+                }
+            ],
+            "description": "MaxMind GeoIP2 PHP API",
+            "homepage": "https://github.com/maxmind/GeoIP2-php",
+            "keywords": [
+                "IP",
+                "geoip",
+                "geoip2",
+                "geolocation",
+                "maxmind"
+            ],
+            "time": "2018-04-10T15:32:59+00:00"
         },
         {
             "name": "google/auth",
@@ -2445,6 +2576,33 @@
             "time": "2018-11-22T18:33:57+00:00"
         },
         {
+            "name": "mapkit/jwt",
+            "version": "v1.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leanmotherfuckers/mapkit-jwt/zipball/19e502a991dbcb4becbcb51775b29aae624f551d",
+                "reference": "19e502a991dbcb4becbcb51775b29aae624f551d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mapkit\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Schoffelen",
+                    "email": "thomas@includable.com"
+                }
+            ],
+            "description": "Simple class to create MapKit and MusicKit JWT tokens.",
+            "time": "2019-06-10T05:32:35+00:00"
+        },
+        {
             "name": "marcusschwarz/lesserphp",
             "version": "v0.5.2",
             "dist": {
@@ -2486,6 +2644,85 @@
             "description": "lesserphp is a compiler for LESS written in PHP based on leafo's lessphp.",
             "homepage": "http://leafo.net/lessphp/",
             "time": "2018-05-28T12:54:01+00:00"
+        },
+        {
+            "name": "maxmind-db/reader",
+            "version": "v1.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/bd436094fc0a9b0558a899fb80b0ae34fe1808a0",
+                "reference": "bd436094fc0a9b0558a899fb80b0ae34fe1808a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "suggest": {
+                "ext-bcmath": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+                "ext-gmp": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+                "ext-maxminddb": "A C-based database decoder that provides significantly faster lookups"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MaxMind\\Db\\": "src/MaxMind/Db"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory J. Oschwald",
+                    "email": "goschwald@maxmind.com",
+                    "homepage": "https://www.maxmind.com/"
+                }
+            ],
+            "description": "MaxMind DB Reader API",
+            "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+            "keywords": [
+                "database",
+                "geoip",
+                "geoip2",
+                "geolocation",
+                "maxmind"
+            ],
+            "time": "2019-09-30T22:56:38+00:00"
+        },
+        {
+            "name": "maxmind/web-service-common",
+            "version": "v0.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/web-service-common-php/zipball/61a9836fa3bb1743ab89752bae5005d71e78c73b",
+                "reference": "61a9836fa3bb1743ab89752bae5005d71e78c73b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0.3",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MaxMind\\Exception\\": "src/Exception",
+                    "MaxMind\\WebService\\": "src/WebService"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory Oschwald",
+                    "email": "goschwald@maxmind.com"
+                }
+            ],
+            "description": "Internal MaxMind Web Service API",
+            "homepage": "https://github.com/maxmind/web-service-common-php",
+            "time": "2018-02-12T22:31:54+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",

@@ -1,19 +1,19 @@
 <!-- Header -->
-<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" id="maintest">
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle navigation" id="maintest">
 
-  <div class="shrink cell">
-  <a data-toggle="navigation">Menu</a>
+  <div class="small-2 cell text-left">
+  <a data-toggle="navigation"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
   </div>
 
-  <div class="shrink cell text-center text-uppercase">
+  <div class="small-8 cell text-center text-uppercase">
   <a href="/">
   <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
-  <div>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</div>
+  <div class="small font-wide">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</div>
   </a>
   </div>
 
-  <div class="shrink cell">
-  <a href="/tickets/">Tickets</a>
+  <div class="small-2 cell text-right">
+  <a href="/tickets/"><svg class="icon icon-tickets"><use xlink:href="/assets/icons/symbol-defs.svg#icon-tickets"></use></svg></a>
   </div>
 
 </header>

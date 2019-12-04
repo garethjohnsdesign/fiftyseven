@@ -12,7 +12,7 @@
     {% include "default/_includes/global/head" %}
 	{% endblock %}
 </head>
-  <body {% if bodyClass is defined %}class="{{ bodyClass }} grid-y "{% else %}class="{{ bodyClass }} grid-y"{% endif %} style="height: 100vh;">
+  <body {% if bodyClass is defined %}class="{{ bodyClass }}"{% endif %}>
   {% block loading %}{% endblock %}
 	{% block body %}{% endblock %}
   {% include "default/_includes/global/scripts" %}

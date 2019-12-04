@@ -4,14 +4,22 @@
 
 {% block main %}
 
-<!-- Page Content -->
-<section class="grid-container">
+<!-- Copy -->
+<div class="grid-container">
+
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 cell text-center">
+      <h1 class="h2">{{ entry.title }}</h1>
+    </div>
+  </div>
+
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 cell">
       {{ entry.copy }}
     </div>
   </div>
-</section>
-<!-- End Page Content -->
+
+</div>
+<!-- End Copy -->
 
 {% endblock %}

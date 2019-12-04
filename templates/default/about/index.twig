@@ -4,8 +4,21 @@
 
 {% block main %}
 
+<!-- Image -->
+{% set image = entry.image.one() %}
+<div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+  
+  <div class="grid-y height-100 align-center content">
+    <div class="shrink cell text-center">
+      <h1 class="sans-display white">{{entry.title}}</h3>
+    </div>
+  </div>
+
+</div>
+<!-- Image -->
+
 <!-- Copy -->
-<div class="grid-container">
+<div class="grid-container padding-vertical-3">
   <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
       {{entry.copy}}
@@ -14,23 +27,19 @@
 </div>
 <!-- End Copy -->
 
-<!-- Clients -->
-<div class="grid-container padding-vertical-3">
-  <div class="grid-x small-up-1 medium-up-3 align-center align-middle">
+<!-- Images -->
+<div class="grid-container">
 
-{% set clients = entry.clients.all() %}
-{% if clients|length %}
-        {% for client in clients %}
-        <div class="cell text-center padding-3">
-          <img src="{{ client.url }}" alt="Kiwi standing on oval">
-        </div>
-        {% endfor %}
-{% endif %}
-
-
+  <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-3">
+  {% for image in entry.images %} 
+    <div class="cell">
+    <div class="margin-bottom-1 image--square" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-4" %}"></div>
+    </div>
+  {% endfor %}
   </div>
 </div>
-<!-- End Clients -->
 
+</div>
+<!-- End Images -->
 
 {% endblock %}
