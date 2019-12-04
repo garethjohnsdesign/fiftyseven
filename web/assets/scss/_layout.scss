@@ -132,8 +132,8 @@ html.is-animating .swup-transition-color {
 
 .secondary-background-colour {
   background-color: get-color(secondary);
-  color: $white;
-  @include links($white, $secondary-color)
+  color: $primary-color;
+  @include links($primary-color, $secondary-color)
 }
 
 .black {

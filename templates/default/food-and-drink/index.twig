@@ -1,4 +1,4 @@
-{% set bodyClass = 'about' %}
+{% set bodyClass = 'info' %}
 
 {% extends "_layouts/site" %}
 
@@ -13,24 +13,5 @@
   </div>
 </div>
 <!-- End Copy -->
-
-<!-- Clients -->
-<div class="grid-container padding-vertical-3">
-  <div class="grid-x small-up-1 medium-up-3 align-center align-middle">
-
-{% set clients = entry.clients.all() %}
-{% if clients|length %}
-        {% for client in clients %}
-        <div class="cell text-center padding-3">
-          <img src="{{ client.url }}" alt="Kiwi standing on oval">
-        </div>
-        {% endfor %}
-{% endif %}
-
-
-  </div>
-</div>
-<!-- End Clients -->
-
 
 {% endblock %}

@@ -97,6 +97,14 @@
 		"oAP": "/config/minify.php",
 		"oF": 0
 		},
+	"/config/redactor/Custom.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/config/redactor/Custom-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/config/redactor/Simple.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -321,14 +329,6 @@
 		"oAP": "/templates/default/_includes/blocks/excerpt.twig",
 		"oF": 0
 		},
-	"/templates/default/_includes/blocks/footer.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/_includes/blocks/footer.twig",
-		"oF": 0
-		},
 	"/templates/default/_includes/blocks/form.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -343,6 +343,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/_includes/global/analytics.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/footer.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/footer.twig",
 		"oF": 0
 		},
 	"/templates/default/_includes/global/head.twig": {
@@ -361,12 +369,28 @@
 		"oAP": "/templates/default/_includes/global/navigation.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/global/newsletter.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/newsletter.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/global/scripts.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/_includes/global/scripts.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/socials.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/socials.twig",
 		"oF": 0
 		},
 	"/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-12.twig": {

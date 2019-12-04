@@ -1,0 +1,21 @@
+<div class="secondary-background-colour padding-vertical-1">
+  
+  <div class="grid-x grid-padding-y grid-padding-x align-center">
+    <div class="small-12 cell text-center">
+      <h5><a href="/tickets">{{event.address}} — {{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</a></h5>
+{#
+      <ul class="menu align-center">
+      {% for item in site.sponsors %}  
+        <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-sponsors icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
+      {% endfor %} 
+      </ul>
+#}
+      <ul class="menu align-center">
+      <li><a href="/privacy-policy"><small>© {{ "now"|date("Y") }} {{ company.company }}. Images © their respective owners.</small></a></li>
+      <li><a href="/privacy-policy"><small>Privacy Policy</small></a></li>
+      <li><a href="/terms-and-conditions"><small>Terms and Conditions</small></a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
