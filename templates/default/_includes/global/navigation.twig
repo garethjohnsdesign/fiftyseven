@@ -5,10 +5,10 @@
   <a data-toggle="navigation">Menu</a>
   </div>
 
-  <div class="shrink cell text-center">
+  <div class="shrink cell text-center text-uppercase">
   <a href="/">
   <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
-  <div>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</div>
+  <small>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</small>
   </a>
   </div>
 
