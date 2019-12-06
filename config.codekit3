@@ -801,6 +801,14 @@
 		"oAP": "/templates/default/page/index.twig",
 		"oF": 0
 		},
+	"/templates/default/shows/entry.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/shows/entry.twig",
+		"oF": 0
+		},
 	"/templates/default/shows/index.twig": {
 		"cB": 0,
 		"ft": 8192,

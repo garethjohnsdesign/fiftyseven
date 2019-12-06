@@ -1,0 +1,85 @@
+{% set bodyClass = 'show' %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+<!-- Date -->
+<div class="grid-x grid-padding-y align-center">
+  <div class="small-12 cell text-center">
+    <div class="h3">{{ entry.date |date('l j F') }}<span class="primary-color"> — </span>{{ entry.showStart |date('g:iA') }}</div>
+  </div>
+</div>
+<!-- End Date -->
+
+<!-- Images -->
+<div class="grid-x align-center">
+    {% for act in entry.acts.all() %}
+    {% set image = act.image.one() %}
+    <div class="small-12 large-auto cell">
+    <div class="image--square" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+      <div class="content grid-y align-center">
+        <div class="shrink cell padding-1 h2 sans-display white text-center">
+        {{act.title}}
+        </div>
+      </div>
+    </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- End Images -->
+
+
+<!-- Content -->
+  <div class="grid-container">
+  <div class="grid-x grid-padding-y grid-padding-x event__text align-center margin-top-1">
+    
+    <!-- Left -->
+    <div class="small-11 medium-6 cell">
+      <div class="grid-x">
+        <div class="small-12 cell">
+          {{ event.copy| markdown }}
+        </div>
+      </div>
+    
+      <div class="grid-x">
+        <div class="small-12 cell">
+          <blockquote>
+        	<h3>Quote</h3>
+        	<cite>Cite</cite>
+        	</blockquote>
+        </div>
+      </div>
+    
+      <div class="grid-x align-center show-secondary">
+      	<div class="small-12 medium-12 cell">
+      		Secondary Text
+      	</div>
+      </div>
+    </div>
+    <!-- End Left -->
+    
+    <!-- Right -->
+    <div class="small-11 medium-3 cell text-center medium-text-left">
+        <h4 class="sans-display">Festival Opens</h4>
+        <p>{{ entry.festivalStart |date('g:iA') }}</p>
+        <h4 class="sans-display">Show Starts</h4>
+        <p>{{ entry.showStart |date('g:iA') }}</p>
+        <h4 class="sans-display">Tickets</h4>
+        <p>{{ entry.ticketPrice}}</p>
+        
+        {% if entry.soldOut %}
+        <a class="button large">Sold Out</a>
+        {% else %}
+        <a class="button large" href="{{ entry.ticketPrice}}" target="_blank">Buy Tickets</a>
+        {% endif %}
+        
+    </div>
+    <!-- End Right -->
+  
+  </div>
+  </div>
+  <!-- End Content -->
+
+{% endblock %}
