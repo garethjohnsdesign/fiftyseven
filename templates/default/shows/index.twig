@@ -1,38 +1,29 @@
-{% set bodyClass = 'culture' %}
+{% set bodyClass = 'shows' %}
 
 {% extends "_layouts/site" %}
 
 {% block main %}
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-     {% for detail in entry.details %}
-      <div class="small-12 medium-6 cell text-center">
-        <div class="padding-1">
-          <div class="medium-gray margin-bottom-1 h5 text-lowercase"><span class="">{{detail.header}}</span></div>
-          {{detail.copy}}
+
+{% set showsQuery = craft.entries().section('shows')%}
+{% set shows = showsQuery.all() %}
+
+<div class="grid-x">
+{% for show in shows %}
+  {% for acts in show %}
+    {% for act in acts %}
+    <div class="small-12 medium-6 large-4 xlarge-3 cell text-center">
+      {% set image = act.image.one() %}
+      <div class="image--square" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+        <div class="content grid-y align-center">
+          <div class="shrink cell padding-1 h2 sans-display white">
+          {{act.title}}
+          </div>
         </div>
       </div>
-      {% endfor %}
-  </div>
-</div>
-
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <ul class="menu padding-bottom-1">
-      <li><a href="/terms"><small>Terms</small></a></li>
-      <li><a href="/privacy"><small>Privacy</small></a></li>
-      <li><a href="/subscribe"><small>Subscribe</small></a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 cell text-center padding-bottom-2 dark-gray">
-    <div><small>Registered No. {{company.registration}}</small></div>
-    <div><small>{{company.address}}</small></div>
-    <div><small>All artwork and photography are copyrighted and protected under international copyright laws. Artwork may not be reproduced in any form, stored, or manipulated without prior written permission from {{company.company}} and the copyright holders.</small></div>
     </div>
-  </div>
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
 </div>
+
 {% endblock %}

@@ -4,14 +4,83 @@
 
 {% block main %}
 
-<!-- Copy -->
-<div class="grid-container padding-vertical-3">
-  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
-    <div class="small-12 medium-10 large-9 cell text-center">
-      {{entry.copy}}
+{% set showsQuery = craft.entries().section('shows')%}
+{% set shows = showsQuery.all() %}
+
+<div class="grid-container">
+
+{% for show in shows %}
+
+<!-- Panel -->
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell padding-top-1">
+    
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+
+          
+  <!-- Time -->
+  <div class="small-12 large-2 cell text-center large-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      
+      <div class="shrink cell">
+      <h3 class="text-lowercase show-for-small-only">{{ show.showStart |datetime('short') }}</h3>
+      <h3>{{ show.showStart |date('g:iA') }}</h3>
+      <a href="{{ show.url }}"><svg class="icon icon-info"><use xlink:href="/assets/icons/symbol-defs.svg#icon-info"></use></svg></a>
+      </div>
+      
+      <div class="shrink cell show-for-large">
+      {% if show.soldOut %}
+      <a class="button expanded margin-bottom-0">Sold Out</a>
+      {% else %}
+      <a class="button expanded margin-bottom-0" href="{{show.ticketLink}}" target="_blank">Buy Now</a>
+      {% endif %} 
+      </div>
+      
     </div>
   </div>
+  <!-- End Time -->
+  
+          <div class="small-12 large-4 cell">
+            {% for act in show.acts.limit(1) %}
+            {% set image = act.image.one() %}
+            <div class="image--default align-center-middle" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}"></div>
+            {% endfor %}
+          </div>
+          
+          <div class="small-12 large-4 cell text-center large-text-left padding-top-1">
+            {% for act in show.acts.limit(10) %}
+              <h2 class="margin-bottom-0 sans-display">{{ act.title }}</h2>
+            {% endfor %}
+          </div>
+          
+          <div class="small-12 large-2 cell text-center large-text-right">
+            <div class="show-for-large">
+            <h5 class="margin-bottom-0">Festival Opens</h5>
+            {{ show.festivalStart |date('g:iA') }}
+            <h5 class="margin-bottom-0 padding-top-1">Show Starts</h5>
+            {{ show.showStart |date('g:iA') }}
+            </div>
+            <h5 class="margin-bottom-0 padding-top-1">Tickets</h5>
+            {{ show.ticketPrice }}
+            
+      <div class="shrink cell hide-for-large padding-top-2">
+      {% if show.soldOut %}
+      <a class="button expanded">Sold Out</a>
+      {% else %}
+      <a class="button expanded" href="{{show.ticketLink}}" target="_blank">Buy Now</a>
+      {% endif %} 
+      </div>
+      
+          </div>
+          
+          
+
+      </div>
+    
+  </div>
+  </div>
+  <!-- End Panel -->
+{% endfor %}
 </div>
-<!-- End Copy -->
 
 {% endblock %}
