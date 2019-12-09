@@ -14,22 +14,16 @@
 <div class="grid-container padding-vertical-3">
   <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
-      {{entry.copy}}
+      <div class="margin-bottom-2">{{entry.copy}}</div>
+
+      <h3 class="primary-color margin-bottom-1">{{event.address}}</h3>
+      <h3 class="primary-color">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</h3>
+
     </div>
   </div>
 </div>
 <!-- End Copy -->
 
-<!-- Address + Date -->
-<div class="grid-container padding-bottom-1">
-  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
-    <div class="small-12 medium-10 large-9 cell text-center">
-      <h3 class="primary-color">{{event.address}}</h3>
-      <h3 class="primary-color">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</h3>
-    </div>
-  </div>
-</div>
-<!-- End Address + Date -->
 
 <!-- Transport -->
 <div class="grid-container">
@@ -51,7 +45,10 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/garethjohnsdesign/ck3yifoi209ig1ct8bo75sf4x?optimize=true',
   center: [{{event.location.lng}}, {{event.location.lat}}],
-  zoom: 12
+  zoom: 12,
+  scrollZoom: false,
+  pitch: 60, // pitch in degrees
+  bearing: -60, // bearing in degrees
 });
 
 var geojson = {

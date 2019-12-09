@@ -1,11 +1,24 @@
-{% set bodyClass = 'info' %}
+{% set bodyClass = 'food-and-drink' %}
 
 {% extends "_layouts/site" %}
 
 {% block main %}
 
+<!-- Image -->
+{% set image = entry.image.one() %}
+<div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+  
+  <div class="grid-y height-100 align-center content">
+    <div class="shrink cell text-center">
+      <h1 class="sans-display white">{{entry.title}}</h3>
+    </div>
+  </div>
+
+</div>
+<!-- Image -->
+
 <!-- Copy -->
-<div class="grid-container">
+<div class="grid-container padding-vertical-3">
   <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
       {{entry.copy}}
@@ -13,5 +26,67 @@
   </div>
 </div>
 <!-- End Copy -->
+
+<!-- Traders -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+  {% for trader in entry.traders.all() %}
+    <div class="small-12 medium-6 large-6 cell">
+
+        <div class="grid-x grid-padding-x grid-padding-y text-center">
+          <div class="small-12 cell">
+            {% set image = trader.image.one() %}
+            <div class="image--square acts" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+              
+              <div class="content grid-y align-center">
+                <div class="shrink cell padding-1 padding-bottom-0 h2 sans-display white">
+                {{trader.title}}
+                </div>
+                <div class="shrink cell padding-1 padding-top-0 h2 sans-display white">
+
+
+      {% if trader.socials|length %}
+      <ul class="menu align-center show-for-large">
+      {% for block in trader.socials.all() %}
+      {% switch block.type %}
+      
+        {% case "facebook" %}
+      
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+      
+        {% case "instagram" %}
+        
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+      
+        {% case "twitter" %}
+        
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+      
+        {% case "website" %}
+        
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-website"><use xlink:href="/assets/icons/symbol-defs.svg#icon-website"></use></svg></a></li>
+      
+      {% endswitch %}
+      {% endfor %}
+      </ul>
+      {% endif %}
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 cell">
+        {{trader.simpleCopy}}
+        </div>
+        </div>
+
+    </div>
+  {% endfor %}
+  </div>
+</div>
+<!-- End Traders -->
 
 {% endblock %}

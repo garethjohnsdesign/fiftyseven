@@ -1,3 +1,9 @@
+<div class="grid-x align-justify primary-background-colour show-for-small-only navigation__banner"> 
+  <div class="small-12 cell text-center">   
+    <small>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}, {{event.address}}</small>
+  </div>
+</div>
+
 <!-- Header -->
 <header class="grid-x grid-padding-x grid-padding-y align-justify align-middle navigation" id="maintest">
 
@@ -8,7 +14,7 @@
   <div class="small-8 cell text-center text-uppercase">
     <a href="/">
       <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
-      <div class="small font-wide">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</div>
+      <div class="small font-wide show-for-medium">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</div>
     </a>
   </div>
 

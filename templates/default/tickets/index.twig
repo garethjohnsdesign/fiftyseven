@@ -37,7 +37,7 @@
       <div class="shrink cell">
       <h3 class="show-for-small-only sans-display">{{ show.showStart |date('l j F')}}</h3>
       <h3>{{ show.showStart |date('g:iA') }}</h3>
-      <a href="{{ show.url }}"><svg class="icon icon-info"><use xlink:href="/assets/icons/symbol-defs.svg#icon-info"></use></svg></a>
+      <a href="{{ show.url }}"><svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg></a>
       </div>
       
       <div class="shrink cell show-for-large">
@@ -67,12 +67,14 @@
           
           <div class="small-12 large-2 cell text-center large-text-right">
             <div class="show-for-large">
-            <h5 class="margin-bottom-0">Festival Opens</h5>
-            {{ show.festivalStart |date('g:iA') }}
-            <h5 class="margin-bottom-0 padding-top-1">Show Starts</h5>
-            {{ show.showStart |date('g:iA') }}
+            <h5 class="margin-bottom-0 sans-display">Festival Opens</h5>
+            <div class="margin-bottom-1">{{ show.festivalStart |date('g:iA') }}</div>
+            <h5 class="margin-bottom-0 sans-display">Show Starts</h5>
+            <div class="margin-bottom-1">{{ show.showStart |date('g:iA') }}</div>
+            <h5 class="margin-bottom-0 sans-display">Show Finish</h5>
+            <div class="margin-bottom-1">{{ show.showFinish |date('g:iA') }}</div>
             </div>
-            <h5 class="margin-bottom-0 padding-top-1">Tickets</h5>
+            <h5 class="margin-bottom-0 sans-display">Tickets</h5>
             {{ show.ticketPrice }}
             
       <div class="shrink cell hide-for-large padding-top-2">

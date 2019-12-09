@@ -292,7 +292,7 @@ z-index: 20;
 // 9. Home
 // -------
 
-.home .navigation, .about .navigation , .location .navigation {
+.home .navigation, .about .navigation , .location .navigation, .food-and-drink .navigation {
   @include links ($primary-color, $primary-color);
 //   border-bottom: 1px solid $secondary-color;
   @include breakpoint(large) {

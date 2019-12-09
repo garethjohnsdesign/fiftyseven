@@ -881,7 +881,7 @@
 		},
 	"/web/assets/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 2227,
+		"iS": 1919,
 		"oA": 0,
 		"oAP": "/web/assets/favicons/android-chrome-192x192.png",
 		"oF": 0,
@@ -892,7 +892,7 @@
 		},
 	"/web/assets/favicons/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 6595,
+		"iS": 5806,
 		"oA": 0,
 		"oAP": "/web/assets/favicons/android-chrome-512x512.png",
 		"oF": 0,
@@ -903,7 +903,7 @@
 		},
 	"/web/assets/favicons/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 1968,
+		"iS": 1734,
 		"oA": 0,
 		"oAP": "/web/assets/favicons/apple-touch-icon.png",
 		"oF": 0,
@@ -922,7 +922,7 @@
 		},
 	"/web/assets/favicons/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 570,
+		"iS": 584,
 		"oA": 0,
 		"oAP": "/web/assets/favicons/favicon-16x16.png",
 		"oF": 0,
@@ -933,7 +933,7 @@
 		},
 	"/web/assets/favicons/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 844,
+		"iS": 813,
 		"oA": 0,
 		"oAP": "/web/assets/favicons/favicon-32x32.png",
 		"oF": 0,
@@ -952,7 +952,7 @@
 		},
 	"/web/assets/favicons/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 3053,
+		"iS": 2118,
 		"oA": 0,
 		"oAP": "/web/assets/favicons/mstile-150x150.png",
 		"oF": 0,
@@ -1109,16 +1109,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/web/assets/icons/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/web/assets/icons/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/web/assets/img/arrow-left.png": {
 		"ft": 32768,
 		"iS": 178,
@@ -1255,28 +1245,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/web/assets/js/min/app-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/web/assets/js/min/foundation-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/web/assets/js/min/foundation-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/web/assets/js/min/links-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/web/assets/js/min/links-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
