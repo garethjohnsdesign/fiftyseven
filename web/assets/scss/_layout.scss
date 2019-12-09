@@ -305,6 +305,19 @@ z-index: 20;
   }
 }
 
+.location .navigation {
+  @include links ($primary-color, $primary-color);
+//   border-bottom: 1px solid $secondary-color;
+  @include breakpoint(large) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+//   border-bottom: 1px solid $white;
+  @include links ($primary-color, $primary-color);
+  }
+}
+
 .home .is-dropdown-submenu {
 // background-color: transparent;
   z-index: 14;
@@ -361,6 +374,19 @@ background-color: transparent;
 
 .tabs-title > a:hover {
 color: $secondary-color;
+}
+
+.marker {
+  background-image: url('/assets/icons/flag.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  &:hover {
+    color: $black;   
+  }
 }
 
 // 9. Illustrations

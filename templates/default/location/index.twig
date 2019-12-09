@@ -6,20 +6,9 @@
 
 <div class="grid-x">
   <div class="small-12 cell">
-    <div id="map" style="width: 100%; height: 25rem" class="margin-bottom-1"></div>
+    <div id="map" style="width: 100%; height: 500px" class="margin-bottom-1"></div>
   </div>
 </div>
-
-<!-- Image -->
-{% set image = entry.image.one() %}
-<div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
-  <div class="grid-y height-100 align-center content">
-    <div class="shrink cell text-center">
-      <h1 class="sans-display white">{{entry.title}}</h3>
-    </div>
-  </div>
-</div>
-<!-- Image -->
 
 <!-- Copy -->
 <div class="grid-container padding-vertical-3">
@@ -32,7 +21,7 @@
 <!-- End Copy -->
 
 <!-- Address + Date -->
-<div class="grid-container padding-vertical-1">
+<div class="grid-container padding-bottom-1">
   <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
       <h3 class="primary-color">{{event.address}}</h3>
@@ -55,57 +44,49 @@
 </div>
 <!-- End Transport  -->
 
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoibWRoWDZWUSJ9.n1A58EO10IDrB5yIAKqAPA';
+{% js %}
+mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2sxbnV1NGhmMGE4YTNvb2l1aGp5ano3ZiJ9.g6KdDp-CdRZI2KzanoxFQw";
 
 var map = new mapboxgl.Map({
-container: 'map', // container id
-style: 'mapbox://styles/garethjohnsdesign/cjwujg6hf0myx1cqyw4mfpv3h', //hosted style id
-center: [-0.004, 51.482],
-zoom: 14,
-scrollZoom: false,
-pitch: 60, // pitch in degrees
-bearing: -60, // bearing in degrees
+  container: 'map',
+  style: 'mapbox://styles/garethjohnsdesign/ck1qcw4jy09aj1cpdwf0xqiec?optimize=true',
+  center: [{{event.location.lng}}, {{event.location.lat}}],
+  zoom: 12
 });
 
-map.addControl(new mapboxgl.NavigationControl());
-
-map.on("load", function () {
-    /* Image: An image is loaded and added to the map. */
-    map.loadImage("https://i.imgur.com/MK4NUzI.png", function(error, image) {
-    if (error) throw error;
-    map.addImage("custom-marker", image);
-    /* Style layer: A style layer ties together the source and image and specifies how they are displayed on the map. */
-    map.addLayer({
-    id: "markers",
-    type: "symbol",
-    /* Source: A data source specifies the geographic coordinate where the image marker gets placed. */
-    source: {
-    type: "geojson",
-    data: {
-    type: 'FeatureCollection',
-    features: [
-    {
+var geojson = {
+  type: 'FeatureCollection',
+  features: 
+  [
+  {
     type: 'Feature',
-    properties: {},
     geometry: {
-    type: "Point",
-    coordinates: [-0.004, 51.482]
-    }
-    }
-    ]
-    }
+      type: 'Point',
+      coordinates: [{{event.location.lng}}, {{event.location.lat}}]
     },
-    layout: {
-      'icon-image': 'location',
-      'icon-offset': [0, -40],
-      'icon-allow-overlap': true,
-    }
-    });
-    });
-    });
+  },
+  ]
+};
+ 
+  // add markers to map
+  geojson.features.forEach(function(marker) {
 
-</script>
+  // create a HTML element for each feature
+  var el = document.createElement('div');
+  el.className = 'marker';
 
+  // make a marker for each feature and add to the map
+  new mapboxgl.Marker(el)
+    .setLngLat(marker.geometry.coordinates)
+    .addTo(map);
+});
+
+map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+map.addControl(new mapboxgl.GeolocateControl ({positionOptions: {enableHighAccuracy: true},trackUserLocation: true}), 'bottom-left');
+
+// disable map zoom when using scroll
+map.scrollZoom.disable();
+
+{% endjs %}
 
 {% endblock %}

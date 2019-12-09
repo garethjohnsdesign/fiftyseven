@@ -7,7 +7,7 @@
 <!-- Date -->
 <div class="grid-x grid-padding-y align-center">
   <div class="small-12 cell text-center">
-    <div class="h3">{{ entry.date |date('l j F') }}<span class="primary-color"> — </span>{{ entry.showStart |date('g:iA') }}</div>
+    <div class="h3 sans-display">{{ entry.date |date('l j F') }}<span class="primary-color"> — </span>{{ entry.showStart |date('g:iA') }}</div>
   </div>
 </div>
 <!-- End Date -->
@@ -21,6 +21,33 @@
       <div class="content grid-y align-center">
         <div class="shrink cell padding-1 h2 sans-display white text-center">
         {{act.title}}
+
+      {% if act.socials|length %}
+      <ul class="menu align-center">
+      {% for block in act.socials.all() %}
+      {% switch block.type %}
+      
+        {% case "facebook" %}
+      
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+      
+        {% case "instagram" %}
+        
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+      
+        {% case "twitter" %}
+        
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+      
+        {% case "youtube" %}
+        
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-youtube"><use xlink:href="/assets/icons/symbol-defs.svg#icon-youtube"></use></svg></a></li>
+      
+      {% endswitch %}
+      {% endfor %}
+      </ul>
+    {% endif %} 
+
         </div>
       </div>
     </div>
