@@ -6,7 +6,7 @@
 
 <div class="grid-x">
   <div class="small-12 cell">
-    <div id="map" style="width: 100%; height: 500px" class="margin-bottom-1"></div>
+    <div id="map" class="map"></div>
   </div>
 </div>
 
@@ -45,11 +45,11 @@
 <!-- End Transport  -->
 
 {% js %}
-mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2sxbnV1NGhmMGE4YTNvb2l1aGp5ano3ZiJ9.g6KdDp-CdRZI2KzanoxFQw";
+mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2szeWllcnhiMGxyZTNncDZiZmRnNmYwdSJ9.WkvmU6fiN5LX8UbYcHuAiA";
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/garethjohnsdesign/ck1qcw4jy09aj1cpdwf0xqiec?optimize=true',
+  style: 'mapbox://styles/garethjohnsdesign/ck3yifoi209ig1ct8bo75sf4x?optimize=true',
   center: [{{event.location.lng}}, {{event.location.lat}}],
   zoom: 12
 });
