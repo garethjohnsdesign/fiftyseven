@@ -123,6 +123,10 @@ html.is-animating .swup-transition-color {
   color: get-color(secondary);
 }
 
+.tertiary-color {
+  color: get-color(tertiary);
+}
+
 .primary-background-colour {
   background-color: get-color(primary);
   color: $white;
@@ -132,6 +136,12 @@ html.is-animating .swup-transition-color {
 
 .secondary-background-colour {
   background-color: get-color(secondary);
+  color: $primary-color;
+  @include links($primary-color, $secondary-color)
+}
+
+.tertiary-background-colour {
+  background-color: get-color(tertiary);
   color: $primary-color;
   @include links($primary-color, $secondary-color)
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "348e79fc4b5d2d5eab7c1e451309d1f6",
+    "content-hash": "32449a5356bf9f22f9ba1a6f2d7e3d0d",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -1453,11 +1453,11 @@
         },
         {
             "name": "fortrabbit/craft-copy",
-            "version": "1.0.0-RC8",
+            "version": "1.0.0-RC9",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fortrabbit/craft-copy/zipball/1026463addcb676f018c0814cf33e9523a691c2d",
-                "reference": "1026463addcb676f018c0814cf33e9523a691c2d",
+                "url": "https://api.github.com/repos/fortrabbit/craft-copy/zipball/496bcc688f7b40aed1bbca1e3e483dbc2add331f",
+                "reference": "496bcc688f7b40aed1bbca1e3e483dbc2add331f",
                 "shasum": ""
             },
             "require": {
@@ -1509,7 +1509,7 @@
                 "docs": "https://github.com/fortrabbit/craft-copy/blob/master/README.md",
                 "issues": "https://github.com/fortrabbit/craft-deploy-tools/issues"
             },
-            "time": "2019-11-15T12:07:37+00:00"
+            "time": "2019-12-04T11:29:20+00:00"
         },
         {
             "name": "geoip2/geoip2",
@@ -4066,11 +4066,11 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.4.0",
+            "version": "v4.4.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ab1c43e17fff802bef0a898f3bc088ac33b8e0e1",
-                "reference": "ab1c43e17fff802bef0a898f3bc088ac33b8e0e1",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b3c3068a72623287550fe20b84a2b01dcba2686f",
+                "reference": "b3c3068a72623287550fe20b84a2b01dcba2686f",
                 "shasum": ""
             },
             "require": {
@@ -4117,7 +4117,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-08T22:40:51+00:00"
+            "time": "2019-11-28T13:33:56+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",

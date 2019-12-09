@@ -10,13 +10,14 @@
   <div class="swiper-wrapper">
     {% for block in entry.heroActs.order('RAND()').all() %}
     {% set act = block.act.one() %}
+    {% set show = block.show.one() %}
     <div class="swiper-slide small-12 cell text-center">
       {% set image = act.image.one() %}
       <div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
         
         <div class="grid-y height-100 align-center content">
           <div class="shrink cell text-center">
-          <a href="" class="white">
+          <a href="{{ show.url }}" class="white">
             <h1 class="sans-display">{{act.title}}</h3>
             <h4>{{block.quote|markdown}}</h4>
           </a>
@@ -55,7 +56,7 @@
   <div class="small-12 medium-6 large-4 cell text-center">
     <a href="{{ show.url }}">
       {% set image = act.image.one() %}
-      <div class="margin-bottom-1 image--square" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+      <div class="image--square acts" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
         <div class="content grid-y align-center">
           <div class="shrink cell padding-1 h2 sans-display white">
           {{act.title}}

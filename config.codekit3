@@ -337,6 +337,14 @@
 		"oAP": "/templates/default/_includes/blocks/form.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/global/act.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/act.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/global/analytics.twig": {
 		"cB": 0,
 		"ft": 8192,

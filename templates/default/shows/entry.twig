@@ -27,12 +27,10 @@
     </div>
     {% endfor %}
 </div>
-
 <!-- End Images -->
 
-
 <!-- Content -->
-  <div class="grid-container">
+<div class="grid-container">
   <div class="grid-x grid-padding-y grid-padding-x event__text align-center margin-top-1">
     
     <!-- Left -->
@@ -45,18 +43,31 @@
     
       <div class="grid-x">
         <div class="small-12 cell">
-          <blockquote>
-        	<h3>Quote</h3>
-        	<cite>Cite</cite>
-        	</blockquote>
+
+          {% for block in entry.layout.all() %}
+          
+              {% if block.type == "copy" %}
+          
+              {{ block.copy }}
+          
+              {% elseif block.type == "quote" %}
+          
+              <div class="grid-x">
+                <div class="small-12 cell">
+                  <blockquote>
+                	<h3>{{ block.quote }}</h3>
+                	<cite>{{ block.cite }}</cite>
+                	</blockquote>
+                </div>
+              </div>
+          
+              {% endif %}
+          
+          {% endfor %}
+
         </div>
       </div>
     
-      <div class="grid-x align-center show-secondary">
-      	<div class="small-12 medium-12 cell">
-      		Secondary Text
-      	</div>
-      </div>
     </div>
     <!-- End Left -->
     
@@ -80,6 +91,45 @@
   
   </div>
   </div>
-  <!-- End Content -->
+<!-- End Content -->
+
+{% set params = {section: entry.section.handle} %}
+{% set prev = entry.getPrev(params) %}
+{% set next = entry.getNext(params) %}
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-y">
+  
+    <div class="small-4 cell">
+      {% if prev %}
+        <a href="{{prev.url}}">
+          <div class="align-middle">
+            <svg class="icon icon-arrow icon-arrow_back"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back"></use></svg>
+          </div>
+        </a>
+      {% endif %}
+    </div>
+    
+    <div class="small-4 cell align-middle">
+        <a href="/shows">
+          <div class="align-middle text-center">
+            <svg class="icon icon-grid_view"><use xlink:href="/assets/icons/symbol-defs.svg#icon-grid_view"></use></svg>
+          </div>
+        </a>
+    </div>
+    
+    
+    <div class="small-4 cell text-right">
+      {% if next %}
+      <a href="{{next.url}}">
+        <div class="align-middle">
+            <svg class="icon icon-arrow icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg>
+        </div>
+      </a>
+      {% endif %}
+    </div>
+  
+  </div>
+</div>
 
 {% endblock %}
