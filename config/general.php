@@ -68,9 +68,17 @@ return [
     // Staging environment settings
     'staging' => [
 
-        'devMode' => false,
-        'enableTemplateCaching' => true,
-        'allowUpdates' => false,
+        'siteUrl' => [
+            'default' => 'https://fiftyseven-stage.frb.io',
+            'brighton' => 'https://www.brightoncomedygarden.co.uk',
+            'bristol' => 'https://www.bristolcomedygarden.co.uk',
+            'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
+        ],
+
+
+        'devMode' => true,
+        'enableTemplateCaching' => false,
+        'allowUpdates' => true,
         // Set the environmental variables
          'staticAssetsVersion' => time(),
     ],
