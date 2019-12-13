@@ -1,4 +1,4 @@
-<nav class="full reveal" id="navigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
+<nav class="full reveal primary-background-colour" id="navigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
@@ -11,6 +11,26 @@
         <li><a href="/info" class="h3 sans-display" data-toggle="navigation">Info</a></li>
         <li><a href="/contact" class="h3 sans-display" data-toggle="navigation">Contact</a></li>  
     </ul>
+
+<div class="shrink cell text-center">
+ <ul class="menu align-center">
+        {% for block in event.socials.all() %}
+        {% switch block.type %}
+          {% case "facebook" %}
+        
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+        
+          {% case "instagram" %}
+          
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+        
+          {% case "twitter" %}
+          
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+          {% endswitch %}
+        {% endfor %}
+      </ul>
+</div>
 
     </div>
   </div>

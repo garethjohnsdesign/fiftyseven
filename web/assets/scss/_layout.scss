@@ -396,3 +396,40 @@ color: $secondary-color;
 
 // 9. Illustrations
 // ----------------
+
+/*
+.act--link {
+  &:hover .act__title {
+  opacity: 0;
+  transition: $primary-transition;
+  }
+  &:hover .act__socials {
+  opacity: 1;
+  transition: $primary-transition;
+  } 
+}
+*/
+
+.act--link {
+  .content:hover {
+  background-color: rgba($secondary-color, 0.95);
+  }
+  &:hover .act__title {
+  opacity: 0;
+  transition: $primary-transition;
+  }
+  &:hover .act__socials {
+  opacity: 1;
+  transition: $primary-transition;
+  } 
+}
+
+.act__title {
+  z-index: 1;
+  opacity: 1;
+}
+
+.act__socials {
+  z-index: 1;
+  opacity: 0;
+}

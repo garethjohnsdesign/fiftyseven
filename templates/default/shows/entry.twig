@@ -17,11 +17,21 @@
     {% for act in entry.acts.all() %}
     {% set image = act.image.one() %}
     <div class="small-6 large-auto cell">
-    <div class="image--square" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
-      <div class="content grid-y align-center">
-        <div class="shrink cell padding-1 h2 sans-display white text-center">
-        {{act.title}}
+    <div class="image--square act--link" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+      
 
+      <div class="content grid-y align-center act__title">
+        <div class="shrink cell padding-1 h2 sans-display white text-center">
+        
+
+      {{act.title}}
+
+        </div>
+      </div>
+
+      
+      <div class="content grid-y align-center act__socials">
+        <div class="shrink cell padding-1 h2 sans-display white text-center">
       {% if act.socials|length %}
       <ul class="menu align-center show-for-large">
       {% for block in act.socials.all() %}
@@ -47,9 +57,10 @@
       {% endfor %}
       </ul>
     {% endif %} 
-
         </div>
       </div>
+
+
     </div>
     </div>
     {% endfor %}

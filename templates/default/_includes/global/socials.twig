@@ -5,7 +5,6 @@
       <ul class="menu align-middle">
         {% for block in event.socials.all() %}
         {% switch block.type %}
-        
           {% case "facebook" %}
         
               <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
@@ -17,7 +16,6 @@
           {% case "twitter" %}
           
               <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-        
           {% endswitch %}
         {% endfor %}
       </ul>
