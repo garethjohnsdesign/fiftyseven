@@ -23,6 +23,18 @@ Foundation.Interchange.SPECIAL_QUERIES['xxlarge-retina'] = 'only screen and (min
 $(document).foundation();
 
 
+// 1. Loader
+// ---------------
+
+if ($("body").hasClass("home")) {
+  $( ".loader" ).removeClass( "hide" );
+  $( ".loader" ).addClass( "loading" );
+  setTimeout( function() {
+    $( ".loader" ).addClass( "loaded" );
+  }, 2500 
+  );
+}
+
 // 4. Animate on Scroll
 // --------------------
 

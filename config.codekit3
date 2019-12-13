@@ -187,6 +187,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/node_modules/js-cookie/src/js.cookie.js": {
 		"bF": 0,
 		"ft": 64,
@@ -274,14 +285,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,

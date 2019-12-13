@@ -112,6 +112,33 @@ html.is-animating .swup-transition-color {
   opacity: 0;
 }
 
+// 2. Loading
+// ----------
+
+.loader {
+    z-index: 1040;
+    position: fixed;
+    background: $white;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    opacity: 0;
+    visibility: visible; 
+    transform: translateY(0%);
+    transition: transform 800ms;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    overflow: hidden;
+  &.loading {
+    opacity: 1;
+  }
+  &.loaded {
+    transform: translateY(-100%);
+    transition: transform 800ms;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+
 // 4. Color
 // --------
 
@@ -418,7 +445,7 @@ color: $secondary-color;
   opacity: 0;
   transition: $primary-transition;
   }
-  &:hover .act__socials {
+  &:hover .act__hover {
   opacity: 1;
   transition: $primary-transition;
   } 
@@ -429,7 +456,7 @@ color: $secondary-color;
   opacity: 1;
 }
 
-.act__socials {
+.act__hover {
   z-index: 1;
   opacity: 0;
 }

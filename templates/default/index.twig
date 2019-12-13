@@ -2,6 +2,18 @@
 
 {% extends "default/_layouts/site" %}
 
+{% block loading %}
+<div class="grid-y align-center loader hide">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+      <div class="small-11 medium-6 cell h1">
+        <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
 {% block main %}
 
 <!-- Headliners - Desktop -->
@@ -32,7 +44,6 @@
   <div class="swiper-button-prev-test flex-container align-middle primary-color margin-left-1"></div>
   <div class="swiper-button-next-test flex-container align-middle align-right primary-color margin-right-1"></div>
 
-
 </div>
 <!-- End Headliners - Desktop -->
 
@@ -56,12 +67,21 @@
   <div class="small-12 medium-6 large-4 cell text-center">
     <a href="{{ show.url }}">
       {% set image = act.image.one() %}
-      <div class="image--square acts" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
-        <div class="content grid-y align-center">
+      <div class="image--square act--link" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+
+        <div class="content grid-y align-center act__title">
           <div class="shrink cell padding-1 h2 sans-display white">
-          {{act.title}}
+            {{act.title}}
           </div>
         </div>
+
+        <div class="content grid-y align-center act__hover">
+          <div class="shrink cell padding-1 h2 sans-display white">
+            <svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg>
+          </div>
+        </div>
+
+
       </div>
     </a>
   </div>
