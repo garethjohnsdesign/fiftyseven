@@ -32,7 +32,8 @@
     "ether/tags": "1.0.5",
     "verbb/field-manager": "2.1.1",
     "carlcs/craft-deleteentryversions": "2.0.0",
-    "ether/simplemap": "3.7.6"
+    "ether/simplemap": "3.7.6",
+    "rias/craft-width-fieldtype": "1.0.6"
   },
   "autoload": {
     "psr-4": {

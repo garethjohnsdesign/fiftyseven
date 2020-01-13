@@ -4,14 +4,23 @@
 
 {% block main %}
 
-<!-- Copy -->
+<!-- Info -->
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
-    <div class="small-12 medium-10 large-9 cell text-center">
-      {{entry.copy}}
+  <div class="grid-x grid-padding-y">
+    <div class="expand cell">
+      <ul class="accordion" data-accordion  data-multi-expand="true" data-allow-all-closed="true">
+        {% for info in entry.info %}
+          <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title text-lowercase">{{info.header}}</a>
+            <div class="accordion-content padding-2" data-tab-content>
+            {{ info.copy }}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
-<!-- End Copy -->
+<!-- End Info -->
 
 {% endblock %}

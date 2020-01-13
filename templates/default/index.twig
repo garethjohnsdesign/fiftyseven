@@ -63,13 +63,13 @@
 <div class="grid-container">
 
 <div class="grid-x grid-padding-x grid-padding-y align-center">
-{% for block in entry.featuredActs.order('RAND()').all() %}
+{% for block in entry.featuredActs.all() %}
 {% set act = block.act.one() %}
 {% set show = block.show.one() %}
-  <div class="small-12 medium-6 large-4 cell text-center">
+  <div class="{{ block.width.value }} cell text-center">
     <a href="{{ show.url }}">
       {% set image = act.image.one() %}
-      <div class="image--square act--link" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+      <div class="image--landscape act--link" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
 
         <div class="content grid-y align-center act__title">
           <div class="shrink cell padding-1 h2 sans-display white">

@@ -84,13 +84,14 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $foundation-palette: (
-  primary: $black,
+  primary: #12afab,
   secondary: #2F2D50,
   tertiary: #fefefe,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
   spring-wood: #F9F7F2,
+  pink: #fbc3b4,
 );
 // $body-background: $white;
 $body-background: get-color(spring-wood);
