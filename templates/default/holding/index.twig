@@ -1,8 +1,13 @@
-{% set bodyClass = 'home' %}
+{% set bodyClass = 'holding' %}
 
-{% extends "default/_layouts/site" %}
+{% extends "default/_layouts/base" %}
+
+{% block body %}
 
 {% block main %}
+
+<div class="grid-y align-center primary-background-color viewheight">
+  <div class="shrink cell">
 
       <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
         <div class="small-12 cell text-center">
@@ -15,7 +20,6 @@
           <h4>{{ event.address }}</h4>
         </div>
       </div>
-      
       
       <div class="grid-x grid-padding-x grid-padding-y align-center">
         <div class="small-11 medium-5 large-4 xlarge-4 xxlarge-3 cell text-center">
@@ -32,7 +36,7 @@
               </div>
             </div>
           </form>
-{#           <a data-open="poster">View 2019 Lineup</a> #}
+          <a href="{{event.previousSite}}">View 2019 Site</a>
         </div>
       </div>
       
@@ -43,17 +47,11 @@
             {% switch block.type %}
             
               {% case "facebook" %}
-            
                   <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
-            
               {% case "instagram" %}
-              
                   <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-            
               {% case "twitter" %}
-              
                   <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-            
               {% endswitch %}
             {% endfor %}
           </ul>
@@ -74,10 +72,17 @@
       <div class="small-12 cell text-center">
         <ul class="menu align-center">
         <li><a href="/privacy-policy"><small>© {{ "now"|date("Y") }} {{ company.company }} – Subject to Site Permission and License Approval</small></a></li>
+{#
         <li><a href="/privacy-policy"><small>Privacy Policy</small></a></li>
         <li><a href="/terms"><small>Terms and Conditions</small></a></li>
+#}
         </ul>
       </div>
     </div>
+
+  </div>
+</div>
+
+{% endblock %}
 
 {% endblock %}
