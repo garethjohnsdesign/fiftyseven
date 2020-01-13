@@ -327,14 +327,6 @@
 		"oAP": "/templates/brighton/503.twig",
 		"oF": 0
 		},
-	"/templates/bristol copy/503.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/bristol copy/503.twig",
-		"oF": 0
-		},
 	"/templates/bristol/503.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -877,6 +869,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/tickets/index.twig",
+		"oF": 0
+		},
+	"/templates/greenwich/503.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/greenwich/503.twig",
 		"oF": 0
 		},
 	"/vendor": {
