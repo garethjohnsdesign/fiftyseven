@@ -6,12 +6,13 @@
 
 {% block main %}
 
-<div class="grid-y align-center primary-background-color viewheight">
+{% set image = holding.image.one() %}
+<div class="grid-y align-center primary-background-colour viewheight" data-interchange="{% include "_includes/images/full/full/interchange-img-small-12-medium-12" %}">
   <div class="shrink cell">
 
       <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
         <div class="small-12 cell text-center">
-          <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
+          <svg class="icon icon-{{ event.logo }} icon-holding"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
         </div>
       </div>
       
@@ -32,7 +33,7 @@
             <div class="input-group">
               <input class="input-group-field" type="email" name="EMAIL" placeholder="Subscribe to our newsletter">
               <div class="input-group-button">
-              <input type="submit" class="button hollow" value="Submit">
+              <input type="submit" class="button tertiary" value="Submit">
               </div>
             </div>
           </form>
