@@ -1288,6 +1288,143 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/web/assets/img/illustrations/balloon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/balloon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/bunting-two.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/bunting-two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/bunting.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/bunting.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/diver.png": {
+		"ft": 32768,
+		"iS": 173640,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/diver.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/eel.png": {
+		"ft": 32768,
+		"iS": 60702,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/eel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/hotdog.png": {
+		"ft": 32768,
+		"iS": 50343,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/hotdog.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/microphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/microphone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/plants-01.png": {
+		"ft": 32768,
+		"iS": 42119,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/plants-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/plants-02.png": {
+		"ft": 32768,
+		"iS": 65080,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/plants-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/plants-03.png": {
+		"ft": 32768,
+		"iS": 52151,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/plants-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/plants-04.png": {
+		"ft": 32768,
+		"iS": 69459,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/plants-04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/web/assets/img/illustrations/swing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/swing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/tent.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/tent.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,

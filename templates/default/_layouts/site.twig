@@ -6,10 +6,13 @@
 {% include "default/_includes/global/navigation" %}
 <!-- End Header -->
 
+{% block hero %}
+{% endblock %}
+
+<div class="illustrations">
 
 {% block main %}
 {% endblock %}
-
 
 <!-- Socials -->
 {# {% include "default/_includes/global/socials" %} #}
@@ -18,6 +21,8 @@
 <!-- Newsletter -->
 {% include "default/_includes/global/newsletter" %}
 <!-- End Newsletter -->
+
+</div>
 
 <!-- Footer -->
 {% include "default/_includes/global/footer" %}
