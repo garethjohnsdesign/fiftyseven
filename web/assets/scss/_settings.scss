@@ -83,9 +83,13 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+
+$dark-green: #094835;
+$light-green: #00ae5b;
+
 $foundation-palette: (
-  primary: #12afab,
-  secondary: #2F2D50,
+  primary: #021f42,
+  secondary: #021f42,
   tertiary: #fefefe,
   success: #3adb76,
   warning: #ffae00,
@@ -95,7 +99,7 @@ $foundation-palette: (
 );
 // $body-background: $white;
 $body-background: get-color(spring-wood);
-$body-font-color: $black;
+$body-font-color: get-color(primary);
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $sans-regular; 
 $body-antialiased: true;

@@ -14,7 +14,7 @@
   <!-- Day -->
   <div class="grid-x padding-top-2 align-center show-for-medium">
     <div class="shrink cell">
-      <h3 class="sans-display">{{ show}}</h3>
+      <h3 class="sans-display text-uppercase white">{{ show}}</h3>
     </div>
   </div>
   <!-- End Day -->
@@ -61,7 +61,7 @@
           
           <div class="small-12 large-4 cell text-center large-text-left padding-top-1">
             {% for act in show.acts.limit(10) %}
-              <h2 class="margin-bottom-0 sans-display">{{ act.title }}</h2>
+              <h2 class="margin-bottom-0 sans-display text-uppercase">{{ act.title }}</h2>
             {% endfor %}
           </div>
           
