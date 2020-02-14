@@ -1,89 +1,127 @@
-{% set bodyClass = 'holding' %}
+{% set bodyClass = 'home' %}
 
-{% extends "default/_layouts/base" %}
+{% extends "default/_layouts/site" %}
 
-{% block body %}
+{% block loading %}
+{#
+<div class="grid-y align-center loader hide">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+      <div class="small-11 medium-6 cell h1">
+        <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
+      </div>
+    </div>
+  </div>
+</div>
+#}
+{% endblock %}
 
 {% block main %}
 
-{% set image = holding.image.one() %}
-<div class="grid-y align-center primary-background-colour viewheight" data-interchange="{% include "default/_includes/images/full/full/interchange-img-small-12-medium-12" %}">
-  <div class="shrink cell">
+<!-- Headliners - Desktop -->
+<div class="swiper-container show-for-large">
 
-      <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-        <div class="small-12 cell text-center">
-          <svg class="icon icon-{{ event.logo }} icon-holding"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
+  <div class="swiper-wrapper">
+    {% for block in entry.heroActs.order('RAND()').all() %}
+    {% set act = block.act.one() %}
+    {% set show = block.show.one() %}
+    <div class="swiper-slide small-12 cell text-center">
+      {% set image = act.image.one() %}
+      <div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+        
+        <div class="grid-y height-100 align-center content">
+          <div class="shrink cell text-center">
+          <a href="{{ show.url }}" class="white">
+            <h1 class="sans-display">{{act.title}}</h1>
+            <h3>{{block.quote|markdown}}</h3>
+          </a>
+          </div>
         </div>
-      </div>
-      
-      <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="cell text-center">
-          <h4>{{ event.address }}</h4>
-        </div>
-      </div>
-      
-      <div class="grid-x grid-padding-x grid-padding-y align-center">
-        <div class="small-11 medium-5 large-4 xlarge-4 xxlarge-3 cell text-center">
-          <form action="{{ event.newsletter }}" method="post" target="_blank" data-abide novalidate>
-           
-            <div data-abide-error class="alert callout" style="display: none;">
-              <p><i class="fi-alert"></i>There are some errors in your form.</p>
-            </div> 
-
-            <div class="input-group">
-              <input class="input-group-field" type="email" name="EMAIL" placeholder="Subscribe to our newsletter">
-              <div class="input-group-button">
-              <input type="submit" class="button tertiary" value="Submit">
-              </div>
-            </div>
-          </form>
-          <a href="{{event.previousSite}}">View 2019 Site</a>
-        </div>
-      </div>
-      
-      <div class="grid-x align-center">
-        <div class="shrink cell">
-          <ul class="menu align-middle">
-            {% for block in event.socials.all() %}
-            {% switch block.type %}
-            
-              {% case "facebook" %}
-                  <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
-              {% case "instagram" %}
-                  <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-              {% case "twitter" %}
-                  <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-              {% endswitch %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-      
-      
-{#
-      <div class="small reveal" id="exampleModal1" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
-        <img src="/uploads/poster-2017.jpg" alt="2017-poster">
-        <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-#}
-      
-    <div class="grid-x grid-padding-y grid-padding-x align-center">
-      <div class="small-12 cell text-center">
-        <ul class="menu align-center">
-        <li><a href="/privacy-policy"><small>© {{ "now"|date("Y") }} {{ company.company }} – Subject to Site Permission and License Approval</small></a></li>
-{#
-        <li><a href="/privacy-policy"><small>Privacy Policy</small></a></li>
-        <li><a href="/terms"><small>Terms and Conditions</small></a></li>
-#}
-        </ul>
+  
       </div>
     </div>
+    {% endfor %}
+  </div>
 
+  <div class="swiper-button-prev-test flex-container align-middle primary-color margin-left-1"></div>
+  <div class="swiper-button-next-test flex-container align-middle align-right primary-color margin-right-1"></div>
+
+</div>
+<!-- End Headliners - Desktop -->
+
+<!-- Copy -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      {{entry.copy}}
+    </div>
+  </div>
+</div>
+<!-- End Copy -->
+
+<!-- Acts -->
+<div class="grid-container">
+
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+{% for block in entry.featuredActs.all() %}
+{% set act = block.act.one() %}
+{% set show = block.show.one() %}
+  <div class="{{ block.width.value }} cell text-center">
+    <a href="{{ show.url }}">
+      {% set image = act.image.one() %}
+      <div class="image--landscape act--link" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+
+        <div class="content grid-y align-center act__title">
+          <div class="shrink cell padding-1 h2 sans-display white">
+            {{act.title}}
+          </div>
+        </div>
+
+        <div class="content grid-y align-center act__hover">
+          <div class="shrink cell padding-1 h2 sans-display white">
+            <svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg>
+          </div>
+        </div>
+
+
+      </div>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
+<div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
+  <div class="small-12 medium-10 large-9 cell text-center">
+    <svg class="icon icon-view"><use xlink:href="/assets/icons/symbol-defs.svg#icon-view"></use></svg>
+    <h3 class="text-low">View All</h3>
   </div>
 </div>
 
-{% endblock %}
+</div>
+<!-- End Acts -->
+
+<!-- Traders -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+  {% for trader in entry.traders.all() %}
+    <div class="small-12 medium-4 large-4 cell">
+
+      <a href="/food-and-drink">
+        {% set image = trader.image.one() %}
+        <div class="image--square acts" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
+          
+          <div class="content grid-y align-center text-center">
+            <div class="shrink cell padding-1 h2 sans-display white">
+            {{trader.title}}
+            </div>
+          </div>
+        </div>
+      </a>
+      
+    </div>
+  {% endfor %}
+  </div>
+</div>
+<!-- End Traders -->
 
 {% endblock %}

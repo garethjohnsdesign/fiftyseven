@@ -327,12 +327,28 @@
 		"oAP": "/templates/brighton/503.twig",
 		"oF": 0
 		},
+	"/templates/brighton/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/brighton/index.twig",
+		"oF": 0
+		},
 	"/templates/bristol/503.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/bristol/503.twig",
+		"oF": 0
+		},
+	"/templates/bristol/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/bristol/index.twig",
 		"oF": 0
 		},
 	"/templates/default/404.twig": {
@@ -791,20 +807,12 @@
 		"oAP": "/templates/default/food-and-drink/index.twig",
 		"oF": 0
 		},
-	"/templates/default/holding/index.twig": {
+	"/templates/default/home/index.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/templates/default/holding/index.twig",
-		"oF": 0
-		},
-	"/templates/default/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/index.twig",
+		"oAP": "/templates/default/home/index.twig",
 		"oF": 0
 		},
 	"/templates/default/info/index.twig": {
@@ -877,6 +885,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/greenwich/503.twig",
+		"oF": 0
+		},
+	"/templates/greenwich/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/greenwich/index.twig",
 		"oF": 0
 		},
 	"/vendor": {
@@ -1142,6 +1158,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/web/assets/img/57-festivals-2x.png": {
+		"ft": 32768,
+		"iS": 10683,
+		"oA": 0,
+		"oAP": "/web/assets/img/57-festivals-2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/web/assets/img/arrow-left.png": {
 		"ft": 32768,
