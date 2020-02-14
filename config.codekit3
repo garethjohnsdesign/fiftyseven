@@ -807,12 +807,28 @@
 		"oAP": "/templates/default/food-and-drink/index.twig",
 		"oF": 0
 		},
+	"/templates/default/holding/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/holding/index.twig",
+		"oF": 0
+		},
 	"/templates/default/home/index.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/home/index.twig",
+		"oF": 0
+		},
+	"/templates/default/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/index.twig",
 		"oF": 0
 		},
 	"/templates/default/info/index.twig": {
@@ -1057,6 +1073,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/web/assets/fonts/gallery.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/krana-feast.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/krana-feast.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/krana-feast.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/krana-feast.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/light-pro.ttf": {
