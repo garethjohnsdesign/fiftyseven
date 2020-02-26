@@ -44,7 +44,7 @@ return [
         'enableTemplateCaching' => false,
 
         // Set the environmental variables
-        'staticAssetsVersion' => 12,
+        'staticAssetsVersion' => 13,
         
     ],
 
