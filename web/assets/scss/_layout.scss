@@ -520,7 +520,7 @@ color: $secondary-color;
   background-size: 60%, 60%;
   }
 
-  @include breakpoint(large) {
+  @include breakpoint(medium) {
   background: url(/assets/img/illustrations/ghost-rev.svg), url(/assets/img/illustrations/pot.svg), url(/assets/img/illustrations/plant.svg);
   background-repeat: no-repeat;
   background-position: right -100px bottom -20px, left -100px bottom -100px, left -100px bottom -40px;
