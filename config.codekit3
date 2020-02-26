@@ -1181,6 +1181,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/57-festivals-2x.png": {
 		"ft": 32768,
 		"iS": 10683,
@@ -1278,6 +1288,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/web/assets/img/illustrations/background.jpg": {
+		"ft": 16384,
+		"iS": 730422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/web/assets/img/illustrations/background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/web/assets/img/illustrations/balloon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1330,6 +1351,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/web/assets/img/illustrations/ghost-rev.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/ghost-rev.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/ghost.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1356,6 +1387,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/web/assets/img/illustrations/microphone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/plant.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/plant.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1404,6 +1445,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/web/assets/img/illustrations/pot.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/pot.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/web/assets/img/illustrations/swing.svg": {
 		"ft": 2097152,
