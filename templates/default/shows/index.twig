@@ -7,7 +7,7 @@
 {% set showsQuery = craft.entries().section('shows')%}
 {% set shows = showsQuery.all() %}
     
-<div class="grid-x">
+<div class="grid-x grid-padding-x grid-padding-y">
   {% for show in shows %}
 
     {% for act in show.acts %}

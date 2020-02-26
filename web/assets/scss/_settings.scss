@@ -68,6 +68,7 @@
 $global-font-size: 100%;
 $global-font-size: 120%;
 $global-width: rem-calc(1200);
+$global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 /*
 $foundation-palette: (
@@ -88,9 +89,9 @@ $dark-green: #094835;
 $light-green: #00ae5b;
 
 $foundation-palette: (
-  primary: #021f42,
-  secondary: #021f42,
-  tertiary: #fefefe,
+  primary: #ff681e,
+  secondary: #031b89,
+  tertiary: #031b89,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -99,7 +100,7 @@ $foundation-palette: (
 );
 // $body-background: $white;
 $body-background: get-color(spring-wood);
-$body-font-color: get-color(primary);
+$body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $sans-regular; 
 $body-antialiased: true;
@@ -909,7 +910,7 @@ $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
   small: 20px,
-  medium: 30px
+  medium: 24px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
