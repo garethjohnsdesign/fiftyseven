@@ -446,7 +446,7 @@ color: $secondary-color;
 
 .act--link {
   .content:hover {
-  background-color: rgba($secondary-color, 0.95);
+  background-color: rgba($primary-color, 0.1);
   }
   &:hover .act__title {
   opacity: 0;
