@@ -242,7 +242,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
+	"/node_modules/lightgallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -815,14 +815,6 @@
 		"oAP": "/templates/default/holding/index.twig",
 		"oF": 0
 		},
-	"/templates/default/home/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/home/index.twig",
-		"oF": 0
-		},
 	"/templates/default/index.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -869,14 +861,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/shows/entry.twig",
-		"oF": 0
-		},
-	"/templates/default/shows/index copy.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/shows/index copy.twig",
 		"oF": 0
 		},
 	"/templates/default/shows/index.twig": {
@@ -1176,6 +1160,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/web/assets/icons/flag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/icons/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

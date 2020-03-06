@@ -16,10 +16,12 @@
 #}
 {% endblock %}
 
-{% block main %}
+{% block hero %}
 
 <!-- Headliners - Desktop -->
 <div class="swiper-container show-for-large">
+
+  <div class="mytest"></div>
 
   <div class="swiper-wrapper">
     {% for block in entry.heroActs.order('RAND()').all() %}
@@ -48,7 +50,9 @@
 
 </div>
 <!-- End Headliners - Desktop -->
+{% endblock %}
 
+{% block main %}
 <!-- Copy -->
 <div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
@@ -72,7 +76,7 @@
       <div class="image--landscape act--link" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
 
         <div class="content grid-y align-center act__title">
-          <div class="shrink cell padding-1 h2 sans-display white">
+          <div class="shrink cell padding-1 h2 sans-display white text-uppercase">
             {{act.title}}
           </div>
         </div>
@@ -111,7 +115,7 @@
         <div class="image--square acts" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}">
           
           <div class="content grid-y align-center text-center">
-            <div class="shrink cell padding-1 h2 sans-display white">
+            <div class="shrink cell padding-1 h2 sans-display white text-uppercase">
             {{trader.title}}
             </div>
           </div>
