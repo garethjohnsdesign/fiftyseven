@@ -367,6 +367,14 @@
 		"oAP": "/templates/default/503.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/blocks/act.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/act.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/blocks/excerpt.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -1160,6 +1168,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/web/assets/icons/flag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/icons/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
