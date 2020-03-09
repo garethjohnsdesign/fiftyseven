@@ -55,7 +55,7 @@
           <div class="small-12 large-4 cell">
             {% for act in show.acts.limit(1) %}
             {% set image = act.image.one() %}
-            <div class="image--default align-center-middle" data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}"></div>
+            <div class="image--default align-center-middle" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-4" %}"></div>
             {% endfor %}
           </div>
           
@@ -67,14 +67,12 @@
           
           <div class="small-12 large-2 cell text-center large-text-right">
             <div class="show-for-large">
-            <h5 class="margin-bottom-0 sans-display">Festival Opens</h5>
+            <h5 class="margin-bottom-0 sans-display text-uppercase">Festival Opens</h5>
             <div class="margin-bottom-1">{{ show.festivalStart |date('g:iA') }}</div>
-            <h5 class="margin-bottom-0 sans-display">Show Starts</h5>
+            <h5 class="margin-bottom-0 sans-display text-uppercase">Show Starts</h5>
             <div class="margin-bottom-1">{{ show.showStart |date('g:iA') }}</div>
-            <h5 class="margin-bottom-0 sans-display">Show Finish</h5>
-            <div class="margin-bottom-1">{{ show.showFinish |date('g:iA') }}</div>
             </div>
-            <h5 class="margin-bottom-0 sans-display">Tickets</h5>
+            <h5 class="margin-bottom-0 sans-display text-uppercase">Tickets</h5>
             {{ show.ticketPrice }}
             
       <div class="shrink cell hide-for-large padding-top-2">
