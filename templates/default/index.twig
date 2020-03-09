@@ -67,8 +67,8 @@
   
   <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
-      <svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg>
-      <h3 class="text-low">View Full Line Up</h3>
+      <div class="margin-bottom-2"><a href="shows"><svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg></a></div>
+      <a href="shows" class="h3 sans-display text-uppercase">View Full Line Up</a>
     </div>
   </div>
 </div>
@@ -85,21 +85,8 @@
     </div>
   </div>
   <!-- End Copy -->
-
-{#
-  <div class="grid-x grid-padding-x grid-padding-y">
-  {% for trader in entry.traders.all() %}
-    <div class="small-12 medium-4 large-4 cell">
-      <a href="/food-and-drink">
-      {% set image = trader.image.one() %}
-      {% set title = trader %}
-      {% include "_includes/blocks/excerpt" %}
-      </a>
-    </div>
-  {% endfor %}
-  </div>
-#}
-
+  
+  <!-- Traders -->
   <div class="grid-x grid-padding-x grid-padding-y align-center">
   {% for block in entry.featuredTraders.all() %}
   {% set trader = block.trader.one() %}
@@ -112,6 +99,8 @@
     </div>
   {% endfor %}
   </div>
+  <!-- End Traders -->
+
 </div>
 <!-- End Traders -->
 
