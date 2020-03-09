@@ -51,33 +51,41 @@
 
 <!-- Acts -->
 <div class="grid-container">
-
-<div class="grid-x grid-padding-x grid-padding-y align-center">
-{% for block in entry.featuredActs.all() %}
-{% set act = block.act.one() %}
-{% set show = block.show.one() %}
-  <div class="{{ block.width.value }} cell">
-    <a href="{{ show.url }}">
-      {% set image = act.image.one() %}
-      {% set title = act %}
-      {% include "_includes/blocks/excerpt" %}
-    </a>
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+  {% for block in entry.featuredActs.all() %}
+  {% set act = block.act.one() %}
+  {% set show = block.show.one() %}
+    <div class="{{ block.width.value }} cell">
+      <a href="{{ show.url }}">
+        {% set image = act.image.one() %}
+        {% set title = act %}
+        {% include "_includes/blocks/excerpt" %}
+      </a>
+    </div>
+  {% endfor %}
   </div>
-{% endfor %}
-</div>
-
-<div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
-  <div class="small-12 medium-10 large-9 cell text-center">
-    <svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg>
-    <h3 class="text-low">View Full Line Up</h3>
+  
+  <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      <svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg>
+      <h3 class="text-low">View Full Line Up</h3>
+    </div>
   </div>
-</div>
-
 </div>
 <!-- End Acts -->
 
 <!-- Traders -->
 <div class="grid-container">
+
+  <!-- Copy -->
+  <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      <h2>Food + Drink</h2>
+      {{entry.foodCopy}}
+    </div>
+  </div>
+  <!-- End Copy -->
+
   <div class="grid-x grid-padding-x grid-padding-y">
   {% for trader in entry.traders.all() %}
     <div class="small-12 medium-4 large-4 cell">
