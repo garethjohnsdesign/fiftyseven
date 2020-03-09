@@ -104,7 +104,7 @@
   {% for block in entry.featuredTraders.all() %}
   {% set trader = block.trader.one() %}
     <div class="{{ block.width.value }} cell">
-      <a href="">
+      <a href="/food-and-drink">
         {% set image = trader.image.one() %}
         {% set title = trader %}
         {% include "_includes/blocks/excerpt" %}
