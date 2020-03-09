@@ -86,6 +86,7 @@
   </div>
   <!-- End Copy -->
 
+{#
   <div class="grid-x grid-padding-x grid-padding-y">
   {% for trader in entry.traders.all() %}
     <div class="small-12 medium-4 large-4 cell">
@@ -93,6 +94,20 @@
       {% set image = trader.image.one() %}
       {% set title = trader %}
       {% include "_includes/blocks/excerpt" %}
+      </a>
+    </div>
+  {% endfor %}
+  </div>
+#}
+
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+  {% for block in entry.featuredTraders.all() %}
+  {% set trader = block.trader.one() %}
+    <div class="{{ block.width.value }} cell">
+      <a href="">
+        {% set image = trader.image.one() %}
+        {% set title = trader %}
+        {% include "_includes/blocks/excerpt" %}
       </a>
     </div>
   {% endfor %}
