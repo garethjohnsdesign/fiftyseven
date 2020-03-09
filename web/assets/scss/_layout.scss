@@ -456,21 +456,13 @@ color: $secondary-color;
 }
 
 
-.holding .illustrations {
-  @include breakpoint(small only) {
-  background: url(/assets/img/illustrations/ghost-rev.svg), url(/assets/img/illustrations/pot.svg);
+.home .illustrations {
+  background: url(/assets/img/illustrations/ticket-lady.svg), url(/assets/img/illustrations/moon.svg), url(/assets/img/illustrations/ticket-woman.svg);
   background-repeat: no-repeat;
-  background-position: right -70px bottom -20px, left -50px bottom -100px;
-  background-size: 60%, 60%;
-  }
-
-  @include breakpoint(medium) {
-  background: url(/assets/img/illustrations/ghost-rev.svg), url(/assets/img/illustrations/pot.svg), url(/assets/img/illustrations/plant.svg);
-  background-repeat: no-repeat;
-  background-position: right -100px bottom -20px, left -100px bottom -100px, left -100px bottom -40px;
-  background-size: 30%, 30%, 40%;
-  }
+  background-position: right 50px, left center, center bottom 150px;
+  background-size: 20%, 20%, 75%
 }
+
 
 .sponsor {
 width: 40%;
