@@ -78,7 +78,11 @@ $(document).ready(function () {
     navigation: {
       nextEl: '.swiper-button-next-test',
       prevEl: '.swiper-button-prev-test',
-    }
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+      },
 
    
     })

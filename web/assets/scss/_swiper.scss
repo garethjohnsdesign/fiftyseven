@@ -224,7 +224,8 @@
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 10px;
+//   bottom: 10px;
+  bottom: 2rem;
   left: 0;
   width: 100%;
 }
@@ -270,12 +271,16 @@
   transform: scale(0.33);
 }
 .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
+//   width: 8px;
+  width: 16px;
+//   height: 8px;
+  height: 16px;
   display: inline-block;
   border-radius: 100%;
-  background: #000;
-  opacity: 0.2;
+//   background: #000;
+  background: transparent;
+  border: 1px solid $white;
+//   opacity: 0.2;
 }
 button.swiper-pagination-bullet {
   border: none;
@@ -293,6 +298,7 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #007aff;
+  background: $white;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
