@@ -72,24 +72,3 @@ $(document).ready(function () {
    
     })
   });
-
-// 6. Lightgallery
-// ---------------
-
-$('.video').lightGallery({
-    counter: false,
-    videoMaxWidth: '1080px',
-    youtubePlayerParams: {
-        modestbranding: 1,
-        showinfo: 0,
-        rel: 0,
-        autoplay: 0,
-    },
-    vimeoPlayerParams: {
-        autoplay: 0,
-        title : 0,
-        byline : 0,
-        portrait : 0,
-        color : 'FFFFFF'     
-    }
-});
