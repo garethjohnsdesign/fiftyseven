@@ -3,6 +3,7 @@
     <div class="shrink cell text-center">
 
     <ul class="vertical menu text-uppercase">
+        <li><a class="h3 sans-display" data-toggle="navigation"><svg class="icon icon-clearclose"><use xlink:href="/assets/icons/symbol-defs.svg#icon-clearclose"></use></svg></a></li>
         <li><a href="/tickets" class="h3 sans-display" data-toggle="navigation">Tickets</a></li>
         <li><a href="/shows" class="h3 sans-display" data-toggle="navigation">Shows</a></li>
         <li><a href="/about" class="h3 sans-display" data-toggle="navigation">About</a></li>  
@@ -12,25 +13,25 @@
         <li><a href="/contact" class="h3 sans-display" data-toggle="navigation">Contact</a></li>  
     </ul>
 
-<div class="shrink cell text-center">
- <ul class="menu align-center">
-        {% for block in event.socials.all() %}
-        {% switch block.type %}
-          {% case "facebook" %}
+    <div class="shrink cell text-center">
+     <ul class="menu align-center">
+      {% for block in event.socials.all() %}
+      {% switch block.type %}
+        {% case "facebook" %}
+      
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+      
+        {% case "instagram" %}
         
-              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+      
+        {% case "twitter" %}
         
-          {% case "instagram" %}
-          
-              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-        
-          {% case "twitter" %}
-          
-              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-          {% endswitch %}
-        {% endfor %}
+            <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+        {% endswitch %}
+      {% endfor %}
       </ul>
-</div>
+    </div>
 
     </div>
   </div>
