@@ -431,68 +431,30 @@ color: $secondary-color;
 // 9. Illustrations
 // ----------------
 
-/*
-.act--link {
-  &:hover .act__title {
-  opacity: 0;
-  transition: $primary-transition;
-  }
-  &:hover .act__socials {
-  opacity: 1;
-  transition: $primary-transition;
-  } 
-}
-*/
-
-.act {
+.excerpt {
   .content:hover {
   background-color: rgba($primary-color, 0.1);
   }
-  &:hover .act__title {
+  &:hover .excerpt__title {
   opacity: 0;
   transition: $primary-transition;
   }
-  &:hover .act__hover {
+  &:hover .excerpt__hover {
   opacity: 1;
   transition: $primary-transition;
   } 
 }
 
-.act__title {
+.excerpt__title {
   z-index: 1;
   opacity: 1;
 }
 
-.act__hover {
+.excerpt__hover {
   z-index: 1;
   opacity: 0;
 }
 
-
-/*
-.home .mytest {
-  background: url(/assets/img/illustrations/bunting.svg);
-  background-repeat:repeat-x;
-  background-position: 0% 0%;
-  background-size: 60%;
-  z-index: 10000;
-	position: absolute;
-	top: -5vh;
-	left: -0vh;
-	z-index: 10000;
-  height: 100%;
-  width: 100%;
-}
-*/
-
-/*
-.home .illustrations {
-  background: url(/assets/img/illustrations/swing.svg), url(/assets/img/illustrations/tent.svg), url(/assets/img/illustrations/balloon.svg), url(/assets/img/illustrations/ghost.svg), url(/assets/img/illustrations/microphone.svg);
-  background-repeat: no-repeat;
-  background-position: left top,left bottom, 100% 20%, right bottom, 0% 40%;
-  background-size: 30%, 40%, 10%, 20%, 20%;
-}
-*/
 
 .holding .illustrations {
   @include breakpoint(small only) {

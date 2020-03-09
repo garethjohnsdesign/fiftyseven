@@ -3,10 +3,6 @@
 
 import $ from "jquery";
 import Foundation from 'foundation-sites';
-import "lightGallery";
-import "lg-fullscreen";
-import "lg-video";
-import "lg-autoplay";
 import AOS from 'aos';
 import Swiper from 'swiper';
 import Cookies from 'js-cookie'
