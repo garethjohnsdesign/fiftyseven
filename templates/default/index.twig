@@ -2,26 +2,10 @@
 
 {% extends "default/_layouts/site" %}
 
-{% block loading %}
-{#
-<div class="grid-y align-center loader hide">
-  <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-      <div class="small-11 medium-6 cell h1">
-        <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
-      </div>
-    </div>
-  </div>
-</div>
-#}
-{% endblock %}
-
 {% block hero %}
 
 <!-- Headliners - Desktop -->
 <div class="swiper-container show-for-large">
-
-  <div class="mytest"></div>
 
   <div class="swiper-wrapper">
     {% for block in entry.heroActs.order('RAND()').all() %}
