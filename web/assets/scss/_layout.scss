@@ -485,6 +485,13 @@ color: $secondary-color;
   background-size: 20%, 20%, 20%;
 }
 
+.tickets .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 40%, 30%;
+}
+
 // 9. About Illustrations
 // ---------------------
 
@@ -496,6 +503,13 @@ color: $secondary-color;
   background-size: 20%, 20%, 20%;
 }
 
+.about .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 40%, 30%;
+}
+
 // 9. Contact Illustrations
 // ---------------------
 
@@ -505,6 +519,13 @@ color: $secondary-color;
   background-repeat: no-repeat;
   background-position: left top 50px, left bottom, right center;
   background-size: 20%, 20%, 20%;
+}
+
+.contact .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 30%, 30%;
 }
 
 
@@ -519,6 +540,13 @@ color: $secondary-color;
   background-size: 20%, 20%;
 }
 
+.location .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 30%, 30%;
+}
+
 // 9. Food and Drink Illustrations
 // ---------------------
 
@@ -528,6 +556,31 @@ color: $secondary-color;
   background-repeat: no-repeat;
   background-position: left top 50px, left bottom, right center;
   background-size: 20%, 20%, 20%;
+}
+
+.food-and-drink .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 30%, 30%;
+}
+
+// 9. Show Illustrations
+// ---------------------
+
+
+.show .clouds {
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background-repeat: no-repeat;
+  background-position: left top 50px, left bottom, right center;
+  background-size: 20%, 20%, 20%;
+}
+
+.show .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 30%, 30%;
 }
 
 
