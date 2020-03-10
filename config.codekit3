@@ -1358,6 +1358,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/img/illustrations/plant-mono-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/plant-mono-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/plant-mono-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/plant-mono-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/plant.svg": {
 		"ft": 2097152,
 		"miP": 0,

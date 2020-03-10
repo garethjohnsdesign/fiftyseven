@@ -470,7 +470,7 @@ color: $secondary-color;
 .home .clouds {
   background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left 50px, left center, right center;
+  background-position: left top 50px, left bottom, right center;
   background-size: 20%, 20%, 20%;
 }
 
@@ -481,7 +481,7 @@ color: $secondary-color;
 .tickets .clouds {
   background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left 50px, left center, right center;
+  background-position: left top 50px, left bottom, right center;
   background-size: 20%, 20%, 20%;
 }
 
@@ -492,7 +492,7 @@ color: $secondary-color;
 .about .clouds {
   background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left 50px, left center, right center;
+  background-position: left top 50px, left bottom, right center;
   background-size: 20%, 20%, 20%;
 }
 
@@ -501,10 +501,10 @@ color: $secondary-color;
 
 
 .contact .clouds {
-  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left 50px, right center;
-  background-size: 20%, 20%;
+  background-position: left top 50px, left bottom, right center;
+  background-size: 20%, 20%, 20%;
 }
 
 
@@ -519,6 +519,16 @@ color: $secondary-color;
   background-size: 20%, 20%;
 }
 
+// 9. Food and Drink Illustrations
+// ---------------------
+
+
+.food-and-drink .clouds {
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background-repeat: no-repeat;
+  background-position: left top 50px, left bottom, right center;
+  background-size: 20%, 20%, 20%;
+}
 
 
 .holding .characters {
