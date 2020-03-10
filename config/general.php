@@ -93,6 +93,16 @@ return [
             'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 
+        'brighton' => [
+          'isSystemLive' => false
+        ],
+        'bristol' => [
+          'isSystemLive' => false
+        ],
+       'greenwich' => [
+          'isSystemLive' => false
+        ],
+
         'devMode' => false,
         'enableTemplateCaching' => true,
         'allowUpdates' => false,
