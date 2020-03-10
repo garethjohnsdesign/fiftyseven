@@ -88,9 +88,9 @@ return [
 
         'siteUrl' => [
             'default' => 'https://fiftyseven-prod.frb.io',
-            'brighton' => '',
+            'brighton' => 'https://www.brightoncomedygarden.co.uk',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
-            'greenwich' => '',
+            'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 
         'devMode' => false,
