@@ -270,10 +270,9 @@ $input-error-font-weight: $global-weight-bold;
 // ------------
 
 $accordion-background: $white;
-// $accordion-plusminus: true;
-$accordion-plusminus: false;
+$accordion-plusminus: true;
 // $accordion-title-font-size: rem-calc(12);
-$accordion-title-font-size: rem-calc(18);
+$accordion-title-font-size: rem-calc(24);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
