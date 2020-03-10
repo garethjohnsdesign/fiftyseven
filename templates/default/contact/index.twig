@@ -19,7 +19,7 @@
   <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
     {% for contact in entry.contact.all() %}
       <div class="cell">
-        <h2 class="sans-display">{{ contact.header }}</h2>
+        <h2 class="sans-display text-uppercase">{{ contact.header }}</h2>
         {{ contact.copy }}
       </div>
     {% endfor %}
