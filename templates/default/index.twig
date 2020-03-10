@@ -13,7 +13,7 @@
     {% set show = block.show.one() %}
     <div class="swiper-slide small-12 cell text-center">
       {% set image = act.image.one() %}
-      <div class="image--panorama align-center-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+      <div class="image--panorama align-center-middle" data-interchange="{% include "default/_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
         
         <div class="grid-y height-100 align-center content">
           <div class="shrink cell text-center">
@@ -60,7 +60,7 @@
       <a href="{{ show.url }}">
         {% set image = act.image.one() %}
         {% set title = act %}
-        {% include "_includes/blocks/excerpt" %}
+        {% include "default/_includes/blocks/excerpt" %}
       </a>
     </div>
   {% endfor %}
@@ -95,7 +95,7 @@
       <a href="food-and-drink">
         {% set image = trader.image.one() %}
         {% set title = trader %}
-        {% include "_includes/blocks/excerpt" %}
+        {% include "default/_includes/blocks/excerpt" %}
       </a>
     </div>
   {% endfor %}
