@@ -472,6 +472,13 @@ color: $secondary-color;
 }
 */
 
+.holding .illustrations {
+  background: url(/assets/img/illustrations/moon.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/ghost-rev.svg);
+  background-repeat: no-repeat;
+  background-position: left 50px, left top, right -50px bottom -50px;
+  background-size: 20%, 30%, 28%
+}
+
 
 .sponsor {
 width: 40%;
