@@ -1,6 +1,6 @@
 {% set bodyClass = 'shows' %}
 
-{% extends "_layouts/site" %}
+{% extends "default/_layouts/site" %}
 
 {% block main %}
 
@@ -15,7 +15,7 @@
       <a href="{{ show.url }}">
       {% set image = act.image.one() %}
       {% set title = act %}
-      {% include "_includes/blocks/excerpt" %}
+      {% include "default/_includes/blocks/excerpt" %}
 
 {#
       <div class="image--default acts" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-4" %}">
