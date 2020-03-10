@@ -1,7 +1,7 @@
 <div class="primary-background-colour padding-vertical-1">
 
   
-  <div class="grid-x align-center">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <ul class="menu align-middle">
         {% for block in event.socials.all() %}
@@ -23,39 +23,36 @@
     </div>
   </div>
 
-{#
   <div class="grid-x grid-padding-y grid-padding-x align-center">
     <div class="small-12 cell text-center">
-    <svg class="icon icon-atsign"><use xlink:href="/assets/icons/symbol-defs.svg#icon-atsign"></use></svg>
+      <a href="/tickets" class="h4">{{event.address}} — {{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</a>
     </div>
   </div>
-#}
+
+  <div class="grid-container">
+
+  <div class="grid-x grid-padding-y grid-padding-x align-center">
+    <div class="small-12 medium-8 cell text-center">
+
+    <div class="grid-x align-center align-middle">
+      {% for client in event.partners.all() %}
+      <div class="auto cell text-center padding-vertical-2">
+        <img src="{{client.url}}" alt="{{client.filename}}" class="sponsor">
+      </div>
+      {% endfor %}
+    </div>
+
+    </div>
+  </div>
+
+  </div>
 
   <div class="grid-x grid-padding-y grid-padding-x align-center">
     <div class="small-12 cell text-center">
-      <h5><a href="/tickets">{{event.address}} — {{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</a></h5>
-{#
       <ul class="menu align-center">
-      {% for item in site.sponsors %}  
-        <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-sponsors icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
-      {% endfor %} 
-      </ul>
-#}
-
-      <div class="grid-container">
-        <div class="grid-x align-center align-middle">
-          {% for client in event.partners.all() %}
-          <div class="auto cell text-center padding-vertical-2">
-            <img src="{{client.url}}" alt="{{client.filename}}" class="sponsor">
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-
-      <ul class="menu align-center">
-      <li><a href="/privacy-policy"><small>© {{ "now"|date("Y") }} {{ company.company }}. Images © their respective owners.</small></a></li>
-      <li><a href="/privacy-policy"><small>Privacy Policy</small></a></li>
-      <li><a href="/terms"><small>Terms and Conditions</small></a></li>
+        <li><a href="/privacy-policy"><small>© {{ "now"|date("Y") }} {{ company.company }}. Images © their respective owners.</small></a></li>
+        <li><a href="/privacy-policy"><small>Privacy Policy</small></a></li>
+        <li><a href="/terms"><small>Terms and Conditions</small></a></li>
       </ul>
     </div>
   </div>
