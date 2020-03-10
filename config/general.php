@@ -76,7 +76,7 @@ return [
         ],
 
 
-        'devMode' => true,
+        'devMode' => false,
         'enableTemplateCaching' => false,
         'allowUpdates' => true,
         // Set the environmental variables
