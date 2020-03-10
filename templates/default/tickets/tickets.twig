@@ -1,6 +1,6 @@
 {% set bodyClass = 'tickets' %}
 
-{% extends "_layouts/site" %}
+{% extends "default/_layouts/site" %}
 
 {% block main %}
 
@@ -55,7 +55,7 @@
           <div class="small-12 large-4 cell">
             {% for act in show.acts.limit(1) %}
             {% set image = act.image.one() %}
-            <div class="image--default align-center-middle" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-4" %}"></div>
+            <div class="image--default align-center-middle" data-interchange="{% include "default/_includes/images/contained/7-5/interchange-img-small-12-medium-4" %}"></div>
             {% endfor %}
           </div>
           
