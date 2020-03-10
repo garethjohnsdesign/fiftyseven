@@ -456,11 +456,18 @@ color: $secondary-color;
 }
 
 
-.home .illustrations {
-  background: url(/assets/img/illustrations/ticket-lady.svg), url(/assets/img/illustrations/moon.svg), url(/assets/img/illustrations/ticket-woman.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg);
+.home .characters {
+  background: url(/assets/img/illustrations/ticket-lady.svg), url(/assets/img/illustrations/moon.svg), url(/assets/img/illustrations/ticket-woman.svg), url(/assets/img/illustrations/cloud-plant.svg);
   background-repeat: no-repeat;
-  background-position: right 50px, left center, center bottom 150px, left top 150px,  left 20%;
-  background-size: 20%, 20%, 85%, 25%, 15%
+  background-position: right 50px, left center, center bottom -150px, right center;
+  background-size: 15%, 20%, 70%, 20%;
+}
+
+.home .clouds {
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 50px, left center, right center;
+  background-size: 20%, 20%, 20%;
 }
 
 .holding .illustrations {
