@@ -584,12 +584,24 @@ color: $secondary-color;
 }
 
 
-.holding .characters {
-  background: url(/assets/img/illustrations/moon.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/ghost-rev.svg);
+// 9. Shows Illustrations
+// ---------------------
+
+
+.shows .clouds {
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left 50px, left top, right -50px bottom -50px;
-  background-size: 20%, 30%, 28%
+  background-position: left top 50px, left bottom, right center;
+  background-size: 20%, 20%, 20%;
 }
+
+.shows .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right 60%;
+  background-size: 30%, 30%;
+}
+
 
 
 .sponsor {
