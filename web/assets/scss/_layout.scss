@@ -598,8 +598,16 @@ color: $secondary-color;
 .shows .plants {
   background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
   background-repeat: no-repeat;
-  background-position: left 40%, right 60%;
+  background-position: left 40%, right bottom;
   background-size: 30%, 30%;
+}
+
+.shows .characters {
+  background: url(/assets/img/illustrations/star-microphone.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 50%;
+  padding-bottom: 50vh;
 }
 
 
