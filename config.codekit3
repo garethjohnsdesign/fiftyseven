@@ -283,28 +283,12 @@
 		"oAP": "/templates/brighton/503.twig",
 		"oF": 0
 		},
-	"/templates/brighton/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/brighton/index.twig",
-		"oF": 0
-		},
 	"/templates/bristol/503.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/bristol/503.twig",
-		"oF": 0
-		},
-	"/templates/bristol/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/bristol/index.twig",
 		"oF": 0
 		},
 	"/templates/default/404.twig": {
@@ -843,14 +827,6 @@
 		"oAP": "/templates/greenwich/503.twig",
 		"oF": 0
 		},
-	"/templates/greenwich/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/greenwich/index.twig",
-		"oF": 0
-		},
 	"/vendor": {
 		"ft": 65536,
 		"oA": 1,
@@ -1279,6 +1255,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/img/illustrations/cloud-plant.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/cloud-plant.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/cloud-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/cloud-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/cloud.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1357,6 +1353,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/web/assets/img/illustrations/moon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/plant-mono-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/plant-mono-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/plant-mono-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/plant-mono-right.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
