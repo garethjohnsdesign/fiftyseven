@@ -1347,6 +1347,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/img/illustrations/green-apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/green-apple.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/hot-dog-car.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1367,6 +1377,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/web/assets/img/illustrations/ice-cream.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/ice-cream.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/web/assets/img/illustrations/location-plant.svg": {
 		"ft": 2097152,
