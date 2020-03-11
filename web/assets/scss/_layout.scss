@@ -510,15 +510,23 @@ color: $secondary-color;
   background-size: 40%, 30%;
 }
 
+.about .characters {
+  background: url(/assets/img/illustrations/baloons.svg), url(/assets/img/illustrations/tent.svg), url(/assets/img/illustrations/cocktail.svg);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom, right center;
+  background-size: 20%, 40%, 15%;
+  padding-bottom: 40vh;
+}
+
 // 9. Contact Illustrations
 // ---------------------
 
 
 .contact .clouds {
-  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left top 50px, left bottom, right center;
-  background-size: 20%, 20%, 20%;
+  background-position: left top 50px, right bottom;
+  background-size: 20%, 20%;
 }
 
 .contact .plants {
@@ -547,6 +555,14 @@ color: $secondary-color;
   background-size: 30%, 30%;
 }
 
+.location .characters {
+  background: url(/assets/img/illustrations/hot-dog-car.svg), url(/assets/img/illustrations/location-plant.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom, left bottom;
+  background-size: 40%, 30%;
+  padding-bottom: 40vh;
+}
+
 // 9. Food and Drink Illustrations
 // ---------------------
 
@@ -563,6 +579,14 @@ color: $secondary-color;
   background-repeat: no-repeat;
   background-position: left 40%, right 60%;
   background-size: 30%, 30%;
+}
+
+.food-and-drink .characters {
+  background: url(/assets/img/illustrations/baloons.svg), url(/assets/img/illustrations/tent.svg), url(/assets/img/illustrations/cocktail.svg);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom, right center;
+  background-size: 20%, 40%, 15%;
+  padding-bottom: 40vh;
 }
 
 // 9. Show Illustrations
