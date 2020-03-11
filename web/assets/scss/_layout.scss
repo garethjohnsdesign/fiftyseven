@@ -634,6 +634,33 @@ color: $secondary-color;
   padding-bottom: 50vh;
 }
 
+// 9. Shows Illustrations
+// ---------------------
+
+
+.info .clouds {
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background-repeat: no-repeat;
+  background-position: left top 50px, left bottom, right center;
+  background-size: 20%, 20%, 20%;
+}
+
+.info .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right bottom;
+  background-size: 30%, 30%;
+}
+
+.info .characters {
+  background: url(/assets/img/illustrations/star-microphone.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 50%;
+  padding-bottom: 50vh;
+}
+
+
 
 
 .sponsor {
