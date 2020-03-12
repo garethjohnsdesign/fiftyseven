@@ -544,6 +544,14 @@ color: $secondary-color;
   background-size: 30%, 30%;
 }
 
+.contact .characters {
+  background: url(/assets/img/illustrations/lil-ghost.svg), url(/assets/img/illustrations/plants.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom -20%, right bottom;
+  background-size: 25%, 25%;
+  padding-bottom: 30vh;
+}
+
 
 // 9. Location Illustrations
 // ---------------------
@@ -647,10 +655,10 @@ color: $secondary-color;
 
 
 .info .clouds {
-  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
   background-repeat: no-repeat;
-  background-position: left top 50px, left bottom, right center;
-  background-size: 20%, 20%, 20%;
+  background-position: left bottom, right center;
+  background-size: 20%, 20%;
 }
 
 .info .plants {
@@ -661,11 +669,11 @@ color: $secondary-color;
 }
 
 .info .characters {
-  background: url(/assets/img/illustrations/star-microphone.svg);
+  background: url(/assets/img/illustrations/cloud-lady.svg), url(/assets/img/illustrations/green-blob.svg);
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 50%;
-  padding-bottom: 50vh;
+  background-position: left -10% top, right -10% bottom;
+  background-size: 30%, 30%;
+  padding-bottom: 10vh;
 }
 
 

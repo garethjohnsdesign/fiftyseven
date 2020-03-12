@@ -1265,6 +1265,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/img/illustrations/cloud-lady.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/cloud-lady.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/cloud-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1367,6 +1377,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/img/illustrations/green-blob.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/green-blob.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/hot-dog-car.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1393,6 +1413,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/web/assets/img/illustrations/ice-cream.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/illustrations/lil-ghost.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/lil-ghost.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1501,6 +1531,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/web/assets/img/illustrations/plants.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/plants.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/web/assets/img/illustrations/pot.svg": {
 		"ft": 2097152,
