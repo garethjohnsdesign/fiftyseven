@@ -35,7 +35,7 @@
     <div class="grid-y align-justify" style="height: 100%">
       
       <div class="shrink cell">
-      <h3 class="show-for-small-only sans-display">{{ show.showStart |date('l j F')}}</h3>
+      <h3 class="show-for-small-only sans-display">{{ show.date |date('l j F') }}</h3>
       <h3>{{ show.showStart |date('g:iA') }}</h3>
       <a href="{{ show.url }}"><svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg></a>
       </div>
