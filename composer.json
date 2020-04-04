@@ -19,14 +19,13 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.4.9",
+    "craftcms/cms": "3.4.13",
     "vlucas/phpdotenv": "^2.4.0",
-    "craftcms/ckeditor": "1.0.0-beta.2",
     "craftcms/contact-form": "2.2.6",
     "craftcms/google-cloud": "1.3.0",
-    "craftcms/redactor": "2.6.0.1",
+    "craftcms/redactor": "2.6.1",
     "craftcms/contact-form-honeypot": "1.0.2",
-    "nystudio107/craft-minify": "1.2.9",
+    "nystudio107/craft-minify": "1.2.10",
     "aelvan/imager": "v2.4.0",
     "fortrabbit/craft-copy": "1.0.0-RC10",
     "ether/tags": "1.0.5",
