@@ -3,9 +3,9 @@
 
 import $ from "jquery";
 import Foundation from 'foundation-sites';
+import Cookie from 'jquery.cookie';
 import AOS from 'aos';
 import Swiper from 'swiper';
-import Cookies from 'js-cookie'
 
 
 // 2. Foundation
@@ -32,6 +32,39 @@ $(function() {
 
 $(function() {
 window.addEventListener('load', AOS.refresh);
+});
+
+// 4. Announcement
+// --------------------
+
+/*
+$(function() {
+  if($.cookie('showed_modal') !== "true") {
+
+  $("#announcement").foundation("open");
+
+  $('#announcement a').on('click', function() {
+    $('#announcement').foundation("close");
+  });
+
+  $.cookie('showed_modal', 'true', { expires: 365 }); 
+  }
+});
+*/
+
+$(function() {
+  if($.cookie('showed_modal') !== "true") {
+
+
+    if ( $( "#announcementOffCanvas" ).length ) {
+      $("#announcementOffCanvas").foundation("open");
+      $('#announcementOffCanvas a').on('click', function() {
+        $('#announcementOffCanvas').foundation("close");
+      });
+    }
+
+    $.cookie('showed_modal', 'true', { expires: 365 }); 
+  }
 });
 
 

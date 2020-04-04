@@ -682,3 +682,11 @@ color: $secondary-color;
 .sponsor {
 width: 40%;
 }
+
+
+.reveal {
+  @include breakpoint(medium) {
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+}

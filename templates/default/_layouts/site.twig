@@ -24,9 +24,15 @@
 {% include "default/_includes/global/footer" %}
 <!-- End Footer -->
 
-<!-- Navigation -->
+{# Navigation #}
 {% include "default/_includes/reveal/navigation" %}
-<!-- End Navigation -->
+{# End Navigation #}
+
+{# Announcement #}
+{% if announcement.showAnnouncement %}
+{% include "default/_includes/off-canvas/announcement" %}
+{% endif %}
+{# End Announcement #}
 
 
 {% endblock %}

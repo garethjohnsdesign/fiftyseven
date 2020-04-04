@@ -1687,17 +1687,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/web/assets/js/announcement.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/web/assets/js/min/announcement-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
 	"/web/assets/js/app.js": {
 		"bF": 4,
 		"ft": 64,
@@ -1716,17 +1705,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/web/assets/js/map-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/web/assets/js/min/announcement-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/web/assets/js/min/announcement-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
