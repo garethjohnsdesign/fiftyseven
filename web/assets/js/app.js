@@ -53,7 +53,7 @@ $(function() {
 */
 
 $(function() {
-  if($.cookie('showed_modal') !== "true") {
+  if($.cookie('showedModal') !== "true") {
 
 
     if ( $( "#announcementOffCanvas" ).length ) {
@@ -63,7 +63,7 @@ $(function() {
       });
     }
 
-    $.cookie('showed_modal', 'true', { expires: 365 }); 
+    $.cookie('showedModal', 'true'); 
   }
 });
 
