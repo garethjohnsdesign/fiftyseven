@@ -1,11 +1,28 @@
+<nav class="navigation">
+
+{# Announcement #}
+{% if announcementBar.showAnnouncementBar %}
+<div class="grid-x align-justify primary-background-colour navigation__banner"> 
+{#
+  <div class="small-12 cell announcement text-center">
+  <small>{{announcementBar.announcementBar}}</small>
+#}
+  <a class="button expanded margin-bottom-0 announcement__text text-uppercase small" href="{% set rel = announcementBar.announcementBarLink.one() %}{% if rel %}{{ rel.url }}{% endif %}">{{announcementBar.announcementBar}}</a>
+  </div>
+</div>
+{% endif %}
+{# End Announcement #}
+
+{#
 <div class="grid-x align-justify primary-background-colour show-for-small-only navigation__banner"> 
   <div class="small-12 cell text-center">   
     <small>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}, {{event.address}}</small>
   </div>
 </div>
+#}
 
-<!-- Header -->
-<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle navigation">
+{# Header #}
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle navigation__inner">
 
   <div class="small-2 cell text-left">
     <a data-toggle="navigation"><svg class="icon icon-dehaze"><use xlink:href="/assets/icons/symbol-defs.svg#icon-dehaze"></use></svg></a>
@@ -23,4 +40,6 @@
   </div>
 
 </header>
-<!-- End  Header -->
+{# End Header #}
+
+</nav>
