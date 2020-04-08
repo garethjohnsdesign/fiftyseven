@@ -12,7 +12,6 @@
     "foundation-sites": "^6.6.2",
     "jquery": ">=3.0.0",
     "jquery.cookie": "^1.4.1",
-    "js-cookie": "^2.2.1",
     "mapbox-gl": "^1.9.1",
     "motion-ui": "~2.0.0",
     "package": "^1.0.1",
