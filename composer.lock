@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f169971d605c1a6af8c72fc7fdb753b",
+    "content-hash": "d2fd0732785f526f592c307112f0843c",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -564,11 +564,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.4.13",
+            "version": "3.4.14",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/a516349f715bd96681dbe8ff190d970d6acd1773",
-                "reference": "a516349f715bd96681dbe8ff190d970d6acd1773",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/5d9897597841eaae0d11701e8a1ede983e51b0f7",
+                "reference": "5d9897597841eaae0d11701e8a1ede983e51b0f7",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +649,7 @@
                 "docs": "https://docs.craftcms.com/v3/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2020-04-02T13:49:11+00:00"
+            "time": "2020-04-07T00:06:40+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -2647,11 +2647,11 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/faf68f6109ceeff24241226033ab59640c7eb63b",
-                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
+                "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
                 "shasum": ""
             },
             "require": {
@@ -2685,7 +2685,7 @@
                 "laminas",
                 "zf"
             ],
-            "time": "2020-03-26T16:07:12+00:00"
+            "time": "2020-04-03T16:01:00+00:00"
         },
         {
             "name": "league/flysystem",
