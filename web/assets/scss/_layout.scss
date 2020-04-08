@@ -693,6 +693,56 @@ color: $secondary-color;
 }
 
 
+// 9. Holding Illustrations
+// ---------------------
+
+.holding {
+  background: url(/assets/img/illustrations/background.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.holding .clouds {
+  background: url(/assets/img/illustrations/cloud.svg), url(/assets/img/illustrations/cloud-right.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: 20%, 20%;
+  @include breakpoint(small only) {
+  background-size: 30%, 30%;
+  }
+  @include breakpoint(xxlarge) {
+  }
+}
+
+/*
+.holding .plants {
+  background: url(/assets/img/illustrations/plant-mono-left.svg), url(/assets/img/illustrations/plant-mono-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 40%, right bottom;
+  background-size: 30%, 30%;
+  @include breakpoint(small only) {
+  background-size: 40%, 60%;
+  }
+  @include breakpoint(xxlarge) {
+  }
+}
+*/
+
+.holding .characters {
+  background: url(/assets/img/illustrations/pot.svg), url(/assets/img/illustrations/ghost-rev.svg);
+  background-repeat: no-repeat;
+  background-position: left 5% bottom -10%, right -5% bottom -10%;
+  background-size: 17.5%, 25%;
+  @include breakpoint(small only) {
+  background: url(/assets/img/illustrations/green-blob.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom -10px;
+  }
+}
+
+
+
+
 
 
 .sponsor {
