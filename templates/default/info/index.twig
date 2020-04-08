@@ -9,7 +9,7 @@
   <div class="grid-x grid-padding-y">
     <div class="expand cell">
       <ul class="accordion" data-accordion  data-multi-expand="true" data-allow-all-closed="true">
-        {% for info in entry.info %}
+        {% for info in entry.info.all() %}
           <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">{{info.header}}</a>
             <div class="accordion-content padding-2" data-tab-content>

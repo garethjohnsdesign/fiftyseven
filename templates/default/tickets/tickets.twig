@@ -53,14 +53,14 @@
   <!-- End Time -->
   
           <div class="small-12 large-4 cell">
-            {% for act in show.acts.limit(1) %}
+            {% for act in show.acts.limit(1).all() %}
             {% set image = act.image.one() %}
             <div class="image--default align-center-middle" data-interchange="{% include "default/_includes/images/contained/7-5/interchange-img-small-12-medium-4" %}"></div>
             {% endfor %}
           </div>
           
           <div class="small-12 large-4 cell text-center large-text-left padding-top-1">
-            {% for act in show.acts.limit(10) %}
+            {% for act in show.acts.limit(10).all() %}
               <h2 class="margin-bottom-0 sans-display text-uppercase">{{ act.title }}</h2>
             {% endfor %}
           </div>

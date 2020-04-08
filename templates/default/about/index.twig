@@ -18,7 +18,7 @@
 <div class="grid-container">
 
   <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-3">
-  {% for image in entry.images %} 
+  {% for image in entry.images.all() %} 
     <div class="cell">
     <div class="margin-bottom-1 image--square" data-interchange="{% include "default/_includes/images/contained/1-1/interchange-img-small-12-medium-4" %}"></div>
     </div>

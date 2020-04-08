@@ -10,7 +10,7 @@
 <div class="grid-x grid-padding-x grid-padding-y">
   {% for show in shows %}
 
-    {% for act in show.acts %}
+    {% for act in show.acts.all() %}
     <div class="small-12 medium-4 large-4 xxlarge-3 cell">
       <a href="{{ show.url }}">
       {% set image = act.image.one() %}
