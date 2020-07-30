@@ -69,10 +69,10 @@ return [
     'staging' => [
 
         'siteUrl' => [
-            'default' => 'https://fiftyseven-stage.frb.io',
+            'default' => '',
             'brighton' => 'https://www.brightoncomedygarden.co.uk',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
-            'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
+            'greenwich' => 'https://fiftyseven-stage.frb.io',
         ],
 
 
