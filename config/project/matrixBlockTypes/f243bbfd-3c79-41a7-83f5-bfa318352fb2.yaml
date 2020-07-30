@@ -1,0 +1,36 @@
+field: b20240ab-6495-4623-b16d-6ac8c2e80970
+fieldLayouts:
+  294b0263-5e22-4eee-b376-a89fe82ee316:
+    tabs:
+      -
+        fields:
+          73d48d09-f11a-4dcd-9129-f1081e824770:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  73d48d09-f11a-4dcd-9129-f1081e824770:
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: copy
+name: Copy
+sortOrder: 1

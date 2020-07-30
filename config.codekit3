@@ -7,7 +7,7 @@
 		"uuidString": "F7CC2255-C147-4BFE-82DC-F393990E3BD5"
 		}
 	],
-"creatorBuild": "32001",
+"creatorBuild": "32186",
 "files": {
 	"/.env": {
 		"cB": 0,
@@ -95,6 +95,902 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/minify.php",
+		"oF": 0
+		},
+	"/config/project/entryTypes/09e7942d-49b3-415b-9c5c-af75ea8ebb9d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/09e7942d-49b3-415b-9c5c-af75ea8ebb9d.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/33a3a229-38b5-4f77-ac05-04fa845a6c3c.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/33a3a229-38b5-4f77-ac05-04fa845a6c3c.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/3c300e91-61c4-473e-8d9d-2ca0e5097da1.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/3c300e91-61c4-473e-8d9d-2ca0e5097da1.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/51891964-45ec-4736-abdb-de6e204e58ea.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/51891964-45ec-4736-abdb-de6e204e58ea.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/56954f06-8f2b-4eff-9709-bf3d749897e6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/56954f06-8f2b-4eff-9709-bf3d749897e6.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/7fa69e83-beef-490c-8c96-05ce9210d9ef.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/7fa69e83-beef-490c-8c96-05ce9210d9ef.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/886a5d91-3107-4453-8a06-77bd39a34c8d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/886a5d91-3107-4453-8a06-77bd39a34c8d.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/91d1baa3-0f3c-46a3-8071-c22c97bddedb.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/91d1baa3-0f3c-46a3-8071-c22c97bddedb.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/9862bef4-f21d-4054-aa2a-90db9d081750.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/9862bef4-f21d-4054-aa2a-90db9d081750.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/c0d04779-9177-49f4-b893-eac68dc3a4a1.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/c0d04779-9177-49f4-b893-eac68dc3a4a1.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/d5b62b47-273b-4ea1-bff3-533c136ff07d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/d5b62b47-273b-4ea1-bff3-533c136ff07d.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/e6102720-91ef-42c8-b951-f710c9f27202.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/e6102720-91ef-42c8-b951-f710c9f27202.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/e75977c3-81d5-4e38-9afc-9806ed23dcc1.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/e75977c3-81d5-4e38-9afc-9806ed23dcc1.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/f0a252f4-90ec-4a77-a34d-3cb8980e6107.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/f0a252f4-90ec-4a77-a34d-3cb8980e6107.yaml",
+		"oF": 0
+		},
+	"/config/project/entryTypes/f4cb0c4e-271c-4d32-8501-ca27dec7d136.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/f4cb0c4e-271c-4d32-8501-ca27dec7d136.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/19c191a1-7b8f-4698-b683-bf9620a8199a.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/19c191a1-7b8f-4698-b683-bf9620a8199a.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/2159964f-9c51-475f-8982-dcf19c0b8e7f.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/2159964f-9c51-475f-8982-dcf19c0b8e7f.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/3a0a7e49-63bf-423e-953e-a601e8639af6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/3a0a7e49-63bf-423e-953e-a601e8639af6.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/40ab6dfa-cf95-4cd7-8011-6b5415306b5c.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/40ab6dfa-cf95-4cd7-8011-6b5415306b5c.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/4e76ff2c-d63e-4f93-b451-456dd7adfd73.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/4e76ff2c-d63e-4f93-b451-456dd7adfd73.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/698fb214-9c3e-4792-8ddc-37ba1d9cdb8d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/698fb214-9c3e-4792-8ddc-37ba1d9cdb8d.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/78f70f57-16dd-45e3-a8f3-14e659c0ca10.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/78f70f57-16dd-45e3-a8f3-14e659c0ca10.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/babec676-5bc2-4104-9562-f948eed0e575.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/babec676-5bc2-4104-9562-f948eed0e575.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/c0d2f2a9-d0ea-493b-b929-9e75435e77c1.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/c0d2f2a9-d0ea-493b-b929-9e75435e77c1.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/d5c24e8d-4e91-427e-b900-7a257cb2b034.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/d5c24e8d-4e91-427e-b900-7a257cb2b034.yaml",
+		"oF": 0
+		},
+	"/config/project/fieldGroups/f8d4448a-1e97-4a1d-9e28-b16c546a43d4.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/f8d4448a-1e97-4a1d-9e28-b16c546a43d4.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/059909ec-4270-45ed-92be-d39c6f78e551.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/059909ec-4270-45ed-92be-d39c6f78e551.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/08bfc530-eca6-43f9-ab46-42036ceda84d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/08bfc530-eca6-43f9-ab46-42036ceda84d.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/0cf23571-d9b1-4717-b559-8b5e8d622963.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/0cf23571-d9b1-4717-b559-8b5e8d622963.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/1779eb04-4038-462e-9156-3234e9c29359.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/1779eb04-4038-462e-9156-3234e9c29359.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/1e915834-a9e5-4736-aa84-209add6fb4e3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/1e915834-a9e5-4736-aa84-209add6fb4e3.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/254fe20a-80be-4df7-8576-4c5133b1a3c3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/254fe20a-80be-4df7-8576-4c5133b1a3c3.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/268bf294-ebb7-4cc3-80f4-651651231b1e.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/268bf294-ebb7-4cc3-80f4-651651231b1e.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/29660552-c5ca-438e-a728-64fe5e198b7a.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/29660552-c5ca-438e-a728-64fe5e198b7a.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/37935d71-f171-4ecf-96a8-d5a1092a6b9c.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/37935d71-f171-4ecf-96a8-d5a1092a6b9c.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/379ef124-adcb-4f40-a627-a988a9cb97b1.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/379ef124-adcb-4f40-a627-a988a9cb97b1.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/3bad206c-e807-43db-931f-74b0bcd415dc.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/3bad206c-e807-43db-931f-74b0bcd415dc.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/43e9a6c2-179f-4985-9ffa-11fba91af6bb.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/43e9a6c2-179f-4985-9ffa-11fba91af6bb.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/44f8bb4e-fd2e-4680-997b-a3b80266a3e3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/44f8bb4e-fd2e-4680-997b-a3b80266a3e3.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/451a15b7-3f3a-4083-9372-7a44670edd9b.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/451a15b7-3f3a-4083-9372-7a44670edd9b.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/493d172f-a80d-436c-811f-ec5f03cac5a7.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/493d172f-a80d-436c-811f-ec5f03cac5a7.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/4e9c5bae-5858-417b-860f-874ab10b10ed.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/4e9c5bae-5858-417b-860f-874ab10b10ed.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/520b1a0f-524b-4fae-8323-c5b3a9c28e9b.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/520b1a0f-524b-4fae-8323-c5b3a9c28e9b.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/5f69b46d-451c-44ae-939a-dfdcb992fe17.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/5f69b46d-451c-44ae-939a-dfdcb992fe17.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/6067b2c9-5ce8-4cac-b199-638458395230.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/6067b2c9-5ce8-4cac-b199-638458395230.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/6a728bad-ec01-4758-9fe5-e86072724c73.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/6a728bad-ec01-4758-9fe5-e86072724c73.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/700e15d2-74b7-4a87-91fd-6a59571d15db.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/700e15d2-74b7-4a87-91fd-6a59571d15db.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/70515fdb-530c-4786-87bd-19d81125e493.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/70515fdb-530c-4786-87bd-19d81125e493.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/71176c0d-cdad-4c27-9aee-32771deb70e9.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/71176c0d-cdad-4c27-9aee-32771deb70e9.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/7296570e-e89d-48bf-8e3d-55553f2238fb.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/7296570e-e89d-48bf-8e3d-55553f2238fb.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/791d431c-e782-4040-b703-fa1d1c9b9d57.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/791d431c-e782-4040-b703-fa1d1c9b9d57.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/79d38564-7a13-45bc-a6cd-938d01444e49.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/79d38564-7a13-45bc-a6cd-938d01444e49.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/7ac204ff-6503-4513-a3d6-01a26c23cad6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/7ac204ff-6503-4513-a3d6-01a26c23cad6.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/831f29a6-b317-487d-bd8f-3019c1ff43cd.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/831f29a6-b317-487d-bd8f-3019c1ff43cd.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/8d631758-1c23-4e9e-9107-15e523e319a3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/8d631758-1c23-4e9e-9107-15e523e319a3.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/a4b70625-63de-4771-add9-d3e64edf1f32.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/a4b70625-63de-4771-add9-d3e64edf1f32.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/b20240ab-6495-4623-b16d-6ac8c2e80970.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/b20240ab-6495-4623-b16d-6ac8c2e80970.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/b466e6e9-4c8b-426a-91fe-f464370bb90f.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/b466e6e9-4c8b-426a-91fe-f464370bb90f.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/b49d5c36-50aa-4f0c-bdf2-3761dc15876d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/b49d5c36-50aa-4f0c-bdf2-3761dc15876d.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/b8bbaa48-dbbe-42c9-a5af-19b1c23b3f55.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/b8bbaa48-dbbe-42c9-a5af-19b1c23b3f55.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/b98e4070-1198-44ee-a715-f62bffc2accd.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/b98e4070-1198-44ee-a715-f62bffc2accd.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/cd29209e-4e1e-4a98-96ef-71615fc8cdc3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/cd29209e-4e1e-4a98-96ef-71615fc8cdc3.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/d599a929-5831-43d4-b4ce-3285dc87da4d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/d599a929-5831-43d4-b4ce-3285dc87da4d.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/dbb9d3a4-36d1-4a8d-bc0b-2727aba8216d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/dbb9d3a4-36d1-4a8d-bc0b-2727aba8216d.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/e61b08dc-3ef1-4300-952e-8472bb10a02e.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/e61b08dc-3ef1-4300-952e-8472bb10a02e.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/e7eb70dd-1ed6-4369-ba66-f40951cece99.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/e7eb70dd-1ed6-4369-ba66-f40951cece99.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/f2e7b889-f463-4dfa-9f10-8da7f7616b47.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/f2e7b889-f463-4dfa-9f10-8da7f7616b47.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/f528f828-ed26-4491-9e93-8795fa0c2de4.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/f528f828-ed26-4491-9e93-8795fa0c2de4.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/f9e21956-b8d0-4d88-b7c5-0387491b15e0.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/f9e21956-b8d0-4d88-b7c5-0387491b15e0.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/fbc5a213-4224-418d-9e40-f2b25d93211d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/fbc5a213-4224-418d-9e40-f2b25d93211d.yaml",
+		"oF": 0
+		},
+	"/config/project/globalSets/64e33b0e-c438-401b-9cb9-26cc01eec422.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/globalSets/64e33b0e-c438-401b-9cb9-26cc01eec422.yaml",
+		"oF": 0
+		},
+	"/config/project/globalSets/68feba66-8c35-47db-974f-f8bd2c7555a4.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/globalSets/68feba66-8c35-47db-974f-f8bd2c7555a4.yaml",
+		"oF": 0
+		},
+	"/config/project/globalSets/985e3386-3c3f-4dbb-8888-1c3af8ee7010.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/globalSets/985e3386-3c3f-4dbb-8888-1c3af8ee7010.yaml",
+		"oF": 0
+		},
+	"/config/project/globalSets/99fc7889-bc30-4de9-83be-1469ad57eef8.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/globalSets/99fc7889-bc30-4de9-83be-1469ad57eef8.yaml",
+		"oF": 0
+		},
+	"/config/project/globalSets/d26de6c2-efb0-4500-9bbe-273360c00f5f.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/globalSets/d26de6c2-efb0-4500-9bbe-273360c00f5f.yaml",
+		"oF": 0
+		},
+	"/config/project/globalSets/f8891be6-4364-4663-92ed-d08df9aea3b3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/globalSets/f8891be6-4364-4663-92ed-d08df9aea3b3.yaml",
+		"oF": 0
+		},
+	"/config/project/graphql/graphql.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/graphql/graphql.yaml",
+		"oF": 0
+		},
+	"/config/project/graphql/schemas/9cc1170d-f78d-4ae8-9960-9e78b171c3a6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/graphql/schemas/9cc1170d-f78d-4ae8-9960-9e78b171c3a6.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/067639eb-2bd3-431d-9925-d99ebd80ed02.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/067639eb-2bd3-431d-9925-d99ebd80ed02.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/0c89e123-e27b-45b4-bb7a-dc5073003eb1.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/0c89e123-e27b-45b4-bb7a-dc5073003eb1.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/301c50cc-cdd3-47cb-b5e8-7ece480071f9.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/301c50cc-cdd3-47cb-b5e8-7ece480071f9.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/559e608a-5bfd-4359-aa7d-719d51aea836.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/559e608a-5bfd-4359-aa7d-719d51aea836.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/724e8d5f-690c-4df0-98d0-b75b16280ec0.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/724e8d5f-690c-4df0-98d0-b75b16280ec0.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/7f6634c0-5708-42b4-a8b2-64120c2e3de3.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/7f6634c0-5708-42b4-a8b2-64120c2e3de3.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/8f8ec45d-44ba-408e-bf18-0430254c4d16.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/8f8ec45d-44ba-408e-bf18-0430254c4d16.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/d2d1ea18-7c94-4eda-90e3-e2b7c5ca2633.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/d2d1ea18-7c94-4eda-90e3-e2b7c5ca2633.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/d4cf494f-b163-4e1d-8de0-bb99a1749db8.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/d4cf494f-b163-4e1d-8de0-bb99a1749db8.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/ef005b58-051e-41f1-859c-31aa76e450d6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/ef005b58-051e-41f1-859c-31aa76e450d6.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/ef2d31d0-756f-4367-92b5-17f6ee5271fd.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/ef2d31d0-756f-4367-92b5-17f6ee5271fd.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/f243bbfd-3c79-41a7-83f5-bfa318352fb2.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/f243bbfd-3c79-41a7-83f5-bfa318352fb2.yaml",
+		"oF": 0
+		},
+	"/config/project/project.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/project.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/048ddc6c-82b2-4334-8cab-1de50c3fc8c7.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/048ddc6c-82b2-4334-8cab-1de50c3fc8c7.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/09dfbb9e-dd73-439d-8854-798312bf7b34.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/09dfbb9e-dd73-439d-8854-798312bf7b34.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/0b1c8c0c-3520-4470-bcdb-1b8b477bb9ed.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/0b1c8c0c-3520-4470-bcdb-1b8b477bb9ed.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/11c123fc-7137-41fd-8d64-57a99e3852d7.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/11c123fc-7137-41fd-8d64-57a99e3852d7.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/2041769b-09aa-462d-b766-f13b26feca3d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/2041769b-09aa-462d-b766-f13b26feca3d.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/26101bcb-f76c-45f2-89e2-3a7abda62d69.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/26101bcb-f76c-45f2-89e2-3a7abda62d69.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/2dd3bd73-bb8d-40d8-8ad4-4f7a9a0f9e8a.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/2dd3bd73-bb8d-40d8-8ad4-4f7a9a0f9e8a.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/3b5101c5-1de7-47b8-9ccc-3cb7ad88156f.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/3b5101c5-1de7-47b8-9ccc-3cb7ad88156f.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/50a6f09a-4cde-48b1-bc9f-5d7cbd101143.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/50a6f09a-4cde-48b1-bc9f-5d7cbd101143.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/5a68d0c1-11d9-4f75-84bd-d065bd162350.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/5a68d0c1-11d9-4f75-84bd-d065bd162350.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/6f92b28c-ef6c-44eb-9780-53d52b1745b2.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/6f92b28c-ef6c-44eb-9780-53d52b1745b2.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/729fc7e0-dc9c-435b-9d49-eefbee5b79c0.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/729fc7e0-dc9c-435b-9d49-eefbee5b79c0.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/973bff68-e944-4a0c-b3da-7a5328db49b5.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/973bff68-e944-4a0c-b3da-7a5328db49b5.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/c3f156ba-e756-4d10-8413-0badbd86cef4.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/c3f156ba-e756-4d10-8413-0badbd86cef4.yaml",
+		"oF": 0
+		},
+	"/config/project/sections/e9df79f9-d58f-4b00-8a78-29f6e4c25b90.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/e9df79f9-d58f-4b00-8a78-29f6e4c25b90.yaml",
+		"oF": 0
+		},
+	"/config/project/siteGroups/775858db-8a1e-4b3c-b3dd-0b0018aa9cd8.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/siteGroups/775858db-8a1e-4b3c-b3dd-0b0018aa9cd8.yaml",
+		"oF": 0
+		},
+	"/config/project/sites/0c3138de-61c9-4e2d-8982-aa68a6127f5f.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sites/0c3138de-61c9-4e2d-8982-aa68a6127f5f.yaml",
+		"oF": 0
+		},
+	"/config/project/sites/5ea3bf2d-32a9-4d43-87c4-90b7c5344e02.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sites/5ea3bf2d-32a9-4d43-87c4-90b7c5344e02.yaml",
+		"oF": 0
+		},
+	"/config/project/sites/686641b5-66fd-466f-869e-d61dcf15e5ef.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sites/686641b5-66fd-466f-869e-d61dcf15e5ef.yaml",
+		"oF": 0
+		},
+	"/config/project/sites/da261e74-add5-49fb-88aa-0bf4cd89b508.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sites/da261e74-add5-49fb-88aa-0bf4cd89b508.yaml",
+		"oF": 0
+		},
+	"/config/project/volumes/514e7215-b04f-4f9b-a70b-d98aad0cd088.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/volumes/514e7215-b04f-4f9b-a70b-d98aad0cd088.yaml",
 		"oF": 0
 		},
 	"/config/redactor/Custom.json": {
@@ -1139,6 +2035,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/57-festivals-2x.png": {
 		"ft": 32768,
 		"iS": 10683,
@@ -1564,6 +2470,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/web/assets/img/illustrations/pot.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/illustrations/pot.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/web/assets/img/illustrations/star-microphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1737,547 +2653,547 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_fonts.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_icons.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_icons.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_layout.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_layout.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_lightgallery.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_lightgallery.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_mapbox.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_mapbox.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_settings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_settings.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_swiper.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_swiper.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_transitions.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_transitions.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/_typography.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/_typography.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/app.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/web/assets/css/app.css",
 		"oF": 2,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/_base.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/_base.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/hamburgers.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/web/assets/scss/hamburgers/hamburgers.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_3dx-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_3dx-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_3dx.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_3dx.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_3dy-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_3dy-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_3dy.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_3dy.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_arrow-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_arrow-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_arrow.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_arrow.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_arrowalt-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_arrowalt-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_arrowalt.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_arrowalt.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_boring.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_boring.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_collapse-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_collapse-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_collapse.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_collapse.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_elastic-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_elastic-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_elastic.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_elastic.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_emphatic-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_emphatic-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_emphatic.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_emphatic.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_slider-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_slider-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_slider.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_slider.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_spin-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_spin-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_spin.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_spin.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_spring-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_spring-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_spring.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_spring.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_squeeze.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_squeeze.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_stand-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_stand-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_stand.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_stand.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_vortex-r.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_vortex-r.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/hamburgers/types/_vortex.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/hamburgers/types/_vortex.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/scroll/_animations.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/scroll/_animations.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/scroll/_core.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/scroll/_core.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/scroll/_easing.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/scroll/_easing.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/assets/scss/scroll/aos.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/web/assets/scss/scroll/aos.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 0
+		"sct": 0
 		},
 	"/web/cpresources": {
 		"ft": 65536,
@@ -2867,6 +3783,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -3279,6 +4199,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -3394,6 +4318,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -3538,6 +4466,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -4347,13 +5279,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 0,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

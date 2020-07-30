@@ -1,0 +1,25 @@
+fieldLayouts:
+  34402d48-9e08-45ca-97e0-a7066307095e:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: ''
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Tickets
+        sortOrder: 1
+handle: tickets
+hasTitleField: false
+name: Tickets
+section: 2dd3bd73-bb8d-40d8-8ad4-4f7a9a0f9e8a
+sortOrder: 1
+titleFormat: '{section.name|raw}'

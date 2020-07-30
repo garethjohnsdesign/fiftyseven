@@ -1,0 +1,37 @@
+fieldLayouts:
+  f31caeed-faed-4a47-82cd-43d7369a3408:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: ''
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: d599a929-5831-43d4-b4ce-3285dc87da4d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1779eb04-4038-462e-9156-3234e9c29359
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 831f29a6-b317-487d-bd8f-3019c1ff43cd
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 493d172f-a80d-436c-811f-ec5f03cac5a7
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Home
+        sortOrder: 1
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: 50a6f09a-4cde-48b1-bc9f-5d7cbd101143
+sortOrder: 1
+titleFormat: '{section.name|raw}'

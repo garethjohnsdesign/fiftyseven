@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 78f70f57-16dd-45e3-a8f3-14e659c0ca10
+handle: transport
+instructions: ''
+name: Transport
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_transport}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: none
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

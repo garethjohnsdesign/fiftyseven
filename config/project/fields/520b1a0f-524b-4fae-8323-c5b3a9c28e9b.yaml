@@ -1,0 +1,12 @@
+contentColumnType: string(255)
+fieldGroup: c0d2f2a9-d0ea-493b-b929-9e75435e77c1
+handle: ticketLink
+instructions: ''
+name: 'Ticket Link'
+searchable: true
+settings:
+  maxLength: '255'
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

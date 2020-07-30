@@ -1,0 +1,117 @@
+field: 493d172f-a80d-436c-811f-ec5f03cac5a7
+fieldLayouts:
+  fc3257ad-5fcc-4eb2-a2c2-5a31470c7166:
+    tabs:
+      -
+        fields:
+          6b48c260-ec88-415c-a4cb-abd3a3cb71f2:
+            required: true
+            sortOrder: 1
+          c406bfc5-ee4e-4712-ae2f-3ba295134b71:
+            required: false
+            sortOrder: 2
+        name: Content
+        sortOrder: 1
+fields:
+  6b48c260-ec88-415c-a4cb-abd3a3cb71f2:
+    contentColumnType: string
+    fieldGroup: null
+    handle: trader
+    instructions: ''
+    name: Trader
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: ''
+      selectionLabel: 'Add a trader'
+      source: null
+      sources:
+        - 'section:11c123fc-7137-41fd-8d64-57a99e3852d7'
+      targetSiteId: null
+      validateRelatedElements: ''
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  c406bfc5-ee4e-4712-ae2f-3ba295134b71:
+    contentColumnType: string
+    fieldGroup: null
+    handle: width
+    instructions: ''
+    name: Width
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 1/6
+            -
+              - value
+              - 'small-12 medium-2'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/3
+            -
+              - value
+              - 'small-12 medium-4'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/2
+            -
+              - value
+              - 'small-12 medium-6'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 2/3
+            -
+              - value
+              - 'small-12 medium-8'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 5/6
+            -
+              - value
+              - 'small-12 medium-10'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/1
+            -
+              - value
+              - 'small-12 medium-12'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: trader
+name: Trader
+sortOrder: 1

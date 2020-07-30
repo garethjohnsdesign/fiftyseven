@@ -1,0 +1,78 @@
+field: d599a929-5831-43d4-b4ce-3285dc87da4d
+fieldLayouts:
+  0f137500-1e86-4cf1-bec6-43a5e557d1fb:
+    tabs:
+      -
+        fields:
+          068b0dfd-cef5-4246-86d6-cf9db47ecf48:
+            required: true
+            sortOrder: 1
+          2ca5d614-639e-4f2a-9a40-5b08b558687f:
+            required: true
+            sortOrder: 2
+          a088ecfa-6324-4dc4-acab-89a0e680944a:
+            required: false
+            sortOrder: 3
+        name: Content
+        sortOrder: 1
+fields:
+  068b0dfd-cef5-4246-86d6-cf9db47ecf48:
+    contentColumnType: string
+    fieldGroup: null
+    handle: act
+    instructions: ''
+    name: Act
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: ''
+      selectionLabel: ''
+      source: null
+      sources:
+        - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
+      targetSiteId: null
+      validateRelatedElements: ''
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  2ca5d614-639e-4f2a-9a40-5b08b558687f:
+    contentColumnType: string
+    fieldGroup: null
+    handle: show
+    instructions: ''
+    name: Show
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: ''
+      selectionLabel: ''
+      source: null
+      sources:
+        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
+      targetSiteId: null
+      validateRelatedElements: ''
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a088ecfa-6324-4dc4-acab-89a0e680944a:
+    contentColumnType: text
+    fieldGroup: null
+    handle: quote
+    instructions: ''
+    name: Quote
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: act
+name: Act
+sortOrder: 1

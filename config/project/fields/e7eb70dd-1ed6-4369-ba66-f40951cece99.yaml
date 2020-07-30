@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: d5c24e8d-4e91-427e-b900-7a257cb2b034
+handle: header
+instructions: ''
+name: Header
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

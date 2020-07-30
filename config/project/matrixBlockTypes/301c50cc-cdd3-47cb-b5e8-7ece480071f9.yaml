@@ -1,0 +1,56 @@
+field: e61b08dc-3ef1-4300-952e-8472bb10a02e
+fieldLayouts:
+  ea993c2f-e595-4938-a979-1394b7c0a299:
+    tabs:
+      -
+        fields:
+          08baf8a4-1fad-4503-85a9-d12c8b4ae4a9:
+            required: true
+            sortOrder: 2
+          4b250d3f-cc12-4b8c-a300-d1f7bb66efe4:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  08baf8a4-1fad-4503-85a9-d12c8b4ae4a9:
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: ''
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  4b250d3f-cc12-4b8c-a300-d1f7bb66efe4:
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: ''
+    name: Header
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: transport
+name: Transport
+sortOrder: 1

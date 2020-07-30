@@ -1,0 +1,19 @@
+contentColumnType: string
+fieldGroup: 698fb214-9c3e-4792-8ddc-37ba1d9cdb8d
+handle: traders
+instructions: ''
+name: Traders
+searchable: true
+settings:
+  limit: ''
+  localizeRelations: ''
+  selectionLabel: 'Add a trader'
+  source: null
+  sources:
+    - 'section:11c123fc-7137-41fd-8d64-57a99e3852d7'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

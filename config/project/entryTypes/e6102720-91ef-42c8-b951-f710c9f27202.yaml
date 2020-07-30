@@ -1,0 +1,29 @@
+fieldLayouts:
+  a35287b9-e825-401d-8afb-1f7688eff208:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 29660552-c5ca-438e-a728-64fe5e198b7a
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1e915834-a9e5-4736-aa84-209add6fb4e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Tab 1'
+        sortOrder: 1
+handle: traders
+hasTitleField: true
+name: Traders
+section: 11c123fc-7137-41fd-8d64-57a99e3852d7
+sortOrder: 1
+titleFormat: ''

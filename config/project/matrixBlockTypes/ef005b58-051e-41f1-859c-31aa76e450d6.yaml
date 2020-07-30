@@ -1,0 +1,140 @@
+field: 1779eb04-4038-462e-9156-3234e9c29359
+fieldLayouts:
+  465ee20e-32ad-4a20-bc8a-bce8c8bbcfe7:
+    tabs:
+      -
+        fields:
+          125af6ab-e4a8-4076-a55d-70801cd4a12d:
+            required: false
+            sortOrder: 3
+          9b6f7c27-048d-4f10-a113-26e43faf3773:
+            required: true
+            sortOrder: 2
+          b9a047e2-14a3-4144-99ac-a52b38cfccba:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  125af6ab-e4a8-4076-a55d-70801cd4a12d:
+    contentColumnType: string
+    fieldGroup: null
+    handle: width
+    instructions: ''
+    name: Width
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 1/6
+            -
+              - value
+              - 'small-12 medium-2'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/3
+            -
+              - value
+              - 'small-12 medium-4'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/2
+            -
+              - value
+              - 'small-12 medium-6'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 2/3
+            -
+              - value
+              - 'small-12 medium-8'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 5/6
+            -
+              - value
+              - 'small-12 medium-10'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/1
+            -
+              - value
+              - 'small-12 medium-12'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  9b6f7c27-048d-4f10-a113-26e43faf3773:
+    contentColumnType: string
+    fieldGroup: null
+    handle: show
+    instructions: ''
+    name: Show
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: ''
+      selectionLabel: ''
+      source: null
+      sources:
+        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
+      targetSiteId: null
+      validateRelatedElements: ''
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  b9a047e2-14a3-4144-99ac-a52b38cfccba:
+    contentColumnType: string
+    fieldGroup: null
+    handle: act
+    instructions: ''
+    name: Act
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: ''
+      selectionLabel: ''
+      source: null
+      sources:
+        - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
+      targetSiteId: null
+      validateRelatedElements: ''
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: act
+name: Act
+sortOrder: 1

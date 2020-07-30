@@ -1,0 +1,17 @@
+fieldLayouts:
+  0cb1eba5-ca1d-44f5-8a36-2e1087c68b36:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: ''
+            type: craft\fieldlayoutelements\EntryTitleField
+        name: Page
+        sortOrder: 1
+handle: cookiePolicy
+hasTitleField: false
+name: 'Cookie Policy'
+section: 6f92b28c-ef6c-44eb-9780-53d52b1745b2
+sortOrder: 1
+titleFormat: '{section.name|raw}'

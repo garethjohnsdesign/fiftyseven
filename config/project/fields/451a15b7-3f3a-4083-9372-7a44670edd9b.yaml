@@ -1,0 +1,11 @@
+contentColumnType: boolean
+fieldGroup: c0d2f2a9-d0ea-493b-b929-9e75435e77c1
+handle: soldOut
+instructions: ''
+name: 'Sold Out'
+searchable: true
+settings:
+  default: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

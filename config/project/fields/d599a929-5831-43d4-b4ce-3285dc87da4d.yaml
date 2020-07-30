@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 40ab6dfa-cf95-4cd7-8011-6b5415306b5c
+handle: heroActs
+instructions: ''
+name: 'Hero Acts'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_heroacts}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: none
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

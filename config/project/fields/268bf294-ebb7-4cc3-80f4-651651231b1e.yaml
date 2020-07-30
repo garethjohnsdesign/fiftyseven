@@ -1,0 +1,20 @@
+contentColumnType: string
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: announcementBarLink
+instructions: ''
+name: 'Announcement Bar Link'
+searchable: true
+settings:
+  limit: '1'
+  localizeRelations: '1'
+  selectionLabel: ''
+  source: null
+  sources:
+    - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
+    - singles
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

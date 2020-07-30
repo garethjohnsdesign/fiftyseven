@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: logo
+instructions: ''
+name: Logo
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

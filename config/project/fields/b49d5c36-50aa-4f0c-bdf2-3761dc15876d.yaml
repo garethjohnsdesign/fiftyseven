@@ -1,0 +1,25 @@
+contentColumnType: string
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: partners
+instructions: ''
+name: Partners
+searchable: false
+settings:
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+  defaultUploadLocationSubpath: ''
+  limit: ''
+  localizeRelations: '1'
+  restrictFiles: ''
+  selectionLabel: ''
+  singleUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: ''
+  validateRelatedElements: ''
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

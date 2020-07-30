@@ -1,0 +1,13 @@
+contentColumnType: datetime
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: startDate
+instructions: ''
+name: 'Start Date'
+searchable: true
+settings:
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Date

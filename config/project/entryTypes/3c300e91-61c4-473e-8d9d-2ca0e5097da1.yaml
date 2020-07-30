@@ -1,0 +1,21 @@
+fieldLayouts:
+  cbc50d68-8f60-4158-a3a2-d1fc42162cfd:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: ''
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Page
+        sortOrder: 1
+handle: privacyPolicy
+hasTitleField: false
+name: 'Privacy Policy'
+section: 2041769b-09aa-462d-b766-f13b26feca3d
+sortOrder: 1
+titleFormat: '{section.name|raw}'

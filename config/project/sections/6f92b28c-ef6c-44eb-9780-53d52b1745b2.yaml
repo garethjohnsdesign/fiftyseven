@@ -1,0 +1,15 @@
+enableVersioning: true
+handle: cookiePolicy
+name: 'Cookie Policy'
+previewTargets:
+  -
+    label: 'Primary entry page'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  686641b5-66fd-466f-869e-d61dcf15e5ef:
+    enabledByDefault: true
+    hasUrls: true
+    template: page/index
+    uriFormat: cookie-policy
+type: single

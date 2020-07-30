@@ -1,0 +1,31 @@
+contentColumnType: text
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: location
+instructions: ''
+name: Location
+searchable: true
+settings:
+  boundary: '""'
+  boundaryRestrictionNELat: null
+  boundaryRestrictionNELng: null
+  boundaryRestrictionSWLat: null
+  boundaryRestrictionSWLng: null
+  country: GB
+  countryRestriction: null
+  height: null
+  hideAddress: ''
+  hideLatLng: null
+  hideMap: ''
+  hideSearch: ''
+  lat: 51.481854987755
+  lng: -0.0041627883911133
+  maxZoom: '18'
+  minZoom: '3'
+  showCurrentLocation: ''
+  showLatLng: ''
+  size: normal
+  typeRestriction: null
+  zoom: 17
+translationKeyFormat: null
+translationMethod: site
+type: ether\simplemap\fields\MapField

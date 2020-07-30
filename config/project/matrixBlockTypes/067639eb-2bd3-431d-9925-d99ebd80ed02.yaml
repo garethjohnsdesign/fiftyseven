@@ -1,0 +1,28 @@
+field: 1e915834-a9e5-4736-aa84-209add6fb4e3
+fieldLayouts:
+  c93a478d-1d14-4d20-9efe-e34253218b72:
+    tabs:
+      -
+        fields:
+          359405ac-d3c1-43b6-9713-1dabdebbe15c:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  359405ac-d3c1-43b6-9713-1dabdebbe15c:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: socialLink
+    instructions: ''
+    name: Link
+    searchable: true
+    settings:
+      maxLength: '255'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Url
+handle: instagram
+name: Instagram
+sortOrder: 1

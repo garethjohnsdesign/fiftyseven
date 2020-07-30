@@ -1,0 +1,57 @@
+field: 70515fdb-530c-4786-87bd-19d81125e493
+fieldLayouts:
+  bd84c116-6cca-4925-b6b6-198d46e1577d:
+    tabs:
+      -
+        fields:
+          da551ebc-26f6-452d-b1e7-4a0f2554b17f:
+            required: true
+            sortOrder: 2
+          fa067a08-853a-472a-a89b-df0c059c1e42:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  da551ebc-26f6-452d-b1e7-4a0f2554b17f:
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Custom.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  fa067a08-853a-472a-a89b-df0c059c1e42:
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: ''
+    name: Header
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: contact
+name: Contact
+sortOrder: 1

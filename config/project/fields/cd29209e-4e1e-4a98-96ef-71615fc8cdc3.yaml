@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: babec676-5bc2-4104-9562-f948eed0e575
+handle: seoDescription
+instructions: ''
+name: 'SEO Description'
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

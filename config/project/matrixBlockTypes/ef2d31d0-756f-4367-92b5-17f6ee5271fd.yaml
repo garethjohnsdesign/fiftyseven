@@ -1,0 +1,28 @@
+field: 1e915834-a9e5-4736-aa84-209add6fb4e3
+fieldLayouts:
+  620a7276-c701-459f-b669-a245df921d2a:
+    tabs:
+      -
+        fields:
+          eea4a67d-6903-474b-9823-a19906a0e71c:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  eea4a67d-6903-474b-9823-a19906a0e71c:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: socialLink
+    instructions: ''
+    name: Link
+    searchable: true
+    settings:
+      maxLength: '255'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Url
+handle: website
+name: Website
+sortOrder: 4

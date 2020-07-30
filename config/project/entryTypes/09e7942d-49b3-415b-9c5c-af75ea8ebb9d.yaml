@@ -1,0 +1,25 @@
+fieldLayouts:
+  cb681784-a51a-4410-a5f4-afd6dbaef7bc:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1e915834-a9e5-4736-aa84-209add6fb4e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Act
+        sortOrder: 1
+handle: acts
+hasTitleField: true
+name: Acts
+section: 26101bcb-f76c-45f2-89e2-3a7abda62d69
+sortOrder: 1
+titleFormat: ''

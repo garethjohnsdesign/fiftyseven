@@ -1,0 +1,11 @@
+contentColumnType: boolean
+fieldGroup: 3a0a7e49-63bf-423e-953e-a601e8639af6
+handle: showAnnouncementBar
+instructions: ''
+name: 'Show Announcement Bar'
+searchable: true
+settings:
+  default: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch

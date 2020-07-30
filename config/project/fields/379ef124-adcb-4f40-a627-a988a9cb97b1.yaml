@@ -1,0 +1,19 @@
+contentColumnType: string
+fieldGroup: c0d2f2a9-d0ea-493b-b929-9e75435e77c1
+handle: acts
+instructions: ''
+name: Acts
+searchable: true
+settings:
+  limit: ''
+  localizeRelations: ''
+  selectionLabel: 'Add an act'
+  source: null
+  sources:
+    - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

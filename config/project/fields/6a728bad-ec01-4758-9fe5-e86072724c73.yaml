@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: c0d2f2a9-d0ea-493b-b929-9e75435e77c1
+handle: ticketPrice
+instructions: ''
+name: 'Ticket Price'
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

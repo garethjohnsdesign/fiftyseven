@@ -1,0 +1,85 @@
+dateModified: 1596109771
+email:
+  fromEmail: oldbluelastbeer1876@gmail.com
+  fromName: 'Old Blue Last Beer'
+  template: ''
+  transportSettings:
+    password: p8q9dKHtf_qvXKjRWU73hsx
+    timeout: '10'
+    username: oldbluelastbeer1876@gmail.com
+  transportType: craft\mail\transportadapters\Gmail
+plugins:
+  contact-form:
+    enabled: true
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Old Blue Last Beer'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: info@oldbluelast.beer
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  delete-entry-versions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  geomate:
+    edition: standard
+    enabled: false
+    schemaVersion: 1.0.0
+  google-cloud:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.1'
+  imager:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  simplemap:
+    edition: lite
+    enabled: true
+    schemaVersion: 3.4.2
+    settings:
+      apiKey: null
+      browserApiKey: null
+      disablePopulateMissingFieldData: false
+      geoLocationAutoRedirect: false
+      geoLocationCacheDuration: 5270400
+      geoLocationService: none
+      geoLocationToken: ''
+      geoService: nominatim
+      geoToken: ''
+      mapTiles: carto.rastertiles/voyager
+      mapToken: ''
+      serverApiKey: null
+      unrestrictedApiKey: null
+      w3wEnabled: ''
+      w3wToken: ''
+system:
+  edition: solo
+  live: true
+  name: 'Fifty Seven Festivals'
+  schemaVersion: 3.5.12
+  timeZone: UTC
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

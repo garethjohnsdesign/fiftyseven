@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 19c191a1-7b8f-4698-b683-bf9620a8199a
+handle: contact
+instructions: ''
+name: Contact
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_contact}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

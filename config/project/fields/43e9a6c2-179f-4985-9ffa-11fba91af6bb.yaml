@@ -1,0 +1,26 @@
+contentColumnType: string
+fieldGroup: babec676-5bc2-4104-9562-f948eed0e575
+handle: seoImage
+instructions: ''
+name: 'SEO Image'
+searchable: true
+settings:
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: ''
+  restrictFiles: '1'
+  selectionLabel: ''
+  singleUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: '1'
+  validateRelatedElements: ''
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: announcementBar
+instructions: ''
+name: 'Announcement Bar'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
