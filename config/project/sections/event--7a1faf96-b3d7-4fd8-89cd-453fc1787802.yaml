@@ -1,0 +1,26 @@
+enableVersioning: true
+handle: event
+name: Event
+propagationMethod: all
+siteSettings:
+  0c3138de-61c9-4e2d-8982-aa68a6127f5f:
+    enabledByDefault: true
+    hasUrls: true
+    template: default/event/event
+    uriFormat: event
+  5ea3bf2d-32a9-4d43-87c4-90b7c5344e02:
+    enabledByDefault: true
+    hasUrls: true
+    template: default/event/event
+    uriFormat: event
+  686641b5-66fd-466f-869e-d61dcf15e5ef:
+    enabledByDefault: true
+    hasUrls: true
+    template: default/event/event
+    uriFormat: event
+  da261e74-add5-49fb-88aa-0bf4cd89b508:
+    enabledByDefault: true
+    hasUrls: true
+    template: default/event/event
+    uriFormat: event
+type: single

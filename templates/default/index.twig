@@ -93,17 +93,17 @@
 </div>
 <!-- End Acts -->
 
-<!-- Traders -->
+<!-- Open Air Copy -->
 <div class="grid-container">
 
-  <!-- Copy -->
+  <!-- Food Copy -->
   <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
-      <h2 class="sans-display text-uppercase">Food + Drink</h2>
-      {{entry.foodCopy}}
+      <h2 class="sans-display text-uppercase">Open Air + Socially Distanced</h2>
+      {{entry.openAirCopy}}
     </div>
   </div>
-  <!-- End Copy -->
+  <!-- End Food Copy -->
   
   <!-- Traders -->
   <div class="grid-x grid-padding-x grid-padding-y align-center">
@@ -121,6 +121,38 @@
   <!-- End Traders -->
 
 </div>
-<!-- End Traders -->
+<!-- End Open Air Copy -->
+
+<!-- Food and Drink -->
+{#
+<div class="grid-container">
+
+  <!-- Food Copy -->
+  <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      <h2 class="sans-display text-uppercase">Food + Drink</h2>
+      {{entry.foodCopy}}
+    </div>
+  </div>
+  <!-- End Food Copy -->
+  
+  <!-- Traders -->
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+  {% for block in entry.featuredTraders.all() %}
+  {% set trader = block.trader.one() %}
+    <div class="{{ block.width.value }} cell">
+      <a href="food-and-drink">
+        {% set image = trader.image.one() %}
+        {% set title = trader %}
+        {% include "default/_includes/blocks/excerpt" %}
+      </a>
+    </div>
+  {% endfor %}
+  </div>
+  <!-- End Traders -->
+
+</div>
+#}
+<!-- End Food and Drink -->
 
 {% endblock %}

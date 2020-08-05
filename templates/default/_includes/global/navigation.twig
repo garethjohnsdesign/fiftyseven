@@ -3,10 +3,6 @@
 {# Announcement #}
 {% if announcementBar.showAnnouncementBar %}
 <div class="grid-x align-justify primary-background-colour navigation__banner"> 
-{#
-  <div class="small-12 cell announcement text-center">
-  <small>{{announcementBar.announcementBar}}</small>
-#}
   <a class="button expanded margin-bottom-0 announcement__text text-uppercase small" href="{% set rel = announcementBar.announcementBarLink.one() %}{% if rel %}{{ rel.url }}{% endif %}">{{announcementBar.announcementBar}}</a>
   </div>
 </div>

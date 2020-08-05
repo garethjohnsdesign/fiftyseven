@@ -1,0 +1,22 @@
+contentColumnType: text
+fieldGroup: 40ab6dfa-cf95-4cd7-8011-6b5415306b5c
+handle: openAirCopy
+instructions: ''
+name: 'Open Air Copy'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Custom.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+translationKeyFormat: null
+translationMethod: site
+type: craft\redactor\Field
