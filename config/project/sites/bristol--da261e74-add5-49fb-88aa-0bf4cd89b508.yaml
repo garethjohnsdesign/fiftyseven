@@ -1,4 +1,4 @@
-baseUrl: '@web'
+baseUrl: 'https://bristolcomedygarden.test'
 enabled: false
 handle: bristol
 hasUrls: true

@@ -1,0 +1,11 @@
+contentColumnType: boolean
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: hasTraders
+instructions: ''
+name: 'Has Traders'
+searchable: false
+settings:
+  default: '1'
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch

@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 935380eb-3541-4362-84aa-851fb2408156
+handle: bundles
+instructions: ''
+name: Bundles
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: 'Add Bundles'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:f5c59131-9836-4565-8ca8-84cd5e2f987e'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

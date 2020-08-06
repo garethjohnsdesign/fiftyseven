@@ -22,24 +22,6 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-          -
-            fieldUid: e6e287b3-e9ab-43a5-a89a-11cdc02cef8b
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 83cb90e8-c6dd-4b41-8123-a0cfa1011b05
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -57,7 +39,7 @@ fields:
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
-      redactorConfig: Simple.json
+      redactorConfig: Standard.json
       removeEmptyTags: '1'
       removeInlineStyles: '1'
       removeNbsp: '1'
@@ -66,63 +48,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  83cb90e8-c6dd-4b41-8123-a0cfa1011b05:
-    contentColumnType: string
-    fieldGroup: null
-    handle: background
-    instructions: ''
-    name: Background
-    searchable: false
-    settings:
-      optgroups: true
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - White
-            -
-              - value
-              - white
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Light
-            -
-              - value
-              - light
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Primary
-            -
-              - value
-              - primary
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Secondary
-            -
-              - value
-              - secondary
-            -
-              - default
-              - ''
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Dropdown
   83d4dc8a-1b63-4599-870b-4d1cc105caac:
     contentColumnType: string
     fieldGroup: null
@@ -155,27 +80,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: rias\positionfieldtype\fields\Position
-  e6e287b3-e9ab-43a5-a89a-11cdc02cef8b:
-    contentColumnType: string
-    fieldGroup: null
-    handle: page
-    instructions: ''
-    name: Page
-    searchable: true
-    settings:
-      allowSelfRelations: false
-      limit: '1'
-      localizeRelations: false
-      selectionLabel: ''
-      showSiteMenu: true
-      source: null
-      sources: '*'
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: null
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Entries
 handle: copy
 name: Copy
 sortOrder: 1

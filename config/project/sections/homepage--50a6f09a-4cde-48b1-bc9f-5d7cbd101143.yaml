@@ -1,5 +1,4 @@
 enableVersioning: true
-entryTypes: null
 handle: homepage
 name: Homepage
 propagationMethod: all

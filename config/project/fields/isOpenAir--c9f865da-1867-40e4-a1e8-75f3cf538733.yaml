@@ -1,0 +1,11 @@
+contentColumnType: boolean
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: isOpenAir
+instructions: ''
+name: 'Is Open Air'
+searchable: false
+settings:
+  default: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch

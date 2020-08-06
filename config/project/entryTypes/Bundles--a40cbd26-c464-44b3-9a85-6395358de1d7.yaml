@@ -1,5 +1,5 @@
 fieldLayouts:
-  f15c0db3-6c78-4fd8-b8c3-2739c76fda5a:
+  c1ce739e-2d17-4740-9d12-7a76c405f956:
     tabs:
       -
         elements:
@@ -47,7 +47,16 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: dbb9d3a4-36d1-4a8d-bc0b-2727aba8216d
+            fieldUid: f4538164-c524-4b3c-801e-3dc5fae0248d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: deaaebef-1b42-4981-92f7-ffe84ea1a33b
             instructions: null
             label: null
             required: false
@@ -57,11 +66,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: gourmetBags
-hasTitleField: false
-name: 'Gourmet Bags'
-section: 32150c40-a74b-420c-97d9-45b1b6e28003
+handle: Bundles
+hasTitleField: true
+name: Bundles
+section: f5c59131-9836-4565-8ca8-84cd5e2f987e
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
-titleTranslationMethod: site
+titleTranslationMethod: none

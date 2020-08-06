@@ -15,6 +15,8 @@ settings:
   removeEmptyTags: '1'
   removeInlineStyles: '1'
   removeNbsp: '1'
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
 translationKeyFormat: null
 translationMethod: none
 type: craft\redactor\Field

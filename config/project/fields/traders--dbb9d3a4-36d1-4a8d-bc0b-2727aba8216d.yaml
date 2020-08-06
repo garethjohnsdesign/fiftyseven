@@ -5,14 +5,16 @@ instructions: ''
 name: Traders
 searchable: true
 settings:
+  allowSelfRelations: false
   limit: ''
-  localizeRelations: ''
+  localizeRelations: false
   selectionLabel: 'Add a trader'
+  showSiteMenu: true
   source: null
   sources:
     - 'section:11c123fc-7137-41fd-8d64-57a99e3852d7'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

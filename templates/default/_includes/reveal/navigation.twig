@@ -2,21 +2,19 @@
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
-    <ul class="vertical menu text-uppercase">
-        <li><a class="h3 sans-display" data-toggle="navigation"><svg class="icon icon-clearclose"><use xlink:href="/assets/icons/symbol-defs.svg#icon-clearclose"></use></svg></a></li>
-        <li><a href="/tickets" class="h3 sans-display" data-toggle="navigation">Tickets</a></li>
-        <li><a href="/shows" class="h3 sans-display" data-toggle="navigation">Line-up</a></li>
-        <li><a href="/tickets" class="h3 sans-display" data-toggle="navigation">Shows</a></li>
-        <li><a href="/about" class="h3 sans-display" data-toggle="navigation">About</a></li>
-        <li><a href="/event" class="h3 sans-display" data-toggle="navigation">Event</a></li>  
-        <li><a href="/location" class="h3 sans-display" data-toggle="navigation">Location</a></li>  
-        <li><a href="/gourmet-bags" class="h3 sans-display" data-toggle="navigation">Gourmet Bags</a></li>
-{#         <li><a href="/food-and-drink" class="h3 sans-display" data-toggle="navigation">Food + Drink</a></li> #}
-        <li><a href="/info" class="h3 sans-display" data-toggle="navigation">Info</a></li>
-        <li><a href="/safety" class="h3 sans-display" data-toggle="navigation">Safety</a></li>
-        <li><a href="/contact" class="h3 sans-display" data-toggle="navigation">Contact</a></li>  
+    <ul class="vertical menu text-uppercase h3 sans-display">
+        <li><a data-toggle="navigation"><svg class="icon icon-clearclose"><use xlink:href="/assets/icons/symbol-defs.svg#icon-clearclose"></use></svg></a></li>
+        <li><a href="/tickets" data-toggle="navigation">Tickets</a></li>
+        <li><a href="/shows" data-toggle="navigation">Line-up</a></li>
+        <li><a href="/tickets" data-toggle="navigation">Shows</a></li>
+        <li><a href="/about" data-toggle="navigation">About the Event</a></li>
+        <li><a href="/location" data-toggle="navigation">Location</a></li>  
+        <li><a href="/drinks-and-snacks" data-toggle="navigation">Drinks + Snacks</a></li>
+        <li><a href="/info" data-toggle="navigation">Info + Safety</a></li>
+        <li><a href="/contact" data-toggle="navigation">Contact</a></li>  
     </ul>
 
+{#
     <div class="shrink cell text-center">
      <ul class="menu align-center">
       {% for block in event.socials.all() %}
@@ -36,6 +34,7 @@
       {% endfor %}
       </ul>
     </div>
+#}
 
     </div>
   </div>

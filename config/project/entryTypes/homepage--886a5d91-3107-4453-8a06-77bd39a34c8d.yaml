@@ -65,6 +65,15 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: ddc0faab-9f89-495a-a11c-41966c6122a8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 831f29a6-b317-487d-bd8f-3019c1ff43cd
             instructions: null
             label: null

@@ -3,7 +3,7 @@
 
     {% case "copy" %}    
     {% if matrixBlock.position == 'full' %}
-    <div class="grid-x grid-padding-x grid-padding-y {% if matrixBlock.background %}{{ matrixBlock.background.value }}-background-color{% endif %}">
+    <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 cell">
 
         <div class="grid-container">
@@ -11,11 +11,6 @@
               <div class="small-12 cell">
         
                 {{ matrixBlock.copy | markdown }}
-                {% if matrixBlock.page %}
-                  {% for link in matrixBlock.page %}
-                    <a href="{{ link.url }}">More <svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a>
-                  {% endfor %}
-                {% endif %}
         
               </div>
             </div>
@@ -24,81 +19,20 @@
       </div>
     </div>
     {% elseif matrixBlock.position in ['left', 'right', 'center'] %}
-    <div class="grid-x grid-padding-x grid-padding-y {% if matrixBlock.background %}{{ matrixBlock.background.value }}-background-color{% endif %}">
+    <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 cell">
   
-      <div class="grid-container">
-        <div class="grid-x align-{{ matrixBlock.position }}">
-          <div class="small-12 medium-8 cell text-{{ matrixBlock.position }}">
-            {{ matrixBlock.copy | markdown }}
-            {% if matrixBlock.page %}
-              {% for link in matrixBlock.page.all() %}
-                <a href="{{ link.url }}" class="button">More <svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a>
-              {% endfor %}
-            {% endif %}
+        <div class="grid-container">
+          <div class="grid-x align-{{ matrixBlock.position }}">
+            <div class="small-12 medium-8 cell text-{{ matrixBlock.position }}">
+              {{ matrixBlock.copy | markdown }}
+            </div>
           </div>
         </div>
-      </div>
 
-    </div>
-    </div>
-    {% endif %}
-
-    {% case "product" %}
-    <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y">
-      {% set products = matrixBlock.product.all() %}
-      {% for product in products %}
-      <div class="small-12 medium-4 cell">
-
-  {% set image = product.productImage.one() %}
-  <div class="image--default align-center-middle margin-bottom-2" {% if image %}data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-6" %}"{% endif %}></div>
-
-        <h3>{{ product.title }}</h3>
-
-      </div>
-      {% endfor %}
-    </div>
-   </div>
-
-    
-    {% case "heading" %}    
-    {% if matrixBlock.position == 'full' %}
-    <div class="grid-x grid-padding-y">
-      <div class="small-12 cell">
-        {{ matrixBlock.heading | markdown }}
-      </div>
-    </div>
-    {% elseif matrixBlock.position in ['left', 'right', 'center'] %}
-    <div class="grid-x grid-padding-y align-{{ matrixBlock.position }}" data-aos="fade-in">
-      <div class="small-12 medium-9 cell">
-        {{ matrixBlock.heading | markdown }}
       </div>
     </div>
     {% endif %}
-
-    {% case "quote" %}    
-    {% if matrixBlock.position == 'full' %}
-    <div class="grid-x grid-padding-y">
-      <div class="small-12 cell">
-        <blockquote>
-          <h3>{{ matrixBlock.quote| markdown }}</h3>
-          <cite>{{ matrixBlock.cite| markdown }}</cite>
-        </blockquote>
-
-      </div>
-    </div>
-    {% elseif matrixBlock.position in ['left', 'right', 'center'] %}
-    <div class="grid-x grid-padding-y align-{{ matrixBlock.position }}" data-aos="fade-in">
-      <div class="small-12 medium-9 cell">
-        <blockquote>
-          <h3>{{ matrixBlock.quote| markdown }}</h3>
-          <cite>{{ matrixBlock.cite| markdown }}</cite>
-        </blockquote>
-      </div>
-    </div>
-    {% endif %}
-    
     
     {% case "image" %}
     {% if matrixBlock.position == 'full' %}
@@ -106,11 +40,11 @@
       <div class="small-12 {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}medium-6{% endif %} cell">
       {% set image = matrixBlock.image.one() %}
       <div class="image--{{ matrixBlock.aspectRatio.label | kebab }}" 
-        {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
-        {% elseif matrixBlock.aspectRatio.label | kebab == 'default' %}data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"
-        {% elseif matrixBlock.aspectRatio.label | kebab == 'square' %}data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}"
-        {% elseif matrixBlock.aspectRatio.label | kebab == 'panorama' %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}"
-        {% else %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
+        {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
+        {% elseif matrixBlock.aspectRatio.label | kebab == 'default' %}data-interchange="{% include "default/_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"
+        {% elseif matrixBlock.aspectRatio.label | kebab == 'square' %}data-interchange="{% include "default/_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}"
+        {% elseif matrixBlock.aspectRatio.label | kebab == 'panorama' %}data-interchange="{% include "default/_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}"
+        {% else %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
         {% endif %}>
       </div>
        {% if matrixBlock.caption %}<div class="caption">{{ matrixBlock.caption }}</div>{% endif %}
@@ -121,11 +55,11 @@
       <div class="small-12 {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}medium-6{% else %}medium-10{% endif %} cell">
       {% set image = matrixBlock.image.one() %}
       <div class="image--{{ matrixBlock.aspectRatio.label | kebab }}" 
-        {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
-        {% elseif matrixBlock.aspectRatio.label | kebab == 'default' %}data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"
-        {% elseif matrixBlock.aspectRatio.label | kebab == 'square' %}data-interchange="{% include "_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}"
-        {% elseif matrixBlock.aspectRatio.label | kebab == 'panorama' %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}"
-        {% else %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
+        {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
+        {% elseif matrixBlock.aspectRatio.label | kebab == 'default' %}data-interchange="{% include "default/_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"
+        {% elseif matrixBlock.aspectRatio.label | kebab == 'square' %}data-interchange="{% include "default/_includes/images/contained/1-1/interchange-img-small-12-medium-12" %}"
+        {% elseif matrixBlock.aspectRatio.label | kebab == 'panorama' %}data-interchange="{% include "default/_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}"
+        {% else %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"
         {% endif %}>
       </div>
       {% if matrixBlock.caption %}<div class="caption">{{ matrixBlock.caption }}</div>{% endif %}
@@ -142,7 +76,7 @@
         <div class="grid-x grid-padding-y align-center">
           <div class="small-12 medium-10 cell align-self-middle">
             {% set image = matrixBlock.images[0] %}
-            <div class="image--portrait" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+            <div class="image--portrait" {% if image %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
             {% if image.caption %}<div class="caption">{{image.caption}}</div>{% endif %}
           </div>
         </div>
@@ -154,7 +88,7 @@
         <div class="grid-x grid-padding-y align-center">
           <div class="small-12 medium-8 cell align-self-middle">
             {% set image = matrixBlock.images[1] %}
-            <div class="image--portrait" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+            <div class="image--portrait" {% if image %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
             {% if image.caption %}<div class="caption">{{image.caption}}</div>{% endif %}
           </div>
         </div>   
@@ -168,7 +102,7 @@
         <div class="grid-x grid-padding-y align-center">
           <div class="small-12 medium-12 cell align-self-middle">
             {% set image = matrixBlock.images[0] %}
-            <div class="image--portrait" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+            <div class="image--portrait" {% if image %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
             {% if image.caption %}<div class="caption">{{image.caption}}</div>{% endif %}
           </div>
         </div>
@@ -180,7 +114,7 @@
         <div class="grid-x grid-padding-y align-center">
           <div class="small-12 medium-12 cell align-self-middle">
             {% set image = matrixBlock.images[1] %}
-            <div class="image--portrait" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+            <div class="image--portrait" {% if image %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
             {% if image.caption %}<div class="caption">{{image.caption}}</div>{% endif %}
           </div>
         </div>   
@@ -194,7 +128,7 @@
         <div class="grid-x grid-padding-y align-center" data-aos="fade-in">
           <div class="small-12 medium-8 cell align-self-middle">
             {% set image = matrixBlock.images[0] %}
-            <div class="image--portrait" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+            <div class="image--portrait" {% if image %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
             {% if image.caption %}<div class="caption">{{image.caption}}</div>{% endif %}
           </div>
         </div>
@@ -206,7 +140,7 @@
         <div class="grid-x grid-padding-y align-center">
           <div class="small-12 medium-10 cell align-self-middle">
             {% set image = matrixBlock.images[1] %}
-            <div class="image--portrait" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+            <div class="image--portrait" {% if image %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
             {% if image.caption %}<div class="caption">{{image.caption}}</div>{% endif %}
           </div>
         </div>   
@@ -215,77 +149,8 @@
     </div>
     {% endif %}
   
-    {% case "menu" %}
-    <div class="grid-x grid-padding-y align-center">
-      <div class="small-12 medium-10 cell">
     
-      <div class="text-center">
-      <h3>{{ matrixBlock.course}}</h3>
-      {% for product in matrixBlock.products.all() %}
-        <p>{{ product.title }}</p>
-      {% endfor %}
-      </div>
 
-      </div>
-    </div>
-    
-    {% case "video" %}
-    <div class="grid-x grid-padding-y align-center" data-aos="fade-in">
-      <div class="small-12 medium-10 cell">
-
-      {% set image = matrixBlock.image.one() %}
-      <div class="image--panorama" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}"{% endif %}>
-        <div class="grid-y height-100 align-center content">
-            <div class="shrink cell text-center text-lowercase padding-2" id="video-gallery">
-              <a href="{{ matrixBlock.embed }}">
-                <h1 class="white"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></h1>
-                <div class="white sans-bold text-uppercase tiny">Play Video</div>
-              </a>
-            </div>
-        </div>
-      </div>
-    
-      <div class="margin-top-1 text-center">
-      {% if matrixBlock.header %}
-      <h4>{{ matrixBlock.header }}</h4>
-      {% endif %}
-      {% if matrixBlock.subheader %}
-      <p>{{ matrixBlock.subheader }}</p>
-      {% endif %}
-      </div>
-
-      </div>
-    </div>
-
-    {% case "carousel" %}
-
-    <div class="grid-x grid-padding-y" data-aos="fade-in">
-      <div class="small-12 cell">
-      
-        <div class="swiper-container carousel--matrix">
-          <div class="swiper-wrapper padding-vertical-1">
-            {% for image in matrixBlock.images %}
-            <div class="swiper-slide">
-              <img data-interchange="[{{images.domain}}{{ image.filename }}?h=400&fit=crop&ch=dpr&cs=tinysrgb&dpr=2&format=compress}}, xxlarge-retina]">
-            </div>
-            {% endfor %}
-          </div>
-    
-          <!-- Carousel Navigation -->
-          <div class="grid-x grid-padding-x grid-padding-y align-justify">
-            <div class="shrink cell">
-              <ul class="menu">
-                <li class="test-prev menu-text"><svg class="icon icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></li>
-                <li class="test-next menu-text"><svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Carousel Navigation -->
-        </div>
-      
-      </div>
-    </div>
-    <!-- End Carousel -->
     
 {% endswitch %}
 {% endfor %}

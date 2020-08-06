@@ -7,22 +7,22 @@ siteSettings:
     enabledByDefault: true
     hasUrls: false
     template: null
-    uriFormat: ''
+    uriFormat: null
   5ea3bf2d-32a9-4d43-87c4-90b7c5344e02:
     enabledByDefault: true
     hasUrls: false
     template: null
-    uriFormat: ''
+    uriFormat: null
   686641b5-66fd-466f-869e-d61dcf15e5ef:
     enabledByDefault: true
     hasUrls: false
     template: null
-    uriFormat: ''
+    uriFormat: null
   da261e74-add5-49fb-88aa-0bf4cd89b508:
     enabledByDefault: true
     hasUrls: false
     template: null
-    uriFormat: ''
+    uriFormat: null
 structure:
   maxLevels: null
   uid: f98b4029-5552-468b-b722-76f5bbb744c2

@@ -5,15 +5,17 @@ instructions: ''
 name: 'Announcement Bar Link'
 searchable: true
 settings:
+  allowSelfRelations: false
   limit: '1'
-  localizeRelations: '1'
+  localizeRelations: true
   selectionLabel: ''
+  showSiteMenu: true
   source: null
   sources:
     - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
     - singles
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

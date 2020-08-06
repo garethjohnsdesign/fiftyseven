@@ -1,10 +1,6 @@
 enableVersioning: true
 handle: info
-name: Info
-previewTargets:
-  -
-    label: 'Primary entry page'
-    urlFormat: '{url}'
+name: 'Info and Safety'
 propagationMethod: all
 siteSettings:
   0c3138de-61c9-4e2d-8982-aa68a6127f5f:

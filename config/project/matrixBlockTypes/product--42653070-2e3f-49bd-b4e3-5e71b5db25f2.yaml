@@ -1,0 +1,96 @@
+field: f4538164-c524-4b3c-801e-3dc5fae0248d
+fieldLayouts:
+  9bb8fe12-008c-451d-bf9a-60741c9dbf29:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f0568a9c-e418-4d7a-a8f0-a6c5a7c584af
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 89fcc5d2-6895-4f56-91e9-ecee94c6b603
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3db07d07-5526-4a05-b2b3-9cc2e034d33f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  3db07d07-5526-4a05-b2b3-9cc2e034d33f:
+    contentColumnType: text
+    fieldGroup: null
+    handle: measure
+    instructions: ''
+    name: Measure
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  89fcc5d2-6895-4f56-91e9-ecee94c6b603:
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: ''
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f0568a9c-e418-4d7a-a8f0-a6c5a7c584af:
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: ''
+    name: Header
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: product
+name: Product
+sortOrder: 1

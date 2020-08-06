@@ -12,7 +12,11 @@
     {% set act = block.act.one() %}
     {% set show = block.show.one() %}
     <div class="swiper-slide small-12 cell text-center">
-      {% set image = act.image.one() %}
+    {% if block.image | length %}
+    {% set image = block.image.one() %}
+    {% else %}
+    {% set image = act.image.one() %}
+    {% endif %}
       <div class="image--panorama align-center-middle" data-interchange="{% include "default/_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
         
         <div class="grid-y height-100 align-center content">
@@ -93,38 +97,59 @@
 </div>
 <!-- End Acts -->
 
-<!-- Open Air Copy -->
+{% if event.isOpenAir %}
+<!-- Open Air -->
 <div class="grid-container">
 
-  <!-- Food Copy -->
+  <!-- Open Air Copy -->
   <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
     <div class="small-12 medium-10 large-9 cell text-center">
       <h2 class="sans-display text-uppercase">Open Air + Socially Distanced</h2>
       {{entry.openAirCopy}}
     </div>
   </div>
-  <!-- End Food Copy -->
+  <!-- End Open Air Copy -->
   
-  <!-- Traders -->
+  <!-- Highlights -->
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-  {% for block in entry.featuredTraders.all() %}
-  {% set trader = block.trader.one() %}
-    <div class="{{ block.width.value }} cell">
-      <a href="food-and-drink">
-        {% set image = trader.image.one() %}
-        {% set title = trader %}
-        {% include "default/_includes/blocks/excerpt" %}
-      </a>
+  {% for highlight in entry.highlights.all() %}
+  <div class="{{ highlight.width.value }} cell">
+
+    {% set rel = highlight.internalLink.one() %}
+    {% if rel %}
+    <a href="{{ rel.url }}">
+    {% endif %}
+    {% set image = highlight.image.one() %}
+    <div class="image--landscape excerpt excerpt--bundle text-center" data-interchange="{% include "default/_includes/images/full/7-5/interchange-img-small-12-medium-4" %}">
+    
+      <div class="content grid-y align-center excerpt__title">
+        <div class="shrink cell padding-1 h2 margin-bottom-0 sans-display white text-uppercase">
+          {{highlight.header}}
+
+
+        </div>
+      </div>
+    
+      <div class="content grid-y align-center excerpt__hover">
+        <div class="shrink cell padding-1 h2 sans-display white">
+          <svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg>
+        </div>
+      </div>
+    
     </div>
+    </a>
+
+  </div>
   {% endfor %}
   </div>
-  <!-- End Traders -->
+  <!-- End Highlights -->
 
 </div>
-<!-- End Open Air Copy -->
+<!-- End Open Air -->
+{% endif %}
 
+{% if event.hasTraders %}
 <!-- Food and Drink -->
-{#
 <div class="grid-container">
 
   <!-- Food Copy -->
@@ -152,7 +177,7 @@
   <!-- End Traders -->
 
 </div>
-#}
 <!-- End Food and Drink -->
+{% endif %}
 
 {% endblock %}

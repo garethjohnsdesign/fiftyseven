@@ -3,13 +3,25 @@ fieldLayouts:
   ea993c2f-e595-4938-a979-1394b7c0a299:
     tabs:
       -
-        fields:
-          08baf8a4-1fad-4503-85a9-d12c8b4ae4a9:
-            required: true
-            sortOrder: 2
-          4b250d3f-cc12-4b8c-a300-d1f7bb66efe4:
-            required: true
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: 4b250d3f-cc12-4b8c-a300-d1f7bb66efe4
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 08baf8a4-1fad-4503-85a9-d12c8b4ae4a9
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -31,6 +43,8 @@ fields:
       removeEmptyTags: '1'
       removeInlineStyles: '1'
       removeNbsp: '1'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -42,12 +56,14 @@ fields:
     name: Header
     searchable: true
     settings:
-      charLimit: ''
+      byteLimit: null
+      charLimit: null
       code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText

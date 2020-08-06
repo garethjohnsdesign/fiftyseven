@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73425f85edc290e6f48e33f95e2e0aac",
+    "content-hash": "e39d5b060f2bf1a5f6ad9d74c5cbf5ae",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -632,11 +632,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/c6671af5af9e45f57ca9ab50d4b30b07282819d3",
-                "reference": "c6671af5af9e45f57ca9ab50d4b30b07282819d3",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/19ff89bd870bab917e4d196bc943daac6a3fdb47",
+                "reference": "19ff89bd870bab917e4d196bc943daac6a3fdb47",
                 "shasum": ""
             },
             "require": {
@@ -713,10 +713,10 @@
                 "issues": "https://github.com/craftcms/cms/issues?state=open",
                 "forum": "https://craftcms.stackexchange.com/",
                 "source": "https://github.com/craftcms/cms",
-                "docs": "https://docs.craftcms.com/v3/",
+                "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2020-08-04T17:35:06+00:00"
+            "time": "2020-08-05T20:47:10+00:00"
         },
         {
             "name": "craftcms/contact-form",

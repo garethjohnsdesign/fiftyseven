@@ -3,16 +3,34 @@ fieldLayouts:
   465ee20e-32ad-4a20-bc8a-bce8c8bbcfe7:
     tabs:
       -
-        fields:
-          125af6ab-e4a8-4076-a55d-70801cd4a12d:
-            required: false
-            sortOrder: 3
-          9b6f7c27-048d-4f10-a113-26e43faf3773:
-            required: true
-            sortOrder: 2
-          b9a047e2-14a3-4144-99ac-a52b38cfccba:
-            required: true
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: b9a047e2-14a3-4144-99ac-a52b38cfccba
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9b6f7c27-048d-4f10-a113-26e43faf3773
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 125af6ab-e4a8-4076-a55d-70801cd4a12d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -103,14 +121,16 @@ fields:
     name: Show
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: '1'
-      localizeRelations: ''
+      localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources:
         - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site
@@ -123,14 +143,16 @@ fields:
     name: Act
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: '1'
-      localizeRelations: ''
+      localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources:
         - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site

@@ -2,16 +2,34 @@ fieldLayouts:
   703860c0-f7ed-4829-9229-1b0fa0d4af57:
     tabs:
       -
-        fields:
-          268bf294-ebb7-4cc3-80f4-651651231b1e:
-            required: false
-            sortOrder: 3
-          4e9c5bae-5858-417b-860f-874ab10b10ed:
-            required: false
-            sortOrder: 1
-          7ac204ff-6503-4513-a3d6-01a26c23cad6:
-            required: false
-            sortOrder: 2
+        elements:
+          -
+            fieldUid: 4e9c5bae-5858-417b-860f-874ab10b10ed
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7ac204ff-6503-4513-a3d6-01a26c23cad6
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 268bf294-ebb7-4cc3-80f4-651651231b1e
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Tab 1'
         sortOrder: 1
 handle: announcementBar

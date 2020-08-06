@@ -23,6 +23,8 @@ settings:
   minZoom: '3'
   showCurrentLocation: ''
   showLatLng: ''
+  showW3WField: false
+  showW3WGrid: false
   size: normal
   typeRestriction: null
   zoom: 17

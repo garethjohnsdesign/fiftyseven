@@ -1,5 +1,5 @@
 fieldLayouts:
-  8c89a3a9-6b6e-4863-96a4-e0fcac623b34:
+  f15c0db3-6c78-4fd8-b8c3-2739c76fda5a:
     tabs:
       -
         elements:
@@ -29,7 +29,25 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 63463bf5-9042-49a0-aeeb-987eb9b37b7a
             instructions: null
             label: null
             required: false
@@ -39,10 +57,10 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: safety
+handle: drinksAndSnacks
 hasTitleField: false
-name: Safety
-section: 046091b4-f8af-4f9f-9463-8c75b5be9eef
+name: 'Drinks and Snacks'
+section: 32150c40-a74b-420c-97d9-45b1b6e28003
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

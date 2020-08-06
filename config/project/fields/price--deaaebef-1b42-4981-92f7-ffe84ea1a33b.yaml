@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3a0a7e49-63bf-423e-953e-a601e8639af6
+handle: price
+instructions: ''
+name: Price
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

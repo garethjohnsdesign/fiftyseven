@@ -1,8 +1,41 @@
+fieldLayouts:
+  fe0f6387-d57a-46e0-a0fe-2222dcec1a5f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
 handle: uploads
 hasUrls: true
 name: Uploads
 settings:
   bucket: fifty-seven-festivals
+  bucketSelectionMode: choose
   expires: ''
   keyFileContents: "{\r\n  \"type\": \"service_account\",\r\n  \"project_id\": \"fifty-seven-festivals\",\r\n  \"private_key_id\": \"b312267c91e35f1fe2a3f6fd301d903435b9d03c\",\r\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgqqZTS6GlYKq0\\nVPShi1m8+Xq0x75zOHxGh3NdXx00yLE+IhhONe405Fa2IjPxzpbNqy1nddmEdExN\\nMJSwpc0meH83TYfCPllATyqFULtpJ6tyzhsJJ3s4VUCl1uFXgRG59CWCLpvfy2y9\\n5lII60X3IEgCmlQO2S+t7KPxG5TuSD9x3nlom4ywz+P5uMaBGao+II0XFxTHe22m\\nj4oX3FIrDqnpeYHNKNBVLamm6JXYiy6yyJC+1w8DkwEsRw8Hj4Ec0g6A0B8sdbeF\\nT44MQb7hkVpTDexYuJevYNk2ESJq1QbSzwg7TYpzwK0ovMOrQYsBw0v1Uzy7FeC/\\n8uT3u6HjAgMBAAECggEAGHwZL915S24xZZ0C0PGfIeT1NcKw+/cyPT9cLfEWTtp8\\n5GamxJiEbkwUCNqqhuHAaqR5HWjA1uYwUJ0kM814t7GqVX+7vjbpPBs0dC+q9+oD\\nP1I4nYsGRL39Rai7G65ASNHzu2Sl/ZOPRVtpyhEszu38+2SQhdjEYuGK1G4rIqrj\\nIQlraTGiK76BcM7jyY1UpM6+dTfnBT4pkL8SylCmzZHJGO1sk2tKKu9DxK3bde4F\\nCRxkBwN5E9k4Mo0bVGB4mlUf5ZKaBz97+kwrt6EGKyoLmcLrU1S6HkMS0mSuBpSR\\n69Pp/0g8kowJzfekFDDh7aBELPBKE3MrgkSiPT/RvQKBgQDScO/lUWb8vjyJVoUH\\nNkt+D4wcdx6UgotIcs86pQPsGTmi40TrT0SEFYqB+gG2NsLE0vn0IhN1dokY0Bh4\\n4hIx7qSmfCoJHwu4ozepGtrNRVrTCs9W45MSVx8uToQRg0wiGMDuOA8l++WCGwCE\\nrl6jXLkY7995RueHAZNHslkXnQKBgQDDcxvOu91J5fkR798114WxZqPWhqmjUT/k\\nOi5pbfbBv/LE5qOWWtSiavHDZDgPOSqL9iW0tXx0q8bXGlAKFKDzf+Y4Y4abfySh\\nKkuEULizznjRpU0TliI3NKygwUuQwBjuw6vbxeZ3KNRntjQMjFzYowxiE5OL/ibr\\nF3rIu7AnfwKBgBitP6RPYFlA4Y5lQ+ItnrqgjhiEa2SUzkpnlB9XXFdiOdz884b4\\nW5t1fzFwpKS+VSaJauAS4t9CUB9Fv6jlMacDSfFv2+oH5vL2yL8etAugF19qBBg3\\nRXbAGprugBQhplrVNkJ49mXI3QfdrLjiTZywcdAXyMfK5blyGNgudL4NAoGAEVqY\\nHnwJwvT7b39H52TyhvThGTwttcWSEbakxlGwNjXP3XHJFqGL/bvXKY0teRSPVYwO\\nfwQaP9W8uv6oGq0IOXaiv2D+47GfU/wIZoAwVi7ABYVS2alb8mDn7wIaroiP7itL\\niCEDPJNQgMDp0C9qUwXvJIoucKCpXfhgu5AGrQsCgYEAt88dnzBafTUwtZb5ZXLn\\nHJr2PiehkAXTGSYY8DZgI67cJwmzuYaW8snhXdR0QO6QKDVBgY1GeL037CVkp+py\\nY7vGDBCh/j9fOgTPK3PQK/5dRp4g89PER59vPScYJhrJgNDqF32eK1YUGmxuZNVT\\nbb1IfelEQPAYo0jDu6CNLzk=\\n-----END PRIVATE KEY-----\\n\",\r\n  \"client_email\": \"cloud-storage@fifty-seven-festivals.iam.gserviceaccount.com\",\r\n  \"client_id\": \"106411496861919026573\",\r\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\r\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\r\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\r\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-storage%40fifty-seven-festivals.iam.gserviceaccount.com\"\r\n}"
   projectId: fifty-seven-festivals

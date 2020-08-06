@@ -1,4 +1,4 @@
-baseUrl: $BASE_URL_GREENWICH
+baseUrl: 'https://greenwichcomedyfestival.test'
 enabled: true
 handle: greenwich
 hasUrls: true

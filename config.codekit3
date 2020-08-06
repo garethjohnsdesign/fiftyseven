@@ -113,6 +113,14 @@
 		"oAP": "/config/project/entryTypes/acts--09e7942d-49b3-415b-9c5c-af75ea8ebb9d.yaml",
 		"oF": 0
 		},
+	"/config/project/entryTypes/Bundles--a40cbd26-c464-44b3-9a85-6395358de1d7.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/Bundles--a40cbd26-c464-44b3-9a85-6395358de1d7.yaml",
+		"oF": 0
+		},
 	"/config/project/entryTypes/contact--7fa69e83-beef-490c-8c96-05ce9210d9ef.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -129,6 +137,14 @@
 		"oAP": "/config/project/entryTypes/cookiePolicy--e75977c3-81d5-4e38-9afc-9806ed23dcc1.yaml",
 		"oF": 0
 		},
+	"/config/project/entryTypes/drinksAndSnacks--5188712f-00c3-42df-a4d6-0c50c7b231e6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/entryTypes/drinksAndSnacks--5188712f-00c3-42df-a4d6-0c50c7b231e6.yaml",
+		"oF": 0
+		},
 	"/config/project/entryTypes/event--250f4fd3-9d4b-4662-adba-4dd1ee95f3c5.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -143,14 +159,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/entryTypes/foodAndDrink--91d1baa3-0f3c-46a3-8071-c22c97bddedb.yaml",
-		"oF": 0
-		},
-	"/config/project/entryTypes/gourmetBags--5188712f-00c3-42df-a4d6-0c50c7b231e6.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/project/entryTypes/gourmetBags--5188712f-00c3-42df-a4d6-0c50c7b231e6.yaml",
 		"oF": 0
 		},
 	"/config/project/entryTypes/homepage--886a5d91-3107-4453-8a06-77bd39a34c8d.yaml": {
@@ -177,28 +185,12 @@
 		"oAP": "/config/project/entryTypes/location--d5b62b47-273b-4ea1-bff3-533c136ff07d.yaml",
 		"oF": 0
 		},
-	"/config/project/entryTypes/news--9862bef4-f21d-4054-aa2a-90db9d081750.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/project/entryTypes/news--9862bef4-f21d-4054-aa2a-90db9d081750.yaml",
-		"oF": 0
-		},
 	"/config/project/entryTypes/privacyPolicy--3c300e91-61c4-473e-8d9d-2ca0e5097da1.yaml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/entryTypes/privacyPolicy--3c300e91-61c4-473e-8d9d-2ca0e5097da1.yaml",
-		"oF": 0
-		},
-	"/config/project/entryTypes/safety--82863334-ece6-47dc-b851-480dba899b5e.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/project/entryTypes/safety--82863334-ece6-47dc-b851-480dba899b5e.yaml",
 		"oF": 0
 		},
 	"/config/project/entryTypes/shows--c0d04779-9177-49f4-b893-eac68dc3a4a1.yaml": {
@@ -297,6 +289,14 @@
 		"oAP": "/config/project/fieldGroups/78f70f57-16dd-45e3-a8f3-14e659c0ca10.yaml",
 		"oF": 0
 		},
+	"/config/project/fieldGroups/935380eb-3541-4362-84aa-851fb2408156.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fieldGroups/935380eb-3541-4362-84aa-851fb2408156.yaml",
+		"oF": 0
+		},
 	"/config/project/fieldGroups/babec676-5bc2-4104-9562-f948eed0e575.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -367,6 +367,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/fields/aspectRatio--79d38564-7a13-45bc-a6cd-938d01444e49.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/bundles--63463bf5-9042-49a0-aeeb-987eb9b37b7a.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/bundles--63463bf5-9042-49a0-aeeb-987eb9b37b7a.yaml",
 		"oF": 0
 		},
 	"/config/project/fields/company--791d431c-e782-4040-b703-fa1d1c9b9d57.yaml": {
@@ -449,6 +457,14 @@
 		"oAP": "/config/project/fields/foodCopy--831f29a6-b317-487d-bd8f-3019c1ff43cd.yaml",
 		"oF": 0
 		},
+	"/config/project/fields/hasTraders--3704a3bd-badd-4b57-93fa-6545368f6962.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/hasTraders--3704a3bd-badd-4b57-93fa-6545368f6962.yaml",
+		"oF": 0
+		},
 	"/config/project/fields/header--e7eb70dd-1ed6-4369-ba66-f40951cece99.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -463,6 +479,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/fields/heroActs--d599a929-5831-43d4-b4ce-3285dc87da4d.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/highlights--ddc0faab-9f89-495a-a11c-41966c6122a8.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/highlights--ddc0faab-9f89-495a-a11c-41966c6122a8.yaml",
 		"oF": 0
 		},
 	"/config/project/fields/image--f2e7b889-f463-4dfa-9f10-8da7f7616b47.yaml": {
@@ -487,6 +511,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/fields/info--b466e6e9-4c8b-426a-91fe-f464370bb90f.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/isOpenAir--c9f865da-1867-40e4-a1e8-75f3cf538733.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/isOpenAir--c9f865da-1867-40e4-a1e8-75f3cf538733.yaml",
 		"oF": 0
 		},
 	"/config/project/fields/layout--b20240ab-6495-4623-b16d-6ac8c2e80970.yaml": {
@@ -543,6 +575,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/fields/previousSite--3bad206c-e807-43db-931f-74b0bcd415dc.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/price--deaaebef-1b42-4981-92f7-ffe84ea1a33b.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/price--deaaebef-1b42-4981-92f7-ffe84ea1a33b.yaml",
+		"oF": 0
+		},
+	"/config/project/fields/products--f4538164-c524-4b3c-801e-3dc5fae0248d.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/products--f4538164-c524-4b3c-801e-3dc5fae0248d.yaml",
 		"oF": 0
 		},
 	"/config/project/fields/registration--f9e21956-b8d0-4d88-b7c5-0387491b15e0.yaml": {
@@ -793,6 +841,30 @@
 		"oAP": "/config/project/matrixBlockTypes/facebook--0c89e123-e27b-45b4-bb7a-dc5073003eb1.yaml",
 		"oF": 0
 		},
+	"/config/project/matrixBlockTypes/highlight--db6ba100-7e86-44d3-973b-8b853baf07ed.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/highlight--db6ba100-7e86-44d3-973b-8b853baf07ed.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/image--4d8163b1-e233-4b83-9354-da2275ea043e.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/image--4d8163b1-e233-4b83-9354-da2275ea043e.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/images--1fc31153-0334-43ab-b838-d4edf18420b6.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/images--1fc31153-0334-43ab-b838-d4edf18420b6.yaml",
+		"oF": 0
+		},
 	"/config/project/matrixBlockTypes/info--8f8ec45d-44ba-408e-bf18-0430254c4d16.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -809,12 +881,12 @@
 		"oAP": "/config/project/matrixBlockTypes/instagram--067639eb-2bd3-431d-9925-d99ebd80ed02.yaml",
 		"oF": 0
 		},
-	"/config/project/matrixBlockTypes/quote--d4cf494f-b163-4e1d-8de0-bb99a1749db8.yaml": {
+	"/config/project/matrixBlockTypes/product--42653070-2e3f-49bd-b4e3-5e71b5db25f2.yaml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/config/project/matrixBlockTypes/quote--d4cf494f-b163-4e1d-8de0-bb99a1749db8.yaml",
+		"oAP": "/config/project/matrixBlockTypes/product--42653070-2e3f-49bd-b4e3-5e71b5db25f2.yaml",
 		"oF": 0
 		},
 	"/config/project/matrixBlockTypes/trader--559e608a-5bfd-4359-aa7d-719d51aea836.yaml": {
@@ -873,6 +945,14 @@
 		"oAP": "/config/project/sections/acts--26101bcb-f76c-45f2-89e2-3a7abda62d69.yaml",
 		"oF": 0
 		},
+	"/config/project/sections/bundles--f5c59131-9836-4565-8ca8-84cd5e2f987e.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/bundles--f5c59131-9836-4565-8ca8-84cd5e2f987e.yaml",
+		"oF": 0
+		},
 	"/config/project/sections/contact--729fc7e0-dc9c-435b-9d49-eefbee5b79c0.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -889,6 +969,14 @@
 		"oAP": "/config/project/sections/cookiePolicy--6f92b28c-ef6c-44eb-9780-53d52b1745b2.yaml",
 		"oF": 0
 		},
+	"/config/project/sections/drinksAndSnacks--32150c40-a74b-420c-97d9-45b1b6e28003.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/sections/drinksAndSnacks--32150c40-a74b-420c-97d9-45b1b6e28003.yaml",
+		"oF": 0
+		},
 	"/config/project/sections/event--7a1faf96-b3d7-4fd8-89cd-453fc1787802.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -903,14 +991,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/sections/foodAndDrink--09dfbb9e-dd73-439d-8854-798312bf7b34.yaml",
-		"oF": 0
-		},
-	"/config/project/sections/gourmetBags--32150c40-a74b-420c-97d9-45b1b6e28003.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/project/sections/gourmetBags--32150c40-a74b-420c-97d9-45b1b6e28003.yaml",
 		"oF": 0
 		},
 	"/config/project/sections/homepage--50a6f09a-4cde-48b1-bc9f-5d7cbd101143.yaml": {
@@ -937,28 +1017,12 @@
 		"oAP": "/config/project/sections/location--e9df79f9-d58f-4b00-8a78-29f6e4c25b90.yaml",
 		"oF": 0
 		},
-	"/config/project/sections/news--048ddc6c-82b2-4334-8cab-1de50c3fc8c7.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/project/sections/news--048ddc6c-82b2-4334-8cab-1de50c3fc8c7.yaml",
-		"oF": 0
-		},
 	"/config/project/sections/privacyPolicy--2041769b-09aa-462d-b766-f13b26feca3d.yaml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/sections/privacyPolicy--2041769b-09aa-462d-b766-f13b26feca3d.yaml",
-		"oF": 0
-		},
-	"/config/project/sections/safety--046091b4-f8af-4f9f-9463-8c75b5be9eef.yaml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/config/project/sections/safety--046091b4-f8af-4f9f-9463-8c75b5be9eef.yaml",
 		"oF": 0
 		},
 	"/config/project/sections/shows--3b5101c5-1de7-47b8-9ccc-3cb7ad88156f.yaml": {
@@ -1281,6 +1345,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/_includes/blocks/form.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/blocks/highlight.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/highlight.twig",
 		"oF": 0
 		},
 	"/templates/default/_includes/blocks/layout.twig": {
@@ -1715,6 +1787,14 @@
 		"oAP": "/templates/default/contact/index.twig",
 		"oF": 0
 		},
+	"/templates/default/drinks-and-snacks/drinks-and-snacks.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/drinks-and-snacks/drinks-and-snacks.twig",
+		"oF": 0
+		},
 	"/templates/default/error.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -1737,14 +1817,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/food-and-drink/index.twig",
-		"oF": 0
-		},
-	"/templates/default/gourmet-bags/index.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/gourmet-bags/index.twig",
 		"oF": 0
 		},
 	"/templates/default/holding/index.twig": {
@@ -1801,14 +1873,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/page/index.twig",
-		"oF": 0
-		},
-	"/templates/default/safety/safety.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/safety/safety.twig",
 		"oF": 0
 		},
 	"/templates/default/shows/entry.twig": {

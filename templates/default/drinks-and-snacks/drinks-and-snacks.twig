@@ -1,0 +1,59 @@
+{% set bodyClass = 'drinks-and-snacks' %}
+
+{% extends "default/_layouts/site" %}
+
+{% block main %}
+
+<!-- Copy -->
+<div class="grid-container padding-vertical-2">
+  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      {{entry.copy}}
+    </div>
+  </div>
+</div>
+<!-- End Copy -->
+
+<!-- Bundles -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+  {% for bundle in entry.bundles.all() %}
+    <div class="small-12 medium-6 large-6 cell">
+
+        <div class="grid-x grid-padding-x grid-padding-y text-center">
+          <div class="small-12 cell">
+            {% set image = bundle.image.one() %}
+            <div class="image--landscape excerpt--bundle margin-bottom-1" data-interchange="{% include "default/_includes/images/contained/1-1/interchange-img-small-12-medium-6" %}">
+
+            <div class="content grid-y align-center excerpt__title">
+              <div class="shrink cell padding-1 h2 margin-bottom-0 text-uppercase sans-display white text-center">
+              <div>{{bundle.title}}</div>
+              <div>{{bundle.price}}</div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 cell">
+          {% set products = bundle.products.all() %}
+          {% if products|length %}
+                  {% for product in products %}
+                  <div class="margin-bottom-1">
+                      <h3 class="sans-display text-uppercase margin-bottom-0">{{product.header}}</h3>
+                      {{product.description}}
+                      <small>{{product.measure}}</small>
+                  </div>
+                  {% endfor %}
+          {% endif %}
+        </div>
+        </div>
+
+    </div>
+  {% endfor %}
+  </div>
+</div>
+<!-- End Traders -->
+
+{% endblock %}

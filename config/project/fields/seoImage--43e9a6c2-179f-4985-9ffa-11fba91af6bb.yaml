@@ -5,21 +5,25 @@ instructions: ''
 name: 'SEO Image'
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds:
     - image
   defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
   defaultUploadLocationSubpath: ''
   limit: '1'
-  localizeRelations: ''
+  localizeRelations: false
   restrictFiles: '1'
   selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: '1'
-  validateRelatedElements: ''
+  useSingleFolder: true
+  validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null
 translationMethod: site

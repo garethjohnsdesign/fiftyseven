@@ -3,16 +3,43 @@ fieldLayouts:
   0f137500-1e86-4cf1-bec6-43a5e557d1fb:
     tabs:
       -
-        fields:
-          068b0dfd-cef5-4246-86d6-cf9db47ecf48:
-            required: true
-            sortOrder: 1
-          2ca5d614-639e-4f2a-9a40-5b08b558687f:
-            required: true
-            sortOrder: 2
-          a088ecfa-6324-4dc4-acab-89a0e680944a:
+        elements:
+          -
+            fieldUid: ae630aef-bef9-4b39-a3e6-25103f265679
+            instructions: null
+            label: null
             required: false
-            sortOrder: 3
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 068b0dfd-cef5-4246-86d6-cf9db47ecf48
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2ca5d614-639e-4f2a-9a40-5b08b558687f
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a088ecfa-6324-4dc4-acab-89a0e680944a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -24,14 +51,16 @@ fields:
     name: Act
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: '1'
-      localizeRelations: ''
+      localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources:
         - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site
@@ -44,14 +73,16 @@ fields:
     name: Show
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: '1'
-      localizeRelations: ''
+      localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources:
         - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site
@@ -64,15 +95,47 @@ fields:
     name: Quote
     searchable: true
     settings:
-      charLimit: ''
+      byteLimit: null
+      charLimit: null
       code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  ae630aef-bef9-4b39-a3e6-25103f265679:
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: 'Override Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
 handle: act
 name: Act
 sortOrder: 1

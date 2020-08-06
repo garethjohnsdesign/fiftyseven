@@ -303,7 +303,7 @@ p a {
   @include padding(1.5, 2, 1, 2);
   }
 */
-  @include links ($primary-color, $primary-color)
+  @include links ($primary-color, $primary-color);
   a {
     font-family: $sans-bold;
   }
@@ -447,6 +447,11 @@ color: $secondary-color;
 // 9. Illustrations
 // ----------------
 
+.excerpt--bundle .content {
+  background-color: rgba($primary-color, 0.1);
+}
+
+
 .excerpt {
   .content:hover {
   background-color: rgba($primary-color, 0.2);
@@ -460,6 +465,8 @@ color: $secondary-color;
   transition: $primary-transition;
   } 
 }
+
+
 
 .excerpt__title {
   z-index: 1;
@@ -759,4 +766,9 @@ width: 40%;
 
 .navigation__banner {
   @include links($white, $secondary-color)
+}
+
+h2 {
+ font-family: $sans-display;
+ text-transform: uppercase;
 }

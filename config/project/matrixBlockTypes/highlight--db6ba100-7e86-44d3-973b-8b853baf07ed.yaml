@@ -1,0 +1,199 @@
+field: ddc0faab-9f89-495a-a11c-41966c6122a8
+fieldLayouts:
+  da2e3744-3362-41ed-87c8-a78d2c61f1d1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0245e57e-73da-4d48-b63e-7e8a2a57a995
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c01f05b3-e966-4814-a7ea-5b4e6a7f474a
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7e8c63c2-2e18-4f8d-91e4-f7774677bab1
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 856b7242-15d4-457d-b3ee-717875e00648
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0245e57e-73da-4d48-b63e-7e8a2a57a995:
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: ''
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7e8c63c2-2e18-4f8d-91e4-f7774677bab1:
+    contentColumnType: string
+    fieldGroup: null
+    handle: width
+    instructions: ''
+    name: Width
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 1/6
+            -
+              - value
+              - 'small-12 medium-2'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/3
+            -
+              - value
+              - 'small-12 medium-4'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/2
+            -
+              - value
+              - 'small-12 medium-6'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 2/3
+            -
+              - value
+              - 'small-12 medium-8'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 5/6
+            -
+              - value
+              - 'small-12 medium-10'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 1/1
+            -
+              - value
+              - 'small-12 medium-12'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  856b7242-15d4-457d-b3ee-717875e00648:
+    contentColumnType: string
+    fieldGroup: null
+    handle: internalLink
+    instructions: ''
+    name: 'Internal Link'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'Add a link'
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
+        - singles
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  c01f05b3-e966-4814-a7ea-5b4e6a7f474a:
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: highlight
+name: Highlight
+sortOrder: 1

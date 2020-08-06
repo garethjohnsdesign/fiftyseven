@@ -1,4 +1,4 @@
-baseUrl: $BASE_URL_BRIGHTON
+baseUrl: 'https://brightoncomedygarden.test'
 enabled: false
 handle: brighton
 hasUrls: true

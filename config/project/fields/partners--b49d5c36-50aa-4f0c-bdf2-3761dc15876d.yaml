@@ -5,20 +5,24 @@ instructions: ''
 name: Partners
 searchable: false
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
   defaultUploadLocationSubpath: ''
   limit: ''
-  localizeRelations: '1'
+  localizeRelations: true
   restrictFiles: ''
   selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088'
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: ''
-  validateRelatedElements: ''
+  useSingleFolder: false
+  validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site

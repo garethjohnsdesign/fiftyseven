@@ -2,16 +2,34 @@ fieldLayouts:
   eaed64b3-c848-42d8-a17e-1d0e33f658f6:
     tabs:
       -
-        fields:
-          791d431c-e782-4040-b703-fa1d1c9b9d57:
-            required: false
-            sortOrder: 1
-          b98e4070-1198-44ee-a715-f62bffc2accd:
-            required: false
-            sortOrder: 2
-          f9e21956-b8d0-4d88-b7c5-0387491b15e0:
-            required: false
-            sortOrder: 3
+        elements:
+          -
+            fieldUid: 791d431c-e782-4040-b703-fa1d1c9b9d57
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b98e4070-1198-44ee-a715-f62bffc2accd
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f9e21956-b8d0-4d88-b7c5-0387491b15e0
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Tab 1'
         sortOrder: 1
 handle: company

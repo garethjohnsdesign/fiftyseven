@@ -3,10 +3,16 @@ fieldLayouts:
   620a7276-c701-459f-b669-a245df921d2a:
     tabs:
       -
-        fields:
-          eea4a67d-6903-474b-9823-a19906a0e71c:
-            required: true
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: eea4a67d-6903-474b-9823-a19906a0e71c
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:

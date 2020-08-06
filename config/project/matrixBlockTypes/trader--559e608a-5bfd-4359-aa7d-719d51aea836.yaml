@@ -3,13 +3,25 @@ fieldLayouts:
   fc3257ad-5fcc-4eb2-a2c2-5a31470c7166:
     tabs:
       -
-        fields:
-          6b48c260-ec88-415c-a4cb-abd3a3cb71f2:
-            required: true
-            sortOrder: 1
-          c406bfc5-ee4e-4712-ae2f-3ba295134b71:
-            required: false
-            sortOrder: 2
+        elements:
+          -
+            fieldUid: 6b48c260-ec88-415c-a4cb-abd3a3cb71f2
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c406bfc5-ee4e-4712-ae2f-3ba295134b71
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -21,14 +33,16 @@ fields:
     name: Trader
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: '1'
-      localizeRelations: ''
+      localizeRelations: false
       selectionLabel: 'Add a trader'
+      showSiteMenu: true
       source: null
       sources:
         - 'section:11c123fc-7137-41fd-8d64-57a99e3852d7'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site

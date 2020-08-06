@@ -108,7 +108,7 @@
     
     <!-- Right -->
     <div class="small-11 medium-3 cell text-center medium-text-left">
-        <h4 class="sans-display margin-bottom-0 text-uppercase">Festival Opens</h4>
+        <h4 class="sans-display margin-bottom-0 text-uppercase">{% if event.isOpenAir %}Gates Open{% else %}Festival Opens{% endif %}</h4>
         <div class="margin-bottom-1">{{ entry.festivalStart |date('g:iA') }}</div>
         <h4 class="sans-display margin-bottom-0 text-uppercase">Show Starts</h4>
         <div class="margin-bottom-1">{{ entry.showStart |date('g:iA') }}</div>
