@@ -115,11 +115,11 @@
         <h4 class="sans-display margin-bottom-0 text-uppercase">Tickets</h4>
         <div class="margin-bottom-1">{{ entry.ticketPrice}}</div>
         
-        {% if entry.soldOut %}
-        <a class="button large">Sold Out</a>
-        {% else %}
-        <a class="button large" href="{{ entry.ticketLink}}" target="_blank">Buy Tickets</a>
-        {% endif %}
+      {% if entry.soldOut %}
+      <a class="button expanded">Sold Out</a>
+      {% else %}
+      <a class="button expanded" data-open="reveal{{entry.id}}">Buy Now</a>
+      {% endif %} 
         
     </div>
     <!-- End Right -->
@@ -166,5 +166,29 @@
   
   </div>
 </div>
+
+
+<!-- Reveal -->
+<div class="reveal" id="reveal{{entry.id}}" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+
+  <button class="close-button" aria-label="Close alert" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+
+  <div class="grid-x align-center-middle" style="min-height: 100%">
+    <div class="small-12 cell padding-vertical-3">
+
+      <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
+        <div class="small-8 cell text-center">
+        {{event.bundleCopy}}
+        <a class="button expanded" href="{{entry.ticketLink}}" target="_blank">Continue</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- End Reveal -->
 
 {% endblock %}

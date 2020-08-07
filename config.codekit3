@@ -369,6 +369,14 @@
 		"oAP": "/config/project/fields/aspectRatio--79d38564-7a13-45bc-a6cd-938d01444e49.yaml",
 		"oF": 0
 		},
+	"/config/project/fields/bundleCopy--258599a4-541e-4256-b4a3-b1e884db22ed.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/fields/bundleCopy--258599a4-541e-4256-b4a3-b1e884db22ed.yaml",
+		"oF": 0
+		},
 	"/config/project/fields/bundles--63463bf5-9042-49a0-aeeb-987eb9b37b7a.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -887,6 +895,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config/project/matrixBlockTypes/product--42653070-2e3f-49bd-b4e3-5e71b5db25f2.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/quote--a08b139c-036e-4aef-9ef8-0c6f8c0884b2.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/quote--a08b139c-036e-4aef-9ef8-0c6f8c0884b2.yaml",
+		"oF": 0
+		},
+	"/config/project/matrixBlockTypes/quote--ac3bc4b5-c4fe-4e56-bf0d-ce0420b5caf5.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/project/matrixBlockTypes/quote--ac3bc4b5-c4fe-4e56-bf0d-ce0420b5caf5.yaml",
 		"oF": 0
 		},
 	"/config/project/matrixBlockTypes/trader--559e608a-5bfd-4359-aa7d-719d51aea836.yaml": {

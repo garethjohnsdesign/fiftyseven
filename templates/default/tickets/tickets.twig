@@ -22,7 +22,6 @@
 <div class="grid-container">
 
 {% for show in shows %}
-
 <!-- Panel -->
   <div class="grid-x grid-margin-x grid-margin-y">
   <div class="small-12 cell padding-top-1">
@@ -35,17 +34,9 @@
     <div class="grid-y align-justify" style="height: 100%">
       
       <div class="shrink cell">
-      <h3 class="show-for-small-only sans-display">{{ show.date |date('l j F') }}</h3>
+      <h3 class="show-for-small-only sans-display text-uppercase">{{ show.date |date('l j F') }}</h3>
       <h3>{{ show.showStart |date('g:iA') }}</h3>
       <a href="{{ show.url }}"><svg class="icon icon-eye"><use xlink:href="/assets/icons/symbol-defs.svg#icon-eye"></use></svg></a>
-      </div>
-      
-      <div class="shrink cell show-for-large">
-      {% if show.soldOut %}
-      <a class="button expanded margin-bottom-0">Sold Out</a>
-      {% else %}
-      <a class="button expanded margin-bottom-0" href="{{show.ticketLink}}" target="_blank">Buy Now</a>
-      {% endif %} 
       </div>
       
     </div>
@@ -75,11 +66,11 @@
             <h5 class="margin-bottom-0 sans-display text-uppercase">Tickets</h5>
             {{ show.ticketPrice }}
             
-      <div class="shrink cell hide-for-large padding-top-2">
+      <div class="shrink cell padding-top-2">
       {% if show.soldOut %}
       <a class="button expanded">Sold Out</a>
       {% else %}
-      <a class="button expanded" href="{{show.ticketLink}}" target="_blank">Buy Now</a>
+      <a class="button expanded" data-open="reveal{{show.id}}">Buy Now</a>
       {% endif %} 
       </div>
       
@@ -92,6 +83,33 @@
   </div>
   </div>
   <!-- End Panel -->
+
+
+<!-- Reveal -->
+<div class="reveal" id="reveal{{show.id}}" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+
+  <button class="close-button" aria-label="Close alert" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+
+  <div class="grid-x align-center-middle" style="min-height: 100%">
+    <div class="small-12 cell padding-vertical-3">
+
+      <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
+        <div class="small-8 cell text-center">
+        {{event.bundleCopy}}
+        <a class="button expanded" href="{{show.ticketLink}}" target="_blank">Continue</a>
+{#         <a class="dark-gray" data-close aria-label="Close modal" type="button">Close</a> #}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- End Reveal -->
+
 {% endfor %}
 </div>
 

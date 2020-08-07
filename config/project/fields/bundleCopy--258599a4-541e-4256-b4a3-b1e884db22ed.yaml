@@ -1,0 +1,22 @@
+contentColumnType: text
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: bundleCopy
+instructions: ''
+name: 'Bundle Copy'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Simple.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
