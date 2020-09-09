@@ -1,5 +1,6 @@
 <div class="primary-background-colour padding-vertical-1">
 
+
   
   <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
@@ -20,6 +21,24 @@
           {% endswitch %}
         {% endfor %}
       </ul>
+    </div>
+  </div>
+
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-11 medium-5 large-4 xlarge-4 xxlarge-3 cell text-center">
+      <form action="{{ event.newsletter }}" method="post" target="_blank" data-abide novalidate>
+       
+        <div data-abide-error class="alert callout" style="display: none;">
+          <p><i class="fi-alert"></i>There are some errors in your form.</p>
+        </div> 
+
+        <div class="input-group">
+          <input class="input-group-field" type="email" name="EMAIL" placeholder="Subscribe to our newsletter">
+          <div class="input-group-button">
+          <input type="submit" class="button secondary" value="Submit">
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 
