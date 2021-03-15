@@ -76,9 +76,9 @@ return [
         ],
 
 
-        'devMode' => false,
+        'devMode' => true,
         'enableTemplateCaching' => false,
-        'allowUpdates' => true,
+        'allowUpdates' => false,
         // Set the environmental variables
          'staticAssetsVersion' => time(),
     ],
