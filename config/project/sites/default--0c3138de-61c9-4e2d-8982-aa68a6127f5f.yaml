@@ -1,5 +1,5 @@
-baseUrl: 'https://fiftyseven.test'
-enabled: true
+baseUrl: '@web'
+enabled: false
 handle: default
 hasUrls: true
 language: en-GB

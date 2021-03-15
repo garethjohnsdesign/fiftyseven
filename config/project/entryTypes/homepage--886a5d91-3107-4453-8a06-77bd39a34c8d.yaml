@@ -96,7 +96,7 @@ fieldLayouts:
 handle: homepage
 hasTitleField: false
 name: Homepage
-section: 50a6f09a-4cde-48b1-bc9f-5d7cbd101143
+section: 50a6f09a-4cde-48b1-bc9f-5d7cbd101143 # Homepage
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

@@ -12,7 +12,7 @@ previewTargets:
         - '{url}'
 propagationMethod: all
 siteSettings:
-  686641b5-66fd-466f-869e-d61dcf15e5ef:
+  686641b5-66fd-466f-869e-d61dcf15e5ef: # Greenwich Comedy Festival
     enabledByDefault: true
     hasUrls: true
     template: page/index

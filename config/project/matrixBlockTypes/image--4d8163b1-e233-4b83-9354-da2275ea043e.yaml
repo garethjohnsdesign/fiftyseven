@@ -60,7 +60,7 @@ fields:
       placeholder: ''
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
   68e50d94-b4b1-4d05-9e0b-25a34a99f0c2:
     contentColumnType: string
@@ -122,7 +122,7 @@ fields:
             - drop-right
             - ''
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: rias\positionfieldtype\fields\Position
   cc68724b-9968-49b2-8670-e985542ac0fd:
     contentColumnType: string
@@ -190,7 +190,7 @@ fields:
               - default
               - ''
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\Dropdown
 handle: image
 name: Image

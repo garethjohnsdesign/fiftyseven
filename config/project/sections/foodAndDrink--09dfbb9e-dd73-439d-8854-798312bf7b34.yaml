@@ -22,12 +22,12 @@ siteSettings:
     hasUrls: true
     template: default/food-and-drink/index
     uriFormat: food-and-drink
-  686641b5-66fd-466f-869e-d61dcf15e5ef:
+  686641b5-66fd-466f-869e-d61dcf15e5ef: # Greenwich Comedy Festival
     enabledByDefault: true
     hasUrls: true
     template: default/food-and-drink/index
     uriFormat: food-and-drink
-  da261e74-add5-49fb-88aa-0bf4cd89b508:
+  da261e74-add5-49fb-88aa-0bf4cd89b508: # Bristol Comedy Garden
     enabledByDefault: true
     hasUrls: true
     template: default/food-and-drink/index

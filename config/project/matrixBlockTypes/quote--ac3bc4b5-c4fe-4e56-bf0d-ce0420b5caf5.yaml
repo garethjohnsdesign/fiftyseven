@@ -42,7 +42,7 @@ fields:
       placeholder: ''
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
   d7f7c9e5-f694-40d3-b0d9-59ea882c043c:
     contentColumnType: text
@@ -61,7 +61,7 @@ fields:
       placeholder: ''
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\PlainText
 handle: quote
 name: Quote

@@ -1,9 +1,9 @@
-baseUrl: $BASE_URL_BRIGHTON
+baseUrl: 'https://www.oxfordcomedygarden.co.uk'
 enabled: true
-handle: brighton
+handle: oxford
 hasUrls: true
 language: en-GB
-name: 'Brighton Comedy Garden'
+name: Oxford
 primary: false
 siteGroup: 775858db-8a1e-4b3c-b3dd-0b0018aa9cd8
-sortOrder: 4
+sortOrder: 5

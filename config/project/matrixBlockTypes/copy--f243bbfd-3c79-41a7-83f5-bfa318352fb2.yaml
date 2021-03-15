@@ -46,7 +46,7 @@ fields:
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\redactor\Field
   83d4dc8a-1b63-4599-870b-4d1cc105caac:
     contentColumnType: string
