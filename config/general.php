@@ -70,8 +70,8 @@ return [
 
         'siteUrl' => [
             'default' => '',
-            'brighton' => 'https://www.brightoncomedygarden.co.uk',
-            'bristol' => 'https://www.bristolcomedygarden.co.uk',
+            'brighton' => 'https://fiftyseven-stage.frb.io',
+            'bristol' => 'https://fiftyseven-stage.frb.io',
             'greenwich' => 'https://fiftyseven-stage.frb.io',
         ],
 
