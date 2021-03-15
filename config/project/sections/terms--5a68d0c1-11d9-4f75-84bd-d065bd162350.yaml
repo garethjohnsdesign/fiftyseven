@@ -12,12 +12,12 @@ previewTargets:
         - '{url}'
 propagationMethod: all
 siteSettings:
-  0c3138de-61c9-4e2d-8982-aa68a6127f5f:
+  0c3138de-61c9-4e2d-8982-aa68a6127f5f: # Default
     enabledByDefault: true
     hasUrls: true
     template: default/page/index
     uriFormat: terms
-  5ea3bf2d-32a9-4d43-87c4-90b7c5344e02:
+  5ea3bf2d-32a9-4d43-87c4-90b7c5344e02: # Brighton Comedy Garden
     enabledByDefault: true
     hasUrls: true
     template: default/page/index
