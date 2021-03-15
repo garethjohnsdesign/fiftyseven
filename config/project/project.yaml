@@ -1,4 +1,4 @@
-dateModified: 1596753211
+dateModified: 1615810731
 email:
   fromEmail: oldbluelastbeer1876@gmail.com
   fromName: 'Old Blue Last Beer'
@@ -20,10 +20,6 @@ plugins:
       successFlashMessage: 'Your message has been sent.'
       toEmail: info@oldbluelast.beer
   contact-form-honeypot:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  delete-entry-versions:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
@@ -79,7 +75,7 @@ system:
   edition: solo
   live: true
   name: 'Fifty Seven Festivals'
-  schemaVersion: 3.5.12
+  schemaVersion: 3.6.6
   timeZone: UTC
 users:
   allowPublicRegistration: false

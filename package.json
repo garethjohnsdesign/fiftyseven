@@ -1,22 +1,25 @@
 {
-  "name": "garethjohnsdesign",
-  "version": "1.0.0",
-  "description": "Basic template for a new web project.",
-  "author": "Gareth Johns <info@garethjohnsdesign.com>",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "flickity": "^2.2.2",
+    "foundation-sites": "^6.6.3",
+    "jquery": "^3.6.0",
+    "jquery.cookie": "^1.4.1",
+    "mapbox-gl": "^2.1.1",
+    "motion-ui": "~2.0.0",
+    "package": "^1.0.1",
+    "swiper": "^6.5.0",
+    "what-input": "^5.2.10"
+  },
+  "private": true,
   "license": "UNLICENSED",
+  "devDependencies": {},
+  "version": "1.0.0",
+  "name": "garethjohnsdesign",
+  "author": "Gareth Johns <info@garethjohnsdesign.com>",
   "bugs": {
     "email": "info@garethjohnsdesign.com"
   },
-  "dependencies": {
-    "aos": "^2.3.4",
-    "foundation-sites": "^6.6.2",
-    "jquery": ">=3.0.0",
-    "jquery.cookie": "^1.4.1",
-    "mapbox-gl": "^1.9.1",
-    "motion-ui": "~2.0.0",
-    "package": "^1.0.1",
-    "swiper": "^5.3.6",
-    "what-input": "^5.2.7"
-  },
-  "private": true
+  "optionalDependencies": {},
+  "description": "Basic template for a new web project."
 }
