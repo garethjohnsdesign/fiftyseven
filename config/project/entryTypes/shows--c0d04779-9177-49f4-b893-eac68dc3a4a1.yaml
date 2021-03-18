@@ -29,7 +29,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: f528f828-ed26-4491-9e93-8795fa0c2de4
+            fieldUid: f528f828-ed26-4491-9e93-8795fa0c2de4 # Date
             instructions: null
             label: null
             required: '1'
@@ -38,7 +38,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 700e15d2-74b7-4a87-91fd-6a59571d15db
+            fieldUid: 700e15d2-74b7-4a87-91fd-6a59571d15db # Festival Start
             instructions: null
             label: null
             required: '1'
@@ -47,7 +47,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 08bfc530-eca6-43f9-ab46-42036ceda84d
+            fieldUid: 08bfc530-eca6-43f9-ab46-42036ceda84d # Show Start
             instructions: null
             label: null
             required: '1'
@@ -56,7 +56,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 254fe20a-80be-4df7-8576-4c5133b1a3c3
+            fieldUid: 254fe20a-80be-4df7-8576-4c5133b1a3c3 # Show Finish
             instructions: null
             label: null
             required: '1'
@@ -65,7 +65,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 379ef124-adcb-4f40-a627-a988a9cb97b1
+            fieldUid: 379ef124-adcb-4f40-a627-a988a9cb97b1 # Acts
             instructions: null
             label: null
             required: '1'
@@ -74,7 +74,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970
+            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
             instructions: null
             label: null
             required: '1'
@@ -83,7 +83,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 520b1a0f-524b-4fae-8323-c5b3a9c28e9b
+            fieldUid: 520b1a0f-524b-4fae-8323-c5b3a9c28e9b # Ticket Link
             instructions: null
             label: null
             required: '0'
@@ -92,7 +92,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 6a728bad-ec01-4758-9fe5-e86072724c73
+            fieldUid: 6a728bad-ec01-4758-9fe5-e86072724c73 # Ticket Price
             instructions: null
             label: null
             required: '0'
@@ -101,7 +101,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 451a15b7-3f3a-4083-9372-7a44670edd9b
+            fieldUid: 451a15b7-3f3a-4083-9372-7a44670edd9b # Sold Out
             instructions: null
             label: null
             required: '0'

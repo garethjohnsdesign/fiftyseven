@@ -29,7 +29,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970
+            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
             instructions: null
             label: null
             required: false

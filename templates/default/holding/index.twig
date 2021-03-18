@@ -22,7 +22,9 @@
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="cell text-center">
           <h3>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</h3>
+          {% if holding.showAddress %}
           <h4>{{ event.address }}</h4>
+          {% endif %}
           {% if holding.ticketsOnSale %}<h4>{{ holding.ticketsOnSale }}</h4>{% endif %}
         </div>
       </div>
@@ -42,7 +44,6 @@
               </div>
             </div>
           </form>
-          <a href="{{event.previousSite}}">View 2019 Site</a>
         </div>
       </div>
       
@@ -63,10 +64,33 @@
           </ul>
         </div>
       </div>
+
+
       
-      
+    {% if event.subjectToSitePermission %}
+      <div class="grid-x grid-padding-y grid-padding-x align-center">
+        <div class="small-12 cell text-center">
+        <h5 class="sans-display text-uppercase">Subject To Site Permission & Licensing</h5>
+        </div>
+      </div>
+    {% endif %}
+
+<div class="grid-x grid-padding-y grid-padding-x align-center">
+  <div class="small-12 medium-6 cell text-center">
+
+<div class="grid-x align-center align-middle">
+  {% for client in event.partners.all() %}
+  <div class="auto cell text-center padding-top-1">
+    <img src="{{client.url}}" alt="{{client.filename}}" class="sponsor">
+  </div>
+  {% endfor %}
+</div>
+
+</div>
+</div>
  
     <div class="grid-x grid-padding-y grid-padding-x align-center">
+
       <div class="small-12 cell text-center">
         <ul class="menu align-center">
         <li><small>© {{ "now"|date("Y") }} {{ company.company }}</small></li>

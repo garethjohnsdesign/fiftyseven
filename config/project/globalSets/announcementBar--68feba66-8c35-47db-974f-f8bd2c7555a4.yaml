@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 4e9c5bae-5858-417b-860f-874ab10b10ed
+            fieldUid: 4e9c5bae-5858-417b-860f-874ab10b10ed # Show Announcement Bar
             instructions: null
             label: null
             required: '0'
@@ -13,7 +13,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7ac204ff-6503-4513-a3d6-01a26c23cad6
+            fieldUid: 7ac204ff-6503-4513-a3d6-01a26c23cad6 # Announcement Bar
             instructions: null
             label: null
             required: '0'
@@ -22,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 268bf294-ebb7-4cc3-80f4-651651231b1e
+            fieldUid: 268bf294-ebb7-4cc3-80f4-651651231b1e # Announcement Bar Link
             instructions: null
             label: null
             required: '0'

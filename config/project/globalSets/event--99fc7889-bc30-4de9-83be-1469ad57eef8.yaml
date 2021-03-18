@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 8d631758-1c23-4e9e-9107-15e523e319a3
+            fieldUid: 8d631758-1c23-4e9e-9107-15e523e319a3 # Logo
             instructions: null
             label: null
             required: '0'
@@ -13,7 +13,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fbc5a213-4224-418d-9e40-f2b25d93211d
+            fieldUid: fbc5a213-4224-418d-9e40-f2b25d93211d # Start Date
             instructions: null
             label: null
             required: '0'
@@ -22,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7296570e-e89d-48bf-8e3d-55553f2238fb
+            fieldUid: 7296570e-e89d-48bf-8e3d-55553f2238fb # Finish Date
             instructions: null
             label: null
             required: '0'
@@ -31,7 +31,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 37935d71-f171-4ecf-96a8-d5a1092a6b9c
+            fieldUid: 37935d71-f171-4ecf-96a8-d5a1092a6b9c # Location
             instructions: null
             label: null
             required: '0'
@@ -40,7 +40,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c9f865da-1867-40e4-a1e8-75f3cf538733
+            fieldUid: c9f865da-1867-40e4-a1e8-75f3cf538733 # Is Open Air
             instructions: null
             label: null
             required: false
@@ -49,7 +49,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 3704a3bd-badd-4b57-93fa-6545368f6962
+            fieldUid: 3704a3bd-badd-4b57-93fa-6545368f6962 # Has Traders
             instructions: null
             label: null
             required: false
@@ -58,7 +58,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: b98e4070-1198-44ee-a715-f62bffc2accd
+            fieldUid: b98e4070-1198-44ee-a715-f62bffc2accd # Address
             instructions: null
             label: null
             required: '0'
@@ -67,7 +67,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5f69b46d-451c-44ae-939a-dfdcb992fe17
+            fieldUid: 5f69b46d-451c-44ae-939a-dfdcb992fe17 # Newsletter
             instructions: null
             label: null
             required: '0'
@@ -76,7 +76,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1e915834-a9e5-4736-aa84-209add6fb4e3
+            fieldUid: 1e915834-a9e5-4736-aa84-209add6fb4e3 # Socials
             instructions: null
             label: null
             required: '0'
@@ -85,7 +85,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b49d5c36-50aa-4f0c-bdf2-3761dc15876d
+            fieldUid: b49d5c36-50aa-4f0c-bdf2-3761dc15876d # Partners
             instructions: null
             label: null
             required: '0'
@@ -94,7 +94,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 3bad206c-e807-43db-931f-74b0bcd415dc
+            fieldUid: 3bad206c-e807-43db-931f-74b0bcd415dc # Previous Site
             instructions: null
             label: null
             required: '0'
@@ -103,7 +103,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 258599a4-541e-4256-b4a3-b1e884db22ed
+            fieldUid: 258599a4-541e-4256-b4a3-b1e884db22ed # Bundle Copy
             instructions: null
             label: null
             required: false

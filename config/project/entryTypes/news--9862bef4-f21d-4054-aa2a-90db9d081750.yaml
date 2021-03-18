@@ -1,0 +1,21 @@
+fieldLayouts:
+  ab21dd79-ca0e-4ce8-a119-9501ba25824d:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3 # Copy
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: News
+        sortOrder: 1
+handle: news
+hasTitleField: true
+name: News
+section: 048ddc6c-82b2-4334-8cab-1de50c3fc8c7 # News
+sortOrder: 1
+titleFormat: '{section.name|raw}'

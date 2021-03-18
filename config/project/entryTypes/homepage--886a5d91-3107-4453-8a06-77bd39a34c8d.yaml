@@ -29,7 +29,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d599a929-5831-43d4-b4ce-3285dc87da4d
+            fieldUid: d599a929-5831-43d4-b4ce-3285dc87da4d # Hero Acts
             instructions: null
             label: null
             required: '0'
@@ -38,7 +38,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3
+            fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3 # Copy
             instructions: null
             label: null
             required: '0'
@@ -47,7 +47,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1779eb04-4038-462e-9156-3234e9c29359
+            fieldUid: 1779eb04-4038-462e-9156-3234e9c29359 # Featured Acts
             instructions: null
             label: null
             required: '0'
@@ -56,7 +56,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 68bdc73d-6823-45e4-953a-dd6a2c39eb17
+            fieldUid: 68bdc73d-6823-45e4-953a-dd6a2c39eb17 # Open Air Copy
             instructions: null
             label: null
             required: false
@@ -65,7 +65,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ddc0faab-9f89-495a-a11c-41966c6122a8
+            fieldUid: ddc0faab-9f89-495a-a11c-41966c6122a8 # Highlights
             instructions: null
             label: null
             required: false
@@ -74,7 +74,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 831f29a6-b317-487d-bd8f-3019c1ff43cd
+            fieldUid: 831f29a6-b317-487d-bd8f-3019c1ff43cd # Food Copy
             instructions: null
             label: null
             required: '0'
@@ -83,7 +83,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 493d172f-a80d-436c-811f-ec5f03cac5a7
+            fieldUid: 493d172f-a80d-436c-811f-ec5f03cac5a7 # Featured Traders
             instructions: null
             label: null
             required: '0'

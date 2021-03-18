@@ -1,9 +1,9 @@
 baseUrl: '@web'
-enabled: false
+enabled: true
 handle: default
 hasUrls: true
 language: en-GB
 name: Default
 primary: false
-siteGroup: 775858db-8a1e-4b3c-b3dd-0b0018aa9cd8
+siteGroup: 775858db-8a1e-4b3c-b3dd-0b0018aa9cd8 # Festivals
 sortOrder: 3

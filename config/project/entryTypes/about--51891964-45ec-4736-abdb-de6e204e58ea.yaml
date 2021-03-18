@@ -29,7 +29,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47
+            fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47 # Image
             instructions: null
             label: null
             required: '0'
@@ -38,7 +38,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970
+            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
             instructions: null
             label: null
             required: false
@@ -47,7 +47,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 059909ec-4270-45ed-92be-d39c6f78e551
+            fieldUid: 059909ec-4270-45ed-92be-d39c6f78e551 # Images
             instructions: null
             label: null
             required: '0'

@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: a4b70625-63de-4771-add9-d3e64edf1f32
+            fieldUid: a4b70625-63de-4771-add9-d3e64edf1f32 # SEO Analytics
             instructions: null
             label: null
             required: '0'
@@ -13,7 +13,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: cd29209e-4e1e-4a98-96ef-71615fc8cdc3
+            fieldUid: cd29209e-4e1e-4a98-96ef-71615fc8cdc3 # SEO Description
             instructions: null
             label: null
             required: '0'
@@ -22,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 43e9a6c2-179f-4985-9ffa-11fba91af6bb
+            fieldUid: 43e9a6c2-179f-4985-9ffa-11fba91af6bb # SEO Image
             instructions: null
             label: null
             required: '0'
@@ -31,7 +31,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 71176c0d-cdad-4c27-9aee-32771deb70e9
+            fieldUid: 71176c0d-cdad-4c27-9aee-32771deb70e9 # SEO Title
             instructions: null
             label: null
             required: '0'
