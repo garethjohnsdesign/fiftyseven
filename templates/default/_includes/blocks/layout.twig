@@ -52,7 +52,7 @@
     </div>
     {% elseif matrixBlock.position in ['left', 'right', 'center'] %}
     <div class="grid-x grid-padding-y align-{{ matrixBlock.position }}">
-      <div class="small-12 {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}medium-6{% else %}medium-10{% endif %} cell">
+      <div class="small-12 {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}medium-6{% else %}large-6{% endif %} cell">
       {% set image = matrixBlock.image.one() %}
       <div class="image--{{ matrixBlock.aspectRatio.label | kebab }}" 
         {% if matrixBlock.aspectRatio.label | kebab == 'portrait' %}data-interchange="{% include "default/_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}"

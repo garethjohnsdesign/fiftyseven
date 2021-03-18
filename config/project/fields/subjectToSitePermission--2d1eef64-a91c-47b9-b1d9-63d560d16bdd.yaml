@@ -1,0 +1,13 @@
+contentColumnType: boolean
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4
+handle: subjectToSitePermission
+instructions: ''
+name: 'Subject To Site Permission'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch
