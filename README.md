@@ -1,4 +1,4 @@
-# 57 Festivals
+# 57 Festivals App
 
 Website Platform for 57 Festivals.
 * * *
