@@ -20,7 +20,7 @@ return [
         'omitScriptNameInUrls' => true,
 
         // Control Panel trigger word
-        'cpTrigger' => 'admin',
+        'cpTrigger' => 'fiftyseven',
 
         'breakpoints' => [
                 'small' => '640',
