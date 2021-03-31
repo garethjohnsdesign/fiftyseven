@@ -25,6 +25,25 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
+  4b250d3f-cc12-4b8c-a300-d1f7bb66efe4:
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: ''
+    name: Header
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   08baf8a4-1fad-4503-85a9-d12c8b4ae4a9:
     contentColumnType: text
     fieldGroup: null
@@ -48,25 +67,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  4b250d3f-cc12-4b8c-a300-d1f7bb66efe4:
-    contentColumnType: text
-    fieldGroup: null
-    handle: header
-    instructions: ''
-    name: Header
-    searchable: true
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: text
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
 handle: transport
 name: Transport
 sortOrder: 1

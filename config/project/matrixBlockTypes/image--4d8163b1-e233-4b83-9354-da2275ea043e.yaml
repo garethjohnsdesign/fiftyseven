@@ -43,6 +43,38 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
+  6d4582d1-f3d3-4daf-b230-bfac4342a2ad:
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: ''
+    name: Position
+    searchable: false
+    settings:
+      default: full
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - '1'
+          -
+            - right
+            - '1'
+          -
+            - full
+            - '1'
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: rias\positionfieldtype\fields\Position
   42b8ae3a-c1e3-469c-8fd5-e7ef808705d1:
     contentColumnType: text
     fieldGroup: null
@@ -92,38 +124,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  6d4582d1-f3d3-4daf-b230-bfac4342a2ad:
-    contentColumnType: string
-    fieldGroup: null
-    handle: position
-    instructions: ''
-    name: Position
-    searchable: false
-    settings:
-      default: full
-      options:
-        __assoc__:
-          -
-            - left
-            - '1'
-          -
-            - center
-            - '1'
-          -
-            - right
-            - '1'
-          -
-            - full
-            - '1'
-          -
-            - drop-left
-            - ''
-          -
-            - drop-right
-            - ''
-    translationKeyFormat: null
-    translationMethod: site
-    type: rias\positionfieldtype\fields\Position
   cc68724b-9968-49b2-8670-e985542ac0fd:
     contentColumnType: string
     fieldGroup: null

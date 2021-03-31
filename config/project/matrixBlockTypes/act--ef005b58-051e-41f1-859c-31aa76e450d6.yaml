@@ -34,6 +34,28 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
+  9b6f7c27-048d-4f10-a113-26e43faf3773:
+    contentColumnType: string
+    fieldGroup: null
+    handle: show
+    instructions: ''
+    name: Show
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
   125af6ab-e4a8-4076-a55d-70801cd4a12d:
     contentColumnType: string
     fieldGroup: null
@@ -113,28 +135,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  9b6f7c27-048d-4f10-a113-26e43faf3773:
-    contentColumnType: string
-    fieldGroup: null
-    handle: show
-    instructions: ''
-    name: Show
-    searchable: true
-    settings:
-      allowSelfRelations: false
-      limit: '1'
-      localizeRelations: false
-      selectionLabel: ''
-      showSiteMenu: true
-      source: null
-      sources:
-        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: null
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Entries
   b9a047e2-14a3-4144-99ac-a52b38cfccba:
     contentColumnType: string
     fieldGroup: null
