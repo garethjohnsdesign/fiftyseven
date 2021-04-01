@@ -51,7 +51,7 @@ fieldLayouts:
 handle: tickets
 hasTitleField: false
 name: Tickets
-section: 2dd3bd73-bb8d-40d8-8ad4-4f7a9a0f9e8a
+section: 2dd3bd73-bb8d-40d8-8ad4-4f7a9a0f9e8a # Tickets
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

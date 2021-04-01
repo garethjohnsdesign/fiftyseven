@@ -60,7 +60,7 @@ fieldLayouts:
 handle: about
 hasTitleField: false
 name: About
-section: c3f156ba-e756-4d10-8413-0badbd86cef4
+section: c3f156ba-e756-4d10-8413-0badbd86cef4 # About
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

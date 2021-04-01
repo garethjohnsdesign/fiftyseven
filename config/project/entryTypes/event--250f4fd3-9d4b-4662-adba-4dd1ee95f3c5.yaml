@@ -42,7 +42,7 @@ fieldLayouts:
 handle: event
 hasTitleField: false
 name: Event
-section: 7a1faf96-b3d7-4fd8-89cd-453fc1787802
+section: 7a1faf96-b3d7-4fd8-89cd-453fc1787802 # Event
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

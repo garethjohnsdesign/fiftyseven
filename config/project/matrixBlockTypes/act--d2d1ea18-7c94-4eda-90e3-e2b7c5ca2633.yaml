@@ -58,7 +58,7 @@ fields:
       showSiteMenu: true
       source: null
       sources:
-        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f'
+        - 'section:3b5101c5-1de7-47b8-9ccc-3cb7ad88156f' # Shows
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null
@@ -80,7 +80,7 @@ fields:
       showSiteMenu: true
       source: null
       sources:
-        - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
+        - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69' # Acts
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null

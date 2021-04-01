@@ -60,7 +60,7 @@ fieldLayouts:
 handle: traders
 hasTitleField: true
 name: Traders
-section: 11c123fc-7137-41fd-8d64-57a99e3852d7
+section: 11c123fc-7137-41fd-8d64-57a99e3852d7 # Traders
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

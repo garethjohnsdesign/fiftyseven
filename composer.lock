@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "795026dd058b491251e44b6ae8f2eb08",
+    "content-hash": "7a9743a097c1290048093f385adaf676",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -3262,6 +3262,57 @@
             "time": "2020-07-31T21:01:56+00:00"
         },
         {
+            "name": "naboo/craft-siteduplicate",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naboo/craft-siteduplicate/zipball/2e3f98e20708ceed06f9337ce6aa5ebb7115f3a2",
+                "reference": "2e3f98e20708ceed06f9337ce6aa5ebb7115f3a2",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.4.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Site Duplicate",
+                "handle": "siteduplicate",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/naboo/craft-siteduplicate/master/CHANGELOG.md",
+                "class": "naboo\\siteduplicate\\SiteDuplicatePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "naboo\\siteduplicate\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johan Strömqvist",
+                    "homepage": "http://www.naboovalley.com"
+                }
+            ],
+            "description": "Site Duplicate let's you duplicate entries across Sites in Craft CMS.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craftcms",
+                "duplicate",
+                "entry",
+                "site",
+                "sites"
+            ],
+            "support": {
+                "docs": "https://github.com/naboo/craft-siteduplicate/blob/master/README.md",
+                "issues": "https://github.com/naboo/craft-siteduplicate/issues"
+            },
+            "time": "2020-08-13T12:26:11+00:00"
+        },
+        {
             "name": "nystudio107/craft-minify",
             "version": "1.2.10",
             "dist": {
@@ -5448,11 +5499,11 @@
         },
         {
             "name": "verbb/base",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/85a11791c811c90ea58a3718488af0e60e12ba2c",
-                "reference": "85a11791c811c90ea58a3718488af0e60e12ba2c",
+                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/006cc4979e2b7669234a90bb7347129fe0185eb8",
+                "reference": "006cc4979e2b7669234a90bb7347129fe0185eb8",
                 "shasum": ""
             },
             "require": {
@@ -5464,7 +5515,6 @@
                     "verbb\\base\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5475,14 +5525,7 @@
                 }
             ],
             "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
-            "support": {
-                "docs": "https://github.com/verbb/verbb-base",
-                "email": "support@verbb.io",
-                "issues": "https://github.com/verbb/verbb-base/issues?state=open",
-                "rss": "https://github.com/verbb/verbb-base/commits/v2.atom",
-                "source": "https://github.com/verbb/verbb-base"
-            },
-            "time": "2020-04-14T23:40:29+00:00"
+            "time": "2021-03-17T20:54:49+00:00"
         },
         {
             "name": "verbb/field-manager",
@@ -5534,6 +5577,58 @@
                 "rss": "https://github.com/verbb/field-manager/commits/v2.atom"
             },
             "time": "2021-01-05T05:16:51+00:00"
+        },
+        {
+            "name": "verbb/navigation",
+            "version": "1.4.15",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/navigation/zipball/5e759bef5587509b4135a550afd636dc0c197e88",
+                "reference": "5e759bef5587509b4135a550afd636dc0c197e88",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.4.0",
+                "verbb/base": "^1.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Navigation",
+                "handle": "navigation",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/navigation/craft-3/CHANGELOG.md",
+                "class": "verbb\\navigation\\Navigation"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\navigation\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "A Craft CMS plugin to create navigation menus for your site.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "menu",
+                "navigation"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/navigation/issues?state=open",
+                "source": "https://github.com/verbb/navigation",
+                "docs": "https://github.com/verbb/navigation",
+                "rss": "https://github.com/verbb/navigation/commits/v2.atom"
+            },
+            "time": "2021-03-12T23:14:56+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

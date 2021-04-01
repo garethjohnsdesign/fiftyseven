@@ -60,7 +60,7 @@ fieldLayouts:
 handle: contact
 hasTitleField: false
 name: Contact
-section: 729fc7e0-dc9c-435b-9d49-eefbee5b79c0
+section: 729fc7e0-dc9c-435b-9d49-eefbee5b79c0 # Contact
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

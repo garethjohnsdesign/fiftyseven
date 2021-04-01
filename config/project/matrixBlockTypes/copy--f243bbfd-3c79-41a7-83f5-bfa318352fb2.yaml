@@ -5,7 +5,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 73d48d09-f11a-4dcd-9129-f1081e824770
+            fieldUid: 73d48d09-f11a-4dcd-9129-f1081e824770 # Copy
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 83d4dc8a-1b63-4599-870b-4d1cc105caac
+            fieldUid: 83d4dc8a-1b63-4599-870b-4d1cc105caac # Position
             instructions: null
             label: null
             required: false
@@ -25,7 +25,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  73d48d09-f11a-4dcd-9129-f1081e824770:
+  73d48d09-f11a-4dcd-9129-f1081e824770: # Copy
     contentColumnType: text
     fieldGroup: null
     handle: copy
@@ -37,18 +37,23 @@ fields:
       availableVolumes: '*'
       cleanupHtml: true
       columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
       purifierConfig: ''
       purifyHtml: '1'
       redactorConfig: Standard.json
       removeEmptyTags: '1'
       removeInlineStyles: '1'
       removeNbsp: '1'
+      showHtmlButtonForNonAdmins: '1'
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
+      uiMode: enlarged
     translationKeyFormat: null
     translationMethod: site
     type: craft\redactor\Field
-  83d4dc8a-1b63-4599-870b-4d1cc105caac:
+  83d4dc8a-1b63-4599-870b-4d1cc105caac: # Position
     contentColumnType: string
     fieldGroup: null
     handle: position

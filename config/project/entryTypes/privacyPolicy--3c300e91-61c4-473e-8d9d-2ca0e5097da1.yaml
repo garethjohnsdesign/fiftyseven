@@ -42,7 +42,7 @@ fieldLayouts:
 handle: privacyPolicy
 hasTitleField: false
 name: 'Privacy Policy'
-section: 2041769b-09aa-462d-b766-f13b26feca3d
+section: 2041769b-09aa-462d-b766-f13b26feca3d # Privacy Policy
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

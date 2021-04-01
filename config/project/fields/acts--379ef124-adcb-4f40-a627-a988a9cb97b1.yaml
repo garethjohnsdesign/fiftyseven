@@ -12,7 +12,7 @@ settings:
   showSiteMenu: true
   source: null
   sources:
-    - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69'
+    - 'section:26101bcb-f76c-45f2-89e2-3a7abda62d69' # Acts
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

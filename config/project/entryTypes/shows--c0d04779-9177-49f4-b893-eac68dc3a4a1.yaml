@@ -114,7 +114,7 @@ fieldLayouts:
 handle: shows
 hasTitleField: true
 name: Shows
-section: 3b5101c5-1de7-47b8-9ccc-3cb7ad88156f
+section: 3b5101c5-1de7-47b8-9ccc-3cb7ad88156f # Shows
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

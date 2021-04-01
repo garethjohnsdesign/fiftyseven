@@ -33,7 +33,7 @@ fieldLayouts:
 handle: cookiePolicy
 hasTitleField: false
 name: 'Cookie Policy'
-section: 6f92b28c-ef6c-44eb-9780-53d52b1745b2
+section: 6f92b28c-ef6c-44eb-9780-53d52b1745b2 # Cookie Policy
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

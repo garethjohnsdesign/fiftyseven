@@ -4,6 +4,6 @@ handle: bristol
 hasUrls: true
 language: en-GB
 name: 'Bristol Comedy Garden'
-primary: true
+primary: false
 siteGroup: 775858db-8a1e-4b3c-b3dd-0b0018aa9cd8 # Festivals
-sortOrder: 4
+sortOrder: 1

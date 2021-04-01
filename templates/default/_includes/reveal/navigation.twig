@@ -1,8 +1,18 @@
 <nav class="full reveal primary-background-colour" id="navigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
+      <nav class="">
+        {{ craft.navigation.render('overlay', {
+        ulClass: 'vertical menu text-uppercase h3 sans-display',
+        liClass: '',
+        aAttributes: {
+        'data-toggle': 'navigation',
+        },
+        }) }}
+        <a data-toggle="navigation"><svg class="icon icon-clearclose"><use xlink:href="/assets/icons/symbol-defs.svg#icon-clearclose"></use></svg></a>
+      </nav>
 
-    <ul class="vertical menu text-uppercase h3 sans-display">
+    {# <ul class="vertical menu text-uppercase h3 sans-display">
         <li><a data-toggle="navigation"><svg class="icon icon-clearclose"><use xlink:href="/assets/icons/symbol-defs.svg#icon-clearclose"></use></svg></a></li>
         <li><a href="/tickets" data-toggle="navigation">Tickets</a></li>
         <li><a href="/shows" data-toggle="navigation">Line-up</a></li>
@@ -12,7 +22,7 @@
         <li><a href="/drinks-and-snacks" data-toggle="navigation">Drinks + Snacks</a></li>
         <li><a href="/info" data-toggle="navigation">Info + Safety</a></li>
         <li><a href="/contact" data-toggle="navigation">Contact</a></li>  
-    </ul>
+    </ul> #}
 
 {#
     <div class="shrink cell text-center">

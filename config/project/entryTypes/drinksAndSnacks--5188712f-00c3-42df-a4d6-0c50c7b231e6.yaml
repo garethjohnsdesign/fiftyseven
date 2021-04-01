@@ -60,7 +60,7 @@ fieldLayouts:
 handle: drinksAndSnacks
 hasTitleField: false
 name: 'Drinks and Snacks'
-section: 32150c40-a74b-420c-97d9-45b1b6e28003
+section: 32150c40-a74b-420c-97d9-45b1b6e28003 # Drinks and Snacks
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

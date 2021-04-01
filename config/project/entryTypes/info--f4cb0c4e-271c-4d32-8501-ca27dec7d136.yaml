@@ -51,7 +51,7 @@ fieldLayouts:
 handle: info
 hasTitleField: false
 name: 'Info and Safety'
-section: 0b1c8c0c-3520-4470-bcdb-1b8b477bb9ed
+section: 0b1c8c0c-3520-4470-bcdb-1b8b477bb9ed # Info and Safety
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

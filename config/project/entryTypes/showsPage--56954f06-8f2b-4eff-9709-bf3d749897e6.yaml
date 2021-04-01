@@ -33,7 +33,7 @@ fieldLayouts:
 handle: showsPage
 hasTitleField: false
 name: 'Shows Page'
-section: 973bff68-e944-4a0c-b3da-7a5328db49b5
+section: 973bff68-e944-4a0c-b3da-7a5328db49b5 # Shows Page
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

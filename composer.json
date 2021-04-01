@@ -29,7 +29,9 @@
     "aelvan/imager": "v2.4.0",
     "verbb/field-manager": "2.2.2",
     "ether/simplemap": "3.9.0.2",
-    "hybridinteractive/craft-position-fieldtype": "1.0.17"
+    "hybridinteractive/craft-position-fieldtype": "1.0.17",
+    "naboo/craft-siteduplicate": "1.1.1",
+    "verbb/navigation": "1.4.15"
   },
   "autoload": {
     "psr-4": {

@@ -60,7 +60,7 @@ fieldLayouts:
 handle: location
 hasTitleField: false
 name: Location
-section: e9df79f9-d58f-4b00-8a78-29f6e4c25b90
+section: e9df79f9-d58f-4b00-8a78-29f6e4c25b90 # Location
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

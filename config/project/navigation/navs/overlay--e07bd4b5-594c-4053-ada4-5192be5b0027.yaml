@@ -1,0 +1,37 @@
+handle: overlay
+instructions: ''
+maxNodes: ''
+name: Overlay
+permissions:
+  craft\elements\Asset:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Category:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  custom:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+  verbb\navigation\nodetypes\SiteType:
+    enabled: '1'
+propagateNodes: false
+siteSettings:
+  7cd65d79-ef2b-43ed-9b9a-8cd57ed3c87e: # Brighton Comedy Garden
+    enabled: '1'
+  686641b5-66fd-466f-869e-d61dcf15e5ef: # Greenwich Comedy Festival
+    enabled: '1'
+  af369054-89d8-40f7-a369-99437baee95d: # St Albans Comedy Garden
+    enabled: '1'
+  da261e74-add5-49fb-88aa-0bf4cd89b508: # Bristol Comedy Garden
+    enabled: '1'
+sortOrder: 2
+structure:
+  maxLevels: null
+  uid: 33400d2a-c6d7-426d-bc9d-889ef75f6199

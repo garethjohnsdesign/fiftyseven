@@ -69,7 +69,7 @@ fieldLayouts:
 handle: Bundles
 hasTitleField: true
 name: Bundles
-section: f5c59131-9836-4565-8ca8-84cd5e2f987e
+section: f5c59131-9836-4565-8ca8-84cd5e2f987e # Bundles
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

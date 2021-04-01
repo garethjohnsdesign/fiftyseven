@@ -40,7 +40,7 @@ fields:
       showSiteMenu: true
       source: null
       sources:
-        - 'section:11c123fc-7137-41fd-8d64-57a99e3852d7'
+        - 'section:11c123fc-7137-41fd-8d64-57a99e3852d7' # Traders
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null

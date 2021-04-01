@@ -42,7 +42,7 @@ fieldLayouts:
 handle: terms
 hasTitleField: false
 name: Terms
-section: 5a68d0c1-11d9-4f75-84bd-d065bd162350
+section: 5a68d0c1-11d9-4f75-84bd-d065bd162350 # Terms
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

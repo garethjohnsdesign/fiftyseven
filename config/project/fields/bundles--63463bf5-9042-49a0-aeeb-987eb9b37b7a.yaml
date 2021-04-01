@@ -12,7 +12,7 @@ settings:
   showSiteMenu: true
   source: null
   sources:
-    - 'section:f5c59131-9836-4565-8ca8-84cd5e2f987e'
+    - 'section:f5c59131-9836-4565-8ca8-84cd5e2f987e' # Bundles
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

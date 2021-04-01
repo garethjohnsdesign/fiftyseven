@@ -1,4 +1,4 @@
-dateModified: 1617180482
+dateModified: 1617274212
 email:
   fromEmail: oldbluelastbeer1876@gmail.com
   fromName: 'Old Blue Last Beer'
@@ -43,6 +43,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: T0MNS581Q5S0KAVHV9MSR454
+    schemaVersion: 1.0.21
   position-fieldtype:
     edition: standard
     enabled: true
@@ -71,6 +76,15 @@ plugins:
       unrestrictedApiKey: null
       w3wEnabled: ''
       w3wToken: ''
+  siteduplicate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      enabledSections:
+        - '30'
+        - '35'
+      pluginName: 'Site Duplicate'
 system:
   edition: solo
   live: true
