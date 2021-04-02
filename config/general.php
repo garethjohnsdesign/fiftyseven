@@ -71,7 +71,7 @@ return [
         'siteUrl' => [
             'brighton' => 'https://fiftyseven-stage.frb.io',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
-            'stAlbans' => 'https://stalbanscomedygarden.co.uk',
+            'stAlbans' => 'https://www.stalbanscomedygarden.co.uk',
             'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 
@@ -89,7 +89,7 @@ return [
         'siteUrl' => [
             'brighton' => 'https://www.brightoncomedygarden.co.uk',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
-            'stAlbans' => 'https://stalbanscomedygarden.co.uk',
+            'stAlbans' => 'https://www.stalbanscomedygarden.co.uk',
             'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 
