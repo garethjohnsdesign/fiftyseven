@@ -28,7 +28,8 @@
           {% if holding.ticketsOnSale %}<h4>{{ holding.ticketsOnSale }}</h4>{% endif %}
         </div>
       </div>
-      
+
+      {% if event.newsletter %}
       <div class="grid-x grid-padding-x grid-padding-y align-center">
         <div class="small-11 medium-5 large-4 xlarge-4 xxlarge-3 cell text-center">
           <form action="{{ event.newsletter }}" method="post" target="_blank" data-abide novalidate>
@@ -46,13 +47,13 @@
           </form>
         </div>
       </div>
+      {% endif %}
       
       <div class="grid-x align-center">
         <div class="shrink cell">
           <ul class="menu align-middle">
             {% for block in event.socials.all() %}
             {% switch block.type %}
-            
               {% case "facebook" %}
                   <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
               {% case "instagram" %}

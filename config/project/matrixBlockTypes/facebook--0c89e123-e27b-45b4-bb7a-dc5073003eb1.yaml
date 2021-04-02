@@ -5,10 +5,10 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: e1cd650c-97df-4396-9754-29aeb71fa75d
+            fieldUid: e1cd650c-97df-4396-9754-29aeb71fa75d # Link
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -16,7 +16,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  e1cd650c-97df-4396-9754-29aeb71fa75d:
+  e1cd650c-97df-4396-9754-29aeb71fa75d: # Link
     contentColumnType: string(255)
     fieldGroup: null
     handle: socialLink
@@ -25,7 +25,9 @@ fields:
     searchable: true
     settings:
       maxLength: '255'
-      placeholder: ''
+      placeholder: null
+      types:
+        - url
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Url

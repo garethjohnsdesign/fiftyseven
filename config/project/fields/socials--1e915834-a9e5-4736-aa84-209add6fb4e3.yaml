@@ -8,7 +8,7 @@ settings:
   contentTable: '{{%matrixcontent_socials}}'
   maxBlocks: ''
   minBlocks: ''
-  propagationMethod: all
+  propagationMethod: none
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix
