@@ -21,7 +21,7 @@
       
       <div class="grid-x grid-padding-x grid-padding-y">
         <div class="cell text-center">
-          <h3>{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</h3>
+          <h3>{% if event.spansMonths %}{{event.startDate|date('j F')}} - {{event.finishDate|date('j F Y')}}{% else %}{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}{% endif %}</h3>
           {% if holding.showAddress %}
           <h4>{{ event.address }}</h4>
           {% endif %}
