@@ -5,7 +5,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 0245e57e-73da-4d48-b63e-7e8a2a57a995
+            fieldUid: 0245e57e-73da-4d48-b63e-7e8a2a57a995 # Title
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c01f05b3-e966-4814-a7ea-5b4e6a7f474a
+            fieldUid: c01f05b3-e966-4814-a7ea-5b4e6a7f474a # Image
             instructions: null
             label: null
             required: true
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7e8c63c2-2e18-4f8d-91e4-f7774677bab1
+            fieldUid: 7e8c63c2-2e18-4f8d-91e4-f7774677bab1 # Width
             instructions: null
             label: null
             required: true
@@ -32,7 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 856b7242-15d4-457d-b3ee-717875e00648
+            fieldUid: 856b7242-15d4-457d-b3ee-717875e00648 # Internal Link
             instructions: null
             label: null
             required: true
@@ -43,7 +43,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  7e8c63c2-2e18-4f8d-91e4-f7774677bab1:
+  7e8c63c2-2e18-4f8d-91e4-f7774677bab1: # Width
     contentColumnType: string
     fieldGroup: null
     handle: width
@@ -122,7 +122,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  0245e57e-73da-4d48-b63e-7e8a2a57a995:
+  0245e57e-73da-4d48-b63e-7e8a2a57a995: # Title
     contentColumnType: text
     fieldGroup: null
     handle: header
@@ -136,12 +136,12 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  856b7242-15d4-457d-b3ee-717875e00648:
+  856b7242-15d4-457d-b3ee-717875e00648: # Internal Link
     contentColumnType: string
     fieldGroup: null
     handle: internalLink
@@ -164,7 +164,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  c01f05b3-e966-4814-a7ea-5b4e6a7f474a:
+  c01f05b3-e966-4814-a7ea-5b4e6a7f474a: # Image
     contentColumnType: string
     fieldGroup: null
     handle: image
@@ -173,11 +173,13 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds: null
       defaultUploadLocationSource: 'volume:514e7215-b04f-4f9b-a70b-d98aad0cd088' # Uploads
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
+      previewMode: full
       restrictFiles: ''
       selectionLabel: 'Add an image'
       showSiteMenu: true

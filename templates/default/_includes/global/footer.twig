@@ -44,7 +44,7 @@
 
   <div class="grid-x grid-padding-y grid-padding-x align-center">
     <div class="small-12 cell text-center">
-      <a href="/tickets" class="h4">{{event.address}} — {{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</a>
+      <a href="/tickets" class="h4">{{event.address}} — {% if event.spansMonths %}{{event.startDate|date('j F')}} - {{event.finishDate|date('j F Y')}}{% else %}{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}{% endif %}</a>
     </div>
   </div>
 

@@ -51,9 +51,9 @@ return [
     // Development environment settings
     'dev' => [
        'siteUrl' => [
-          'default' => 'https://fiftyseven.test',
           'brighton' => 'https://brightoncomedygarden.test',
           'bristol' => 'https://bristolcomedygarden.test',
+          'stAlbans' => 'https://stalbanscomedygarden.test',
           'greenwich' => 'https://greenwichcomedyfestival.test',
         ],
 
@@ -69,9 +69,9 @@ return [
     'staging' => [
 
         'siteUrl' => [
-            'default' => '',
             'brighton' => 'https://fiftyseven-stage.frb.io',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
+            'stAlbans' => 'https://stalbanscomedygarden.co.uk',
             'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 
@@ -87,9 +87,9 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://fiftyseven-prod.frb.io',
             'brighton' => 'https://www.brightoncomedygarden.co.uk',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
+            'stAlbans' => 'https://stalbanscomedygarden.co.uk',
             'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
         ],
 

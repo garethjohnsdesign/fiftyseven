@@ -31,6 +31,15 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: ef89ee40-bb29-4579-ac7f-4daf6221d638 # Spans Months
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 37935d71-f171-4ecf-96a8-d5a1092a6b9c # Location
             instructions: null
             label: null

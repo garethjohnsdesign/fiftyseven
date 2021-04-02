@@ -20,7 +20,7 @@
       <div class="margin-bottom-2">{{entry.copy}}</div>
 
       <h3 class="primary-color margin-bottom-1">{{event.address}}</h3>
-      <h3 class="primary-color">{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}</h3>
+      <h3 class="primary-color">{% if event.spansMonths %}{{event.startDate|date('j F')}} - {{event.finishDate|date('j F Y')}}{% else %}{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}{% endif %}</h3>
 
     </div>
   </div>
