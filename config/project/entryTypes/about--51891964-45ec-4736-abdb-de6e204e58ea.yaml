@@ -7,7 +7,6 @@ fieldLayouts:
             autocapitalize: true
             autocomplete: false
             autocorrect: true
-            autofocus: false
             class: null
             disabled: false
             id: null
@@ -20,12 +19,20 @@ fieldLayouts:
             placeholder: null
             readonly: false
             requirable: false
-            required: false
             size: null
             step: null
             tip: null
             title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: b3610027-fd48-422d-81d2-9e8b35f9ff3f # Traders Icons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -

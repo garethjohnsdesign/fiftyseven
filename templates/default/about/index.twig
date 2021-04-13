@@ -4,28 +4,47 @@
 
 {% block main %}
 
+{% if entry.tradersIcons %}
 <div class="grid-container">
 <div class="grid-x grid-padding-y grid-padding-x align-center padding-vertical-2">
   <div class="small-12 medium-4 cell text-center">
-      <h4 class="sans-display text-uppercase">Social Distancing</h4>
-      <svg class="icon icon-covid icon-social-distancing"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-social-distancing"></use></svg>
-      <p class="margin-top-1 margin-bottom-0">Distanced Plots</p>
-      <p class="margin-top-0">Fully Seated</p>
+      <h4 class="sans-display text-uppercase">Open Air Seating</h4>
+      <svg class="icon icon-covid-large icon-seating"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-seating"></use></svg>
   </div>
   <div class="small-12 medium-4 cell text-center">
-      <h4 class="sans-display text-uppercase">Big Screens</h4>
-      <svg class="icon icon-covid icon-big-screen"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-big-screen"></use></svg>
-      <p class="margin-top-1 margin-bottom-0">Domed stage</p>
-      <p class="margin-top-0">LED Screens</p>
+    <h4 class="sans-display text-uppercase">Outdoor Stage</h4>
+    <svg class="icon icon-covid-large icon-seating"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-outdoor-stage"></use></svg>
   </div>
   <div class="small-12 medium-4 cell text-center">
-      <h4 class="sans-display text-uppercase">Pre-Order Drinks</h4>
-      <svg class="icon icon-covid icon-pint"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-pint"></use></svg>
-      <p class="margin-top-1 margin-bottom-0">Pre order online</p>
-      <p class="margin-top-0">And on site</p>
+    <h4 class="sans-display text-uppercase">Street Food</h4>
+    <svg class="icon icon-covid-large icon-seating"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-street-food"></use></svg>
   </div>
 </div>
 </div>
+{% else %}
+<div class="grid-container">
+  <div class="grid-x grid-padding-y grid-padding-x align-center padding-vertical-2">
+    <div class="small-12 medium-4 cell text-center">
+        <h4 class="sans-display text-uppercase">Social Distancing</h4>
+        <svg class="icon icon-covid icon-social-distancing"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-social-distancing"></use></svg>
+        <p class="margin-top-1 margin-bottom-0">Distanced Plots</p>
+        <p class="margin-top-0">Fully Seated</p>
+    </div>
+    <div class="small-12 medium-4 cell text-center">
+        <h4 class="sans-display text-uppercase">Big Screens</h4>
+        <svg class="icon icon-covid icon-big-screen"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-big-screen"></use></svg>
+        <p class="margin-top-1 margin-bottom-0">Domed stage</p>
+        <p class="margin-top-0">LED Screens</p>
+    </div>
+    <div class="small-12 medium-4 cell text-center">
+        <h4 class="sans-display text-uppercase">Pre-Order Drinks</h4>
+        <svg class="icon icon-covid icon-pint"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-pint"></use></svg>
+        <p class="margin-top-1 margin-bottom-0">Pre order online</p>
+        <p class="margin-top-0">And on site</p>
+    </div>
+  </div>
+  </div>
+{% endif %}
 
 <!-- Layout -->
 {% include "default/_includes/blocks/layout" %}    

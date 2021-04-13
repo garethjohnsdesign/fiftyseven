@@ -6,7 +6,7 @@ siteSettings:
   7cd65d79-ef2b-43ed-9b9a-8cd57ed3c87e: # Brighton Comedy Garden
     enabledByDefault: true
     hasUrls: true
-    template: default/holding/index
+    template: default/index
     uriFormat: __home__
   686641b5-66fd-466f-869e-d61dcf15e5ef: # Greenwich Comedy Festival
     enabledByDefault: true

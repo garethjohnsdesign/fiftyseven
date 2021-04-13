@@ -1,0 +1,13 @@
+contentColumnType: boolean
+fieldGroup: 3a0a7e49-63bf-423e-953e-a601e8639af6 # About
+handle: tradersIcons
+instructions: ''
+name: 'Traders Icons'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Bristol Icons'
+  onLabel: 'Brighton / St Albans / Greenwich Icons'
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch
