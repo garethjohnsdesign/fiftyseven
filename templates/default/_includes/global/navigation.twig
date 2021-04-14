@@ -26,7 +26,7 @@
 
   <div class="small-8 cell text-center text-uppercase">
     <a href="/">
-      <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ event.logo }}"></use></svg>
+      <svg class="icon icon-{{ event.logo }}"><use xlink:href="/assets/icons/symbol-defs.{{staticAssetsVersion}}.svg#icon-{{ event.logo }}"></use></svg>
       <div class="small font-wide show-for-medium">{% if event.spansMonths %}{{event.startDate|date('j F')}} - {{event.finishDate|date('j F Y')}}{% else %}{{event.startDate|date('j')}} - {{event.finishDate|date('j F Y')}}{% endif %}</div>
     </a>
   </div>
