@@ -202,6 +202,10 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
+h3 a {
+  border-bottom: 1px solid $black;
+}
+
 p a {
   border-bottom: 1px solid $black;
 }
