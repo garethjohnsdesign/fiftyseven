@@ -1,4 +1,4 @@
-dateModified: 1618318280
+dateModified: 1619100966
 email:
   fromEmail: oldbluelastbeer1876@gmail.com
   fromName: 'Old Blue Last Beer'
@@ -89,7 +89,7 @@ system:
   edition: solo
   live: true
   name: 'Fifty Seven Festivals'
-  schemaVersion: 3.6.7
+  schemaVersion: 3.6.8
   timeZone: UTC
 users:
   allowPublicRegistration: false
