@@ -16,7 +16,7 @@ siteSettings:
   af369054-89d8-40f7-a369-99437baee95d: # St Albans Comedy Garden
     enabledByDefault: true
     hasUrls: true
-    template: default/holding/index
+    template: default/index
     uriFormat: __home__
   da261e74-add5-49fb-88aa-0bf4cd89b508: # Bristol Comedy Garden
     enabledByDefault: true

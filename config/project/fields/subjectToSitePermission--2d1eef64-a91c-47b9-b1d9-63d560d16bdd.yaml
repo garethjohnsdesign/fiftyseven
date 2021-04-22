@@ -1,13 +1,18 @@
-contentColumnType: boolean
+contentColumnType: text
 fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4 # Globals
 handle: subjectToSitePermission
 instructions: ''
 name: 'Subject To Site Permission'
 searchable: false
 settings:
-  default: true
-  offLabel: null
-  onLabel: null
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Subject To Site Permission & Licensing'
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Lightswitch
+type: craft\fields\PlainText

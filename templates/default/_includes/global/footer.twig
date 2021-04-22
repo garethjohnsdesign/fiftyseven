@@ -51,7 +51,7 @@
   <div class="grid-container">
 
   <div class="grid-x grid-padding-y grid-padding-x align-center">
-    <div class="small-12 medium-8 cell text-center">
+    <div class="small-12 medium-10 cell text-center">
 
     <div class="grid-x align-center align-middle">
       {% for client in event.partners.all() %}
@@ -69,7 +69,7 @@
 {% if event.subjectToSitePermission %}
   <div class="grid-x grid-padding-y grid-padding-x align-center">
     <div class="small-12 cell text-center">
-    <h3 class="sans-display text-uppercase">Subject To Site Permission & Licensing</h3>
+    <h3 class="sans-display text-uppercase">{{event.subjectToSitePermission}}</h3>
     </div>
   </div>
 {% endif %}
