@@ -140,8 +140,19 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
-  RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,N]
+  # Default environment is master ###
+  RewriteRule .* - [E=ENVIRONMENT:master]
+
+  # Environment is set to develop if the server names ends in local.com
+  RewriteCond %{SERVER_NAME} .test$
+  RewriteRule .* - [E=ENVIRONMENT:develop]
+  ## END SET UP ENVIRONMENTS ###
+
+  # Redirect HTTP to HTTPS only if environment is master
+  RewriteCond %{ENV:ENVIRONMENT} master
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # Ignore the version strings in static assets
 	RewriteCond %{REQUEST_FILENAME} !-f
