@@ -1,4 +1,19 @@
 {
-  "buttons": ["bold", "italic"],
+  "buttons": [
+      "formatting",
+      "html",
+      "link"
+  ],
+  "formatting": [
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6"
+  ],
+  "plugins": [
+      "fullscreen"
+  ],
   "toolbarFixed": true
 }
