@@ -19,11 +19,11 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.6.11.2",
+    "craftcms/cms": "3.6.12",
     "vlucas/phpdotenv": "^2.4.0",
     "craftcms/contact-form": "2.2.7",
     "craftcms/google-cloud": "1.4.0",
-    "craftcms/redactor": "2.8.5",
+    "craftcms/redactor": "2.8.6",
     "craftcms/contact-form-honeypot": "1.0.2",
     "nystudio107/craft-minify": "1.2.10",
     "aelvan/imager": "v2.4.0",
