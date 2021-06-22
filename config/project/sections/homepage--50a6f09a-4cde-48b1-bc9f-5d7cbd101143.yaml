@@ -11,7 +11,7 @@ siteSettings:
   686641b5-66fd-466f-869e-d61dcf15e5ef: # Greenwich Comedy Festival
     enabledByDefault: true
     hasUrls: true
-    template: default/holding/index
+    template: default/index
     uriFormat: __home__
   af369054-89d8-40f7-a369-99437baee95d: # St Albans Comedy Garden
     enabledByDefault: true
