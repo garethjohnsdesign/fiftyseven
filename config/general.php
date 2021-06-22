@@ -71,8 +71,8 @@ return [
         'siteUrl' => [
             'brighton' => 'https://www.brightoncomedygarden.co.uk',
             'bristol' => 'https://www.bristolcomedygarden.co.uk',
-            'stAlbans' => 'https://fiftyseven-stage.frb.io',
-            'greenwich' => 'https://www.greenwichcomedyfestival.co.uk',
+            'stAlbans' => 'https://www.stalbanscomedygarden.co.uk',
+            'greenwich' => 'https://fiftyseven-stage.frb.io',
         ],
 
 
