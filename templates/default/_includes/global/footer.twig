@@ -55,7 +55,7 @@
 
     <div class="grid-x align-center align-middle">
       {% for client in event.partners.all() %}
-      <div class="auto cell text-center padding-vertical-2">
+      <div class="small-4 medium-auto cell text-center padding-vertical-2">
         <img src="{{client.url}}" alt="{{client.filename}}" class="sponsor">
       </div>
       {% endfor %}
